@@ -1,0 +1,19 @@
+{
+  "project_name": "Ghana AMR Surveillance (Proof of Concept)",
+  "project_id": "amr-surveillance-ghana",
+  "project_owner": "mikekay262@gmail.com",
+  "is_public": true,
+  "map_layout_center_latitude": 7.9465,
+  "map_layout_center_longitude": -1.0232,
+  "map_layout_zoom": 5,
+  "save_outputs": false,
+  "outputs_path": "outputs/",
+  "insight_panels_path": "insight_panels/",
+  "insight_panels_data_path": "analysis_data/",
+  "insight_panels": [
+    "amr_resistance_overview",
+    "amr_temporal_trends",
+    "amr_prescribing",
+    "amr_glass_report"
+  ]
+}
