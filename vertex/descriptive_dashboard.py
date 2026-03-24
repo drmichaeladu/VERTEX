@@ -33,7 +33,15 @@ from vertex.layout.filters import get_filter_options
 from vertex.layout.insight_panels import get_insight_panels, get_public_visuals
 from vertex.layout.modals import create_modal
 from vertex.logging.logger import setup_logger
-from vertex.map import create_map, filter_df_map, get_countries, get_public_countries, merge_data_with_countries
+from vertex.map import (
+    create_map,
+    create_ghana_region_map,
+    filter_df_map,
+    get_countries,
+    get_ghana_region_data,
+    get_public_countries,
+    merge_data_with_countries,
+)
 from vertex.models import User
 from vertex.secrets import get_database_url, get_flask_auth_secrets
 
@@ -309,12 +317,18 @@ def register_callbacks(app):
             Input("admdate-slider", "value"),
             Input("admdate-slider", "marks"),
             Input("outcome-checkboxes", "value"),
+            Input("amr-map-level", "value"),
+            Input("amr-map-mode", "value"),
+            Input("amr-specimen-filter", "value"),
+            Input("amr-antibiotic-filter", "value"),
             State("selected-project-path", "data"),
         ],
-        [State("map-layout", "data")],
+        [State("map-layout", "data"), State("amr-project-active", "data")],
     )
     def update_map(
-        sex_value, age_value, country_value, admdate_value, admdate_marks, outcome_value, project_path, map_layout_dict
+        sex_value, age_value, country_value, admdate_value, admdate_marks, outcome_value,
+        amr_map_level, amr_map_mode, amr_specimen, amr_antibiotic,
+        project_path, map_layout_dict, amr_project_active,
     ):
         project_data = get_project_data(project_path)
 
@@ -324,6 +338,36 @@ def register_callbacks(app):
         df_map = project_data["df_map"]
         df_filtered = filter_df_map(df_map, sex_value, age_value, country_value, admdate_value, admdate_marks, outcome_value)
 
+        # ── AMR regional map path ─────────────────────────────────────────
+        if amr_project_active:
+            df_forms = project_data.get("df_forms_dict") or {}
+            df_micro_full = df_forms.get("microbiology")
+
+            # Filter microbiology to only patients in the current filter set
+            if df_micro_full is not None and not df_micro_full.empty and not df_filtered.empty:
+                filtered_subjids = set(df_filtered["subjid"].tolist())
+                df_micro = df_micro_full[df_micro_full["subjid"].isin(filtered_subjids)]
+            else:
+                df_micro = df_micro_full
+
+            level     = amr_map_level  or "region"
+            mode      = amr_map_mode   or "volume"
+            specimen  = amr_specimen   or "All"
+            antibiotic = amr_antibiotic or "CIP"
+
+            if level == "region":
+                df_regions = get_ghana_region_data(
+                    df_filtered if not df_filtered.empty else df_map,
+                    df_micro, map_mode=mode,
+                    specimen_type=specimen, antibiotic=antibiotic,
+                )
+                return create_ghana_region_map(
+                    df_regions, map_layout_dict,
+                    map_mode=mode, antibiotic=antibiotic,
+                )
+            # else fall through to country-level choropleth below
+
+        # ── Standard country-level map path ──────────────────────────────
         if df_filtered.empty:
             geojson = (
                 "https://raw.githubusercontent.com/"
@@ -336,6 +380,28 @@ def register_callbacks(app):
             fig = create_map(df_countries, map_layout_dict)
 
         return fig
+
+    @app.callback(
+        Output("amr-map-controls", "style"),
+        Input("amr-project-active", "data"),
+        State("amr-map-controls", "style"),
+    )
+    def toggle_amr_controls(amr_active, current_style):
+        """Show or hide the AMR controls overlay based on whether the project has AMR data."""
+        style = dict(current_style or {})
+        style["display"] = "block" if amr_active else "none"
+        return style
+
+    @app.callback(
+        Output("amr-antibiotic-row", "style"),
+        Input("amr-map-mode", "value"),
+        State("amr-antibiotic-row", "style"),
+    )
+    def toggle_antibiotic_row(mode, current_style):
+        """Show antibiotic selector only in resistance mode."""
+        style = dict(current_style or {})
+        style["display"] = "flex" if mode == "resistance" else "none"
+        return style
 
     @app.callback(
         [Output("country-selectall", "value"), Output("country-selectall", "options"), Output("country-checkboxes", "value")],
@@ -764,7 +830,31 @@ def build_project_layout(project_path, project_catalog, login_state):
         },
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
     )
-    fig = create_map(project_data["df_countries"], map_layout_dict)
+    # Determine if this project has AMR microbiology data (enables regional map controls)
+    df_forms = project_data.get("df_forms_dict") or {}
+    df_micro = df_forms.get("microbiology")
+    has_amr = (
+        df_micro is not None
+        and not df_micro.empty
+        and "ghana_region_iso" in df_micro.columns
+    )
+
+    # Build specimen options for the AMR controls dropdown
+    specimen_options = [{"label": "All", "value": "All"}]
+    if has_amr and "micro_specimen_type" in df_micro.columns:
+        for s in sorted(df_micro["micro_specimen_type"].dropna().unique()):
+            specimen_options.append({"label": s, "value": s})
+
+    # Initial map: use regional view for AMR projects, country view otherwise
+    if has_amr:
+        df_map_full = project_data["df_map"]
+        df_regions = get_ghana_region_data(
+            df_map_full, df_micro, map_mode="volume", specimen_type="All", antibiotic="CIP"
+        )
+        fig = create_ghana_region_map(df_regions, map_layout_dict, map_mode="volume")
+    else:
+        fig = create_map(project_data["df_countries"], map_layout_dict)
+
     if project_data["mode"] == "analysis":
         filter_options = get_filter_options(project_data["df_map"])
     else:
@@ -778,6 +868,8 @@ def build_project_layout(project_path, project_catalog, login_state):
         project_name=project_data["config_dict"]["project_name"],
         project_options=project_options,
         selected_project_value=get_project_value(selected_project) if selected_project else None,
+        has_amr=has_amr,
+        specimen_options=specimen_options,
     )
     return layout
 
