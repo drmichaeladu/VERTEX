@@ -501,7 +501,9 @@ def register_callbacks(app):
         prevent_initial_call=True,
     )
     def open_and_load_modal(n_clicks, project_path):
-        if not any(n_clicks):
+        # n_clicks is a list when ALL pattern-match is used; guard for both int and list
+        clicks = n_clicks if isinstance(n_clicks, list) else [n_clicks]
+        if not any(clicks):
             raise PreventUpdate
 
         suffix = json.loads(callback_context.triggered[0]["prop_id"].split(".")[0])["index"]
