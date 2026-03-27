@@ -288,14 +288,13 @@ def define_filters_controls_modal(
 
 
 def get_filter_options(df_map):
+    # Minimal inline style — CSS in style.css hides all marks by default;
+    # assets/slider_marks.js reveals only the two at the active handle positions.
     marks_style = {
-        "text-align": "right",
-        "transform-origin": "bottom left",
-        "transform": "rotate(-45deg)",
-        "margin-left": "-5px",
-        "margin-top": "25px",
-        "height": "70px",
-        "width": "70px",
+        "fontSize": "0.72rem",
+        "color": "#1B3A6B",
+        "fontWeight": "600",
+        "whiteSpace": "nowrap",
     }
 
     max_age = int(max(100, df_map["demog_age"].dropna().max()))

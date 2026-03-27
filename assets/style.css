@@ -2,3 +2,67 @@
     max-width: 95% !important; /* allows the modal to be wider */
     width: 95% !important; /* sets a specific width */
 }
+
+/* ── Slider marks: hide all, JS reveals only the two active handles ── */
+
+/* Hide every mark label by default */
+.rc-slider-mark-text {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    /* Keep layout intact so the slider track isn't displaced */
+    pointer-events: none;
+    font-size: 0.72rem;
+    color: #1B3A6B;
+    font-weight: 600;
+    white-space: nowrap;
+    /* Remove the heavy rotation that caused the clutter */
+    transform: none !important;
+    margin-left: 0 !important;
+    margin-top: 6px !important;
+    height: auto !important;
+    width: auto !important;
+    top: 100%;
+}
+
+/* When JS marks them visible, style them cleanly */
+.rc-slider-mark-text[style*="visibility: visible"],
+.rc-slider-mark-text[style*="opacity: 1"] {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Subtle pill background on the visible labels for readability */
+.rc-slider-mark-text[style*="visibility: visible"]::after {
+    content: "";
+}
+
+/* Give the slider container enough bottom padding to show the label */
+.dash-slider-container,
+.rc-slider-with-marks {
+    padding-bottom: 28px !important;
+    margin-bottom: 4px;
+}
+
+/* Keep the track and handles using ISARIC blue */
+.rc-slider-track {
+    background-color: #2563A8 !important;
+    height: 4px;
+}
+.rc-slider-rail {
+    height: 4px;
+    background-color: #DCE3EC;
+}
+.rc-slider-handle {
+    border-color: #2563A8 !important;
+    background: #ffffff !important;
+    width: 14px;
+    height: 14px;
+    margin-top: -5px;
+    box-shadow: 0 1px 4px rgba(37,99,168,0.25);
+}
+.rc-slider-handle:hover,
+.rc-slider-handle:active,
+.rc-slider-handle-dragging {
+    border-color: #1B3A6B !important;
+    box-shadow: 0 0 0 4px rgba(37,99,168,0.18) !important;
+}
