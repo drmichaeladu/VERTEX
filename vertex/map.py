@@ -117,7 +117,8 @@ def get_public_countries(path):
 # Ghana regional map helpers
 # ---------------------------------------------------------------------------
 
-def get_ghana_region_data(df_map, df_micro, map_mode="volume", specimen_type="All", antibiotic="CIP"):
+def get_ghana_region_data(df_map, df_micro, map_mode="volume", specimen_type="All",
+                          antibiotic="CIP", organism="All"):
     """
     Aggregate data by Ghana administrative region for the sub-national map.
 
@@ -125,11 +126,12 @@ def get_ghana_region_data(df_map, df_micro, map_mode="volume", specimen_type="Al
     ----------
     df_map        : patient-level DataFrame – must have 'ghana_region' and 'ghana_region_iso'
     df_micro      : microbiology DataFrame – must have 'ghana_region', 'ghana_region_iso',
-                    'micro_specimen_type', and antibiotic R/I/S columns
+                    'micro_specimen_type', 'micro_organism', and antibiotic R/I/S columns
     map_mode      : "volume"     → colour regions by isolate count
                     "resistance" → colour regions by % resistant for chosen antibiotic
     specimen_type : "All" or a specific value (Blood, Urine, Sputum, Wound)
     antibiotic    : WHONET code (e.g. "CIP", "MEM")
+    organism      : "All" or a specific organism name (e.g. "Escherichia coli")
 
     Returns
     -------
@@ -144,6 +146,10 @@ def get_ghana_region_data(df_map, df_micro, map_mode="volume", specimen_type="Al
 
     df = df_micro.copy()
 
+    # Filter by organism
+    if organism and organism != "All" and "micro_organism" in df.columns:
+        df = df[df["micro_organism"] == organism]
+
     # Filter by specimen type
     if specimen_type != "All" and "micro_specimen_type" in df.columns:
         df = df[df["micro_specimen_type"] == specimen_type]
@@ -151,6 +157,7 @@ def get_ghana_region_data(df_map, df_micro, map_mode="volume", specimen_type="Al
     if df.empty:
         return empty
 
+    org_label  = organism if organism and organism != "All" else "All organisms"
     spec_label = specimen_type if specimen_type != "All" else "All specimens"
     grp = df.groupby(["ghana_region_iso", "ghana_region"])
 
@@ -158,6 +165,7 @@ def get_ghana_region_data(df_map, df_micro, map_mode="volume", specimen_type="Al
         agg = grp.size().reset_index(name="value")
         agg["hover_text"] = (
             "<b>" + agg["ghana_region"] + "</b>"
+            + "<br>Organism: " + org_label
             + "<br>Specimen: " + spec_label
             + "<br>Isolates: <b>" + agg["value"].astype(str) + "</b>"
         )
@@ -182,6 +190,7 @@ def get_ghana_region_data(df_map, df_micro, map_mode="volume", specimen_type="Al
 
         agg["hover_text"] = (
             "<b>" + agg["ghana_region"] + "</b>"
+            + "<br>Organism: " + org_label
             + "<br>Specimen: " + spec_label
             + "<br>" + abx_name + " (" + abx_class + ")"
             + "<br>Resistance: <b>" + agg["value"].astype(str) + "%</b>"

@@ -319,6 +319,7 @@ def register_callbacks(app):
             Input("outcome-checkboxes", "value"),
             Input("amr-map-level", "value"),
             Input("amr-map-mode", "value"),
+            Input("amr-organism-filter", "value"),
             Input("amr-specimen-filter", "value"),
             Input("amr-antibiotic-filter", "value"),
             State("selected-project-path", "data"),
@@ -327,7 +328,7 @@ def register_callbacks(app):
     )
     def update_map(
         sex_value, age_value, country_value, admdate_value, admdate_marks, outcome_value,
-        amr_map_level, amr_map_mode, amr_specimen, amr_antibiotic,
+        amr_map_level, amr_map_mode, amr_organism, amr_specimen, amr_antibiotic,
         project_path, map_layout_dict, amr_project_active,
     ):
         project_data = get_project_data(project_path)
@@ -350,9 +351,10 @@ def register_callbacks(app):
             else:
                 df_micro = df_micro_full
 
-            level     = amr_map_level  or "region"
-            mode      = amr_map_mode   or "volume"
-            specimen  = amr_specimen   or "All"
+            level      = amr_map_level  or "region"
+            mode       = amr_map_mode   or "volume"
+            organism   = amr_organism   or "All"
+            specimen   = amr_specimen   or "All"
             antibiotic = amr_antibiotic or "CIP"
 
             if level == "region":
@@ -360,6 +362,7 @@ def register_callbacks(app):
                     df_filtered if not df_filtered.empty else df_map,
                     df_micro, map_mode=mode,
                     specimen_type=specimen, antibiotic=antibiotic,
+                    organism=organism,
                 )
                 return create_ghana_region_map(
                     df_regions, map_layout_dict,
@@ -847,11 +850,19 @@ def build_project_layout(project_path, project_catalog, login_state):
         for s in sorted(df_micro["micro_specimen_type"].dropna().unique()):
             specimen_options.append({"label": s, "value": s})
 
+    # Build organism options sorted by frequency (most common first)
+    organism_options = [{"label": "All organisms", "value": "All"}]
+    if has_amr and "micro_organism" in df_micro.columns:
+        org_counts = df_micro["micro_organism"].value_counts()
+        for org in org_counts.index:
+            organism_options.append({"label": org, "value": org})
+
     # Initial map: use regional view for AMR projects, country view otherwise
     if has_amr:
         df_map_full = project_data["df_map"]
         df_regions = get_ghana_region_data(
-            df_map_full, df_micro, map_mode="volume", specimen_type="All", antibiotic="CIP"
+            df_map_full, df_micro, map_mode="volume", specimen_type="All",
+            antibiotic="CIP", organism="All"
         )
         fig = create_ghana_region_map(df_regions, map_layout_dict, map_mode="volume")
     else:
@@ -872,6 +883,7 @@ def build_project_layout(project_path, project_catalog, login_state):
         selected_project_value=get_project_value(selected_project) if selected_project else None,
         has_amr=has_amr,
         specimen_options=specimen_options,
+        organism_options=organism_options,
     )
     return layout
 

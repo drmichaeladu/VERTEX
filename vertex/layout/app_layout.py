@@ -34,13 +34,14 @@ def define_shell_layout(init_project_path, initial_body=None):
     )
 
 
-def _amr_map_controls(specimen_options=None):
+def _amr_map_controls(specimen_options=None, organism_options=None):
     """
     Floating control panel overlaid on the map for AMR projects.
-    Three rows: map-level toggle | map-mode toggle | specimen | antibiotic.
+    Rows: map-level toggle | map-mode toggle | organism | specimen | antibiotic.
     Always rendered; visibility is controlled by the callback.
     """
     specimen_opts = specimen_options or [{"label": "All", "value": "All"}]
+    organism_opts = organism_options or [{"label": "All organisms", "value": "All"}]
     abx_opts = [{"label": f"{k} – {v['name']}", "value": k} for k, v in AMR_ANTIBIOTICS.items()]
 
     _label_style = {"color": "#444", "fontWeight": "600", "fontSize": "0.78rem",
@@ -103,7 +104,22 @@ def _amr_map_controls(specimen_options=None):
                 style=_row_style,
             ),
 
-            # ── Row 3: specimen type ──────────────────────────────────
+            # ── Row 3: organism filter ────────────────────────────────
+            html.Div(
+                [
+                    html.Small("Organism:", style=_label_style),
+                    dcc.Dropdown(
+                        id="amr-organism-filter",
+                        options=organism_opts,
+                        value="All",
+                        clearable=False,
+                        style={"minWidth": "185px", "fontSize": "0.79rem"},
+                    ),
+                ],
+                style=_row_style,
+            ),
+
+            # ── Row 4: specimen type ──────────────────────────────────
             html.Div(
                 [
                     html.Small("Specimen:", style=_label_style),
@@ -118,7 +134,7 @@ def _amr_map_controls(specimen_options=None):
                 style=_row_style,
             ),
 
-            # ── Row 4: antibiotic (only active when mode = resistance) ─
+            # ── Row 5: antibiotic (only active when mode = resistance) ─
             html.Div(
                 id="amr-antibiotic-row",
                 children=[
@@ -154,17 +170,21 @@ def define_inner_layout(
     fig, buttons, map_layout_dict,
     filter_options=None, project_name=None,
     project_options=None, selected_project_value=None,
-    has_amr=False, specimen_options=None,
+    has_amr=False, specimen_options=None, organism_options=None,
 ):
     """
     Inner layout: full-height map + AMR controls overlay + side menu.
 
     Parameters
     ----------
-    has_amr          : True when the active project has microbiology data
-    specimen_options : [{"label": ..., "value": ...}] for specimen dropdown
+    has_amr           : True when the active project has microbiology data
+    specimen_options  : [{"label": ..., "value": ...}] for specimen dropdown
+    organism_options  : [{"label": ..., "value": ...}] for organism dropdown
     """
-    amr_controls = _amr_map_controls(specimen_options=specimen_options)
+    amr_controls = _amr_map_controls(
+        specimen_options=specimen_options,
+        organism_options=organism_options,
+    )
 
     if has_amr:
         amr_controls.style["display"] = "block"
