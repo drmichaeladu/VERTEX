@@ -21,8 +21,8 @@ def create_visuals(
             df_micro = pd.read_csv(csv_path)
 
     antibiotic_cols = [
-        "AMX", "AMC", "CIP", "CTX", "CAZ", "MEM",
-        "GEN", "SXT", "OXA", "VAN", "LZD", "COL",
+        "AMC", "AMP", "CAZ", "CIP", "CRO", "CTX",
+        "GEN", "AMK", "LNZ", "MEM", "OXA", "SXT", "TZP", "VAN", "CLI", "ERY", "TET",
     ]
     available_abx = [c for c in antibiotic_cols if c in df_micro.columns]
 
@@ -62,7 +62,7 @@ def create_visuals(
             overall["pct_resistant"] = round(
                 overall["n_resistant"] / overall["n_tested"] * 100, 1
             )
-            overall = overall.sort_values("pct_resistant", ascending=True).tail(6)
+            overall = overall.sort_values("pct_resistant", ascending=True).tail(8)
             freq_data = pd.DataFrame(
                 {
                     "label": overall["organism"]
@@ -72,7 +72,7 @@ def create_visuals(
                     "proportion": overall["pct_resistant"] / 100,
                     "short_label": overall["organism"],
                 }
-            )
+            ).reset_index(drop=True)
             fig1 = idw.fig_frequency_chart(
                 freq_data,
                 title="Overall Resistance Rate by Organism*",

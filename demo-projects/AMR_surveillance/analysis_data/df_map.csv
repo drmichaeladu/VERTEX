@@ -1,501 +1,1201 @@
-subjid,demog_age,demog_sex,country_iso,pres_date,outco_binary_outcome,amr_ward,ghana_region,ghana_region_iso
-P001,13,1,GHA,2024-02-01,1,Surgical,Eastern Region,GH-EP
-P002,13,2,GHA,2024-12-22,1,Surgical,Ahafo Region,GH-AF
-P003,15,2,GHA,2023-06-10,1,Medical,Bono Region,GH-BO
-P004,16,1,GHA,2023-01-16,2,Surgical,Northern Region,GH-NP
-P005,11,1,GHA,2024-05-07,1,Surgical,Greater Accra Region,GH-AA
-P006,5,2,GHA,2024-03-01,1,Medical,Greater Accra Region,GH-AA
-P007,4,2,GHA,2023-04-18,1,Pediatric,Greater Accra Region,GH-AA
-P008,3,2,GHA,2024-03-25,1,ICU,Upper West Region,GH-UW
-P009,15,2,GHA,2023-11-07,2,ICU,Northern Region,GH-NP
-P010,9,2,GHA,2023-06-19,2,Medical,Volta Region,GH-TV
-P011,17,2,GHA,2024-06-29,1,ICU,Greater Accra Region,GH-AA
-P012,14,2,GHA,2024-02-18,1,Medical,Oti Region,GH-OT
-P013,15,2,GHA,2023-09-08,1,Pediatric,Upper East Region,GH-UE
-P014,1,1,GHA,2023-05-21,2,ICU,Ashanti Region,GH-AH
-P015,3,1,GHA,2023-10-01,1,ICU,Ashanti Region,GH-AH
-P016,16,1,GHA,2024-02-20,1,Medical,Ashanti Region,GH-AH
-P017,11,2,GHA,2024-08-30,1,Pediatric,Ashanti Region,GH-AH
-P018,12,2,GHA,2023-02-08,1,Medical,Western Region,GH-WP
-P019,10,2,GHA,2023-01-29,1,Medical,Central Region,GH-CP
-P020,16,1,GHA,2024-04-21,1,ICU,Ashanti Region,GH-AH
-P021,8,1,GHA,2023-11-14,1,ICU,Northern Region,GH-NP
-P022,6,1,GHA,2023-09-02,1,Pediatric,Greater Accra Region,GH-AA
-P023,12,1,GHA,2024-11-27,1,Pediatric,Ashanti Region,GH-AH
-P024,8,2,GHA,2023-09-29,1,ICU,Eastern Region,GH-EP
-P025,4,1,GHA,2024-03-15,1,Pediatric,Central Region,GH-CP
-P026,8,1,GHA,2023-08-27,1,Surgical,Upper East Region,GH-UE
-P027,5,2,GHA,2024-01-12,1,Pediatric,Ashanti Region,GH-AH
-P028,9,1,GHA,2023-09-23,1,Medical,Western Region,GH-WP
-P029,4,1,GHA,2023-12-25,1,Medical,Northern Region,GH-NP
-P030,17,2,GHA,2023-12-06,1,Medical,Greater Accra Region,GH-AA
-P031,9,1,GHA,2024-01-24,1,Surgical,Northern Region,GH-NP
-P032,1,2,GHA,2024-07-30,1,ICU,Greater Accra Region,GH-AA
-P033,13,2,GHA,2024-11-19,1,ICU,Greater Accra Region,GH-AA
-P034,16,2,GHA,2023-01-03,1,Medical,Ahafo Region,GH-AF
-P035,13,1,GHA,2024-03-04,2,Surgical,Oti Region,GH-OT
-P036,14,2,GHA,2023-05-22,1,ICU,Upper East Region,GH-UE
-P037,3,1,GHA,2024-01-11,1,Surgical,Ashanti Region,GH-AH
-P038,6,1,GHA,2024-10-31,1,Pediatric,Greater Accra Region,GH-AA
-P039,5,1,GHA,2023-11-20,1,ICU,Volta Region,GH-TV
-P040,15,2,GHA,2023-05-26,1,Surgical,Central Region,GH-CP
-P041,2,1,GHA,2023-10-20,1,Medical,Greater Accra Region,GH-AA
-P042,10,1,GHA,2024-10-26,1,Pediatric,Central Region,GH-CP
-P043,13,2,GHA,2024-03-07,1,ICU,Greater Accra Region,GH-AA
-P044,5,1,GHA,2024-12-05,1,Surgical,Western North Region,GH-WN
-P045,1,1,GHA,2024-08-07,1,Surgical,Ashanti Region,GH-AH
-P046,1,1,GHA,2024-02-03,1,Pediatric,Volta Region,GH-TV
-P047,15,1,GHA,2023-12-10,1,Surgical,Ashanti Region,GH-AH
-P048,17,1,GHA,2023-05-20,1,Medical,Western Region,GH-WP
-P049,11,1,GHA,2023-07-06,1,Surgical,Western Region,GH-WP
-P050,17,2,GHA,2023-03-02,1,Pediatric,Ashanti Region,GH-AH
-P051,13,1,GHA,2024-01-15,1,Medical,Oti Region,GH-OT
-P052,1,1,GHA,2024-12-10,2,ICU,Bono Region,GH-BO
-P053,2,2,GHA,2024-03-15,2,Pediatric,Ahafo Region,GH-AF
-P054,9,1,GHA,2023-11-15,1,Surgical,Western North Region,GH-WN
-P055,3,2,GHA,2023-10-29,1,Surgical,Northern Region,GH-NP
-P056,1,1,GHA,2023-12-10,1,ICU,Bono East Region,GH-BE
-P057,16,1,GHA,2023-01-11,1,Surgical,Greater Accra Region,GH-AA
-P058,6,1,GHA,2023-03-03,1,Medical,Ashanti Region,GH-AH
-P059,17,1,GHA,2023-08-14,1,Surgical,Greater Accra Region,GH-AA
-P060,5,1,GHA,2023-06-02,2,ICU,Ashanti Region,GH-AH
-P061,5,1,GHA,2024-12-11,1,Surgical,Eastern Region,GH-EP
-P062,6,1,GHA,2024-07-17,1,Pediatric,Ashanti Region,GH-AH
-P063,3,1,GHA,2024-07-24,1,ICU,Upper East Region,GH-UE
-P064,5,1,GHA,2024-08-06,1,Pediatric,Eastern Region,GH-EP
-P065,5,1,GHA,2024-10-21,1,Medical,Ashanti Region,GH-AH
-P066,10,1,GHA,2024-07-28,1,Pediatric,Western Region,GH-WP
-P067,10,1,GHA,2023-11-06,1,Surgical,Greater Accra Region,GH-AA
-P068,17,2,GHA,2023-08-31,1,Medical,Upper East Region,GH-UE
-P069,14,1,GHA,2024-05-07,2,Surgical,Greater Accra Region,GH-AA
-P070,9,2,GHA,2024-01-01,1,Pediatric,Savannah Region,GH-SV
-P071,14,2,GHA,2023-11-26,1,Medical,Bono Region,GH-BO
-P072,1,1,GHA,2023-04-17,1,Medical,Ashanti Region,GH-AH
-P073,13,2,GHA,2023-08-14,2,Surgical,Greater Accra Region,GH-AA
-P074,13,2,GHA,2023-08-06,1,Surgical,Upper East Region,GH-UE
-P075,4,1,GHA,2024-05-20,1,Surgical,Volta Region,GH-TV
-P076,18,1,GHA,2023-09-16,2,Surgical,Volta Region,GH-TV
-P077,25,2,GHA,2024-05-31,2,Medical,Bono Region,GH-BO
-P078,80,2,GHA,2023-02-23,1,Surgical,Greater Accra Region,GH-AA
-P079,28,1,GHA,2023-02-16,1,ICU,Eastern Region,GH-EP
-P080,25,1,GHA,2024-12-27,1,Medical,Greater Accra Region,GH-AA
-P081,52,1,GHA,2024-11-19,1,ICU,Upper West Region,GH-UW
-P082,52,1,GHA,2024-06-04,1,Medical,Northern Region,GH-NP
-P083,50,2,GHA,2023-04-09,1,Medical,Ashanti Region,GH-AH
-P084,22,1,GHA,2023-01-20,1,Medical,Greater Accra Region,GH-AA
-P085,58,1,GHA,2024-07-26,1,Surgical,Ashanti Region,GH-AH
-P086,45,2,GHA,2024-05-04,1,Medical,Ashanti Region,GH-AH
-P087,24,1,GHA,2024-02-23,1,Medical,Volta Region,GH-TV
-P088,29,1,GHA,2024-11-20,1,ICU,Northern Region,GH-NP
-P089,51,2,GHA,2023-03-03,1,Medical,Western North Region,GH-WN
-P090,50,2,GHA,2023-05-25,1,ICU,Central Region,GH-CP
-P091,65,1,GHA,2023-08-04,1,ICU,Greater Accra Region,GH-AA
-P092,40,2,GHA,2023-01-03,1,Surgical,Volta Region,GH-TV
-P093,79,1,GHA,2023-06-09,1,Surgical,Bono Region,GH-BO
-P094,54,1,GHA,2023-04-30,2,Surgical,Western Region,GH-WP
-P095,61,2,GHA,2023-03-30,1,Medical,Bono Region,GH-BO
-P096,52,1,GHA,2023-11-25,1,Medical,Central Region,GH-CP
-P097,82,1,GHA,2024-08-02,1,Pediatric,Western Region,GH-WP
-P098,64,1,GHA,2023-12-23,1,Medical,Eastern Region,GH-EP
-P099,20,1,GHA,2024-09-01,1,Medical,Greater Accra Region,GH-AA
-P100,18,1,GHA,2023-09-24,2,ICU,Greater Accra Region,GH-AA
-P101,22,1,GHA,2024-09-08,1,Medical,Greater Accra Region,GH-AA
-P102,31,1,GHA,2023-11-19,1,Medical,Northern Region,GH-NP
-P103,44,1,GHA,2024-09-26,1,Medical,Ashanti Region,GH-AH
-P104,26,2,GHA,2024-06-24,1,Medical,Central Region,GH-CP
-P105,32,2,GHA,2024-10-10,1,Medical,Western North Region,GH-WN
-P106,59,2,GHA,2023-07-14,1,Surgical,Ashanti Region,GH-AH
-P107,68,2,GHA,2023-11-28,1,Surgical,Eastern Region,GH-EP
-P108,80,1,GHA,2023-06-19,1,Surgical,Bono Region,GH-BO
-P109,69,1,GHA,2024-06-04,1,Surgical,Ashanti Region,GH-AH
-P110,21,2,GHA,2024-04-07,2,Pediatric,Greater Accra Region,GH-AA
-P111,40,2,GHA,2023-02-09,1,ICU,Ashanti Region,GH-AH
-P112,32,2,GHA,2024-06-20,1,ICU,Greater Accra Region,GH-AA
-P113,60,1,GHA,2023-09-18,1,ICU,Bono East Region,GH-BE
-P114,46,1,GHA,2024-01-30,1,Surgical,Upper East Region,GH-UE
-P115,53,1,GHA,2023-08-14,2,Pediatric,Northern Region,GH-NP
-P116,30,1,GHA,2023-05-04,1,ICU,Upper West Region,GH-UW
-P117,49,2,GHA,2023-02-07,1,Pediatric,Upper East Region,GH-UE
-P118,76,2,GHA,2023-11-24,2,ICU,Ashanti Region,GH-AH
-P119,45,1,GHA,2023-09-08,1,Pediatric,Western North Region,GH-WN
-P120,83,2,GHA,2023-06-25,2,Medical,Western Region,GH-WP
-P121,59,2,GHA,2024-08-24,1,ICU,Upper East Region,GH-UE
-P122,62,1,GHA,2024-03-29,1,Medical,Western North Region,GH-WN
-P123,79,1,GHA,2023-02-06,1,Medical,Ashanti Region,GH-AH
-P124,74,1,GHA,2023-11-12,1,Medical,Greater Accra Region,GH-AA
-P125,23,1,GHA,2024-11-18,2,Medical,Ashanti Region,GH-AH
-P126,45,1,GHA,2024-08-15,1,Surgical,Eastern Region,GH-EP
-P127,45,1,GHA,2023-04-24,1,Medical,Upper East Region,GH-UE
-P128,61,1,GHA,2023-02-09,1,Medical,Upper West Region,GH-UW
-P129,47,1,GHA,2023-10-28,1,Surgical,Greater Accra Region,GH-AA
-P130,79,2,GHA,2023-08-12,1,Surgical,Western Region,GH-WP
-P131,79,1,GHA,2023-11-14,2,Medical,Eastern Region,GH-EP
-P132,18,2,GHA,2023-12-15,1,Medical,Ashanti Region,GH-AH
-P133,44,1,GHA,2023-04-25,1,ICU,Greater Accra Region,GH-AA
-P134,79,2,GHA,2024-11-28,1,ICU,Ashanti Region,GH-AH
-P135,20,1,GHA,2023-11-19,1,Surgical,Ahafo Region,GH-AF
-P136,44,1,GHA,2024-07-21,1,ICU,Ashanti Region,GH-AH
-P137,26,2,GHA,2023-02-09,1,Medical,Western Region,GH-WP
-P138,79,2,GHA,2023-02-09,2,Surgical,Volta Region,GH-TV
-P139,54,2,GHA,2023-10-16,1,ICU,Eastern Region,GH-EP
-P140,68,1,GHA,2023-09-19,1,Medical,North East Region,GH-NE
-P141,61,1,GHA,2023-08-04,1,Medical,Oti Region,GH-OT
-P142,41,2,GHA,2023-05-27,2,Pediatric,Ashanti Region,GH-AH
-P143,76,2,GHA,2023-12-02,1,Medical,Central Region,GH-CP
-P144,49,2,GHA,2023-06-17,1,Surgical,Ashanti Region,GH-AH
-P145,69,2,GHA,2023-04-02,1,Medical,Ashanti Region,GH-AH
-P146,79,1,GHA,2023-12-19,1,ICU,Greater Accra Region,GH-AA
-P147,75,2,GHA,2024-07-24,1,Surgical,Northern Region,GH-NP
-P148,69,1,GHA,2024-07-24,1,Pediatric,Central Region,GH-CP
-P149,29,1,GHA,2024-11-11,1,Surgical,Greater Accra Region,GH-AA
-P150,56,1,GHA,2023-12-29,1,Surgical,Ashanti Region,GH-AH
-P151,19,1,GHA,2024-07-10,2,Pediatric,Western North Region,GH-WN
-P152,20,1,GHA,2023-12-11,2,ICU,Ashanti Region,GH-AH
-P153,73,1,GHA,2024-11-23,1,ICU,Greater Accra Region,GH-AA
-P154,76,2,GHA,2023-06-19,1,Surgical,Central Region,GH-CP
-P155,19,1,GHA,2023-12-22,1,Medical,Savannah Region,GH-SV
-P156,19,2,GHA,2023-07-10,1,Surgical,Ashanti Region,GH-AH
-P157,71,1,GHA,2024-10-28,1,Pediatric,Volta Region,GH-TV
-P158,18,1,GHA,2024-02-26,1,Medical,Bono Region,GH-BO
-P159,36,2,GHA,2024-11-30,1,ICU,Ashanti Region,GH-AH
-P160,19,1,GHA,2023-01-07,1,Surgical,Volta Region,GH-TV
-P161,70,1,GHA,2023-05-13,1,Medical,Eastern Region,GH-EP
-P162,61,1,GHA,2024-07-10,1,Surgical,Northern Region,GH-NP
-P163,49,1,GHA,2023-01-31,1,Medical,Northern Region,GH-NP
-P164,49,2,GHA,2024-06-18,1,Surgical,Western Region,GH-WP
-P165,85,1,GHA,2024-03-01,1,ICU,Greater Accra Region,GH-AA
-P166,72,2,GHA,2024-01-29,1,Surgical,Upper West Region,GH-UW
-P167,73,1,GHA,2024-11-02,1,Medical,Ashanti Region,GH-AH
-P168,34,2,GHA,2023-12-29,1,Medical,Ashanti Region,GH-AH
-P169,55,2,GHA,2024-03-12,1,ICU,Greater Accra Region,GH-AA
-P170,41,2,GHA,2024-10-31,1,Surgical,Northern Region,GH-NP
-P171,28,1,GHA,2024-07-04,2,Pediatric,Volta Region,GH-TV
-P172,33,1,GHA,2023-03-23,2,ICU,Greater Accra Region,GH-AA
-P173,76,1,GHA,2023-12-22,2,ICU,Western Region,GH-WP
-P174,20,2,GHA,2023-09-15,1,ICU,Ashanti Region,GH-AH
-P175,37,2,GHA,2024-12-18,1,Surgical,Northern Region,GH-NP
-P176,76,2,GHA,2024-08-11,2,Surgical,Greater Accra Region,GH-AA
-P177,53,1,GHA,2024-06-07,1,Medical,Volta Region,GH-TV
-P178,36,2,GHA,2023-10-22,1,ICU,Eastern Region,GH-EP
-P179,84,2,GHA,2023-08-12,1,Medical,Ahafo Region,GH-AF
-P180,36,1,GHA,2024-06-08,1,Medical,Greater Accra Region,GH-AA
-P181,37,1,GHA,2023-02-15,2,Medical,Eastern Region,GH-EP
-P182,69,2,GHA,2024-10-28,1,Pediatric,Greater Accra Region,GH-AA
-P183,50,2,GHA,2023-04-23,1,ICU,Bono East Region,GH-BE
-P184,57,2,GHA,2023-08-21,1,Surgical,Western North Region,GH-WN
-P185,56,1,GHA,2023-01-17,1,Medical,Ashanti Region,GH-AH
-P186,18,2,GHA,2023-12-26,2,Medical,Northern Region,GH-NP
-P187,28,1,GHA,2023-08-11,1,Surgical,Upper East Region,GH-UE
-P188,74,1,GHA,2024-11-30,1,Surgical,Western Region,GH-WP
-P189,67,1,GHA,2024-03-23,2,Pediatric,Western Region,GH-WP
-P190,40,2,GHA,2023-12-31,1,ICU,Ashanti Region,GH-AH
-P191,48,2,GHA,2024-11-05,1,ICU,Greater Accra Region,GH-AA
-P192,59,2,GHA,2023-11-22,1,Surgical,Western North Region,GH-WN
-P193,24,1,GHA,2024-04-11,1,Medical,Western North Region,GH-WN
-P194,33,2,GHA,2024-02-18,1,Medical,Northern Region,GH-NP
-P195,77,1,GHA,2024-03-30,1,ICU,Ashanti Region,GH-AH
-P196,19,2,GHA,2024-08-08,1,ICU,Eastern Region,GH-EP
-P197,18,1,GHA,2023-08-21,1,Pediatric,Volta Region,GH-TV
-P198,65,1,GHA,2023-08-12,2,ICU,Western North Region,GH-WN
-P199,29,1,GHA,2024-02-16,1,Medical,Western North Region,GH-WN
-P200,54,1,GHA,2024-07-25,1,ICU,Bono Region,GH-BO
-P201,49,2,GHA,2023-12-01,1,Medical,Northern Region,GH-NP
-P202,26,1,GHA,2023-08-10,1,ICU,Greater Accra Region,GH-AA
-P203,36,1,GHA,2023-02-06,1,Medical,Greater Accra Region,GH-AA
-P204,65,2,GHA,2023-10-05,2,ICU,Western North Region,GH-WN
-P205,20,1,GHA,2023-07-15,2,Surgical,Northern Region,GH-NP
-P206,37,2,GHA,2024-04-28,1,ICU,Greater Accra Region,GH-AA
-P207,41,2,GHA,2023-08-30,2,Medical,Greater Accra Region,GH-AA
-P208,71,2,GHA,2023-11-20,1,Pediatric,Volta Region,GH-TV
-P209,50,1,GHA,2024-12-31,1,Surgical,Greater Accra Region,GH-AA
-P210,41,2,GHA,2023-07-11,1,Medical,Greater Accra Region,GH-AA
-P211,53,2,GHA,2023-01-17,2,Medical,Western Region,GH-WP
-P212,55,1,GHA,2024-06-07,1,Medical,Volta Region,GH-TV
-P213,42,1,GHA,2024-02-05,1,Surgical,Northern Region,GH-NP
-P214,35,2,GHA,2024-12-05,1,Pediatric,Ashanti Region,GH-AH
-P215,83,2,GHA,2023-01-22,1,Surgical,Volta Region,GH-TV
-P216,71,2,GHA,2024-04-18,1,Medical,Ashanti Region,GH-AH
-P217,52,2,GHA,2023-04-30,2,Surgical,Ashanti Region,GH-AH
-P218,78,2,GHA,2023-07-29,1,Medical,Bono Region,GH-BO
-P219,58,1,GHA,2023-11-02,1,ICU,Northern Region,GH-NP
-P220,50,1,GHA,2023-09-27,2,Medical,Upper West Region,GH-UW
-P221,85,1,GHA,2024-12-04,1,Pediatric,Northern Region,GH-NP
-P222,50,2,GHA,2024-11-17,2,ICU,Western Region,GH-WP
-P223,31,1,GHA,2023-10-12,1,Surgical,Greater Accra Region,GH-AA
-P224,38,2,GHA,2024-12-16,1,ICU,Eastern Region,GH-EP
-P225,65,2,GHA,2024-11-06,1,Medical,Ashanti Region,GH-AH
-P226,37,2,GHA,2023-08-15,2,ICU,Ashanti Region,GH-AH
-P227,25,1,GHA,2024-01-16,1,Medical,North East Region,GH-NE
-P228,24,2,GHA,2024-04-04,1,Surgical,Eastern Region,GH-EP
-P229,84,1,GHA,2023-01-07,1,Medical,Western North Region,GH-WN
-P230,34,2,GHA,2023-01-29,1,Surgical,Northern Region,GH-NP
-P231,50,1,GHA,2023-02-02,1,Surgical,Upper East Region,GH-UE
-P232,65,1,GHA,2024-10-07,1,Pediatric,Central Region,GH-CP
-P233,76,2,GHA,2023-03-20,2,ICU,Western Region,GH-WP
-P234,39,1,GHA,2024-04-03,1,Medical,Central Region,GH-CP
-P235,47,1,GHA,2024-07-23,1,ICU,Ashanti Region,GH-AH
-P236,55,2,GHA,2024-06-21,1,Pediatric,Volta Region,GH-TV
-P237,68,2,GHA,2024-04-26,2,Pediatric,Ashanti Region,GH-AH
-P238,71,2,GHA,2024-03-05,1,Medical,Greater Accra Region,GH-AA
-P239,25,2,GHA,2023-10-12,1,Surgical,Northern Region,GH-NP
-P240,44,2,GHA,2024-05-30,1,Medical,Greater Accra Region,GH-AA
-P241,44,1,GHA,2023-04-09,1,Surgical,Ahafo Region,GH-AF
-P242,38,1,GHA,2024-02-01,1,ICU,Ahafo Region,GH-AF
-P243,47,1,GHA,2024-05-03,2,Surgical,Bono East Region,GH-BE
-P244,45,2,GHA,2023-02-08,1,ICU,Eastern Region,GH-EP
-P245,81,2,GHA,2023-09-28,1,Surgical,Greater Accra Region,GH-AA
-P246,78,1,GHA,2023-06-06,1,Surgical,Bono East Region,GH-BE
-P247,65,1,GHA,2023-03-16,2,Surgical,Eastern Region,GH-EP
-P248,36,2,GHA,2023-05-10,1,ICU,Oti Region,GH-OT
-P249,21,1,GHA,2024-11-17,1,Medical,Oti Region,GH-OT
-P250,52,2,GHA,2023-03-25,1,Medical,Upper West Region,GH-UW
-P251,81,1,GHA,2023-01-22,2,Medical,Ashanti Region,GH-AH
-P252,66,2,GHA,2024-04-03,1,ICU,Eastern Region,GH-EP
-P253,34,1,GHA,2024-06-22,1,Pediatric,Upper West Region,GH-UW
-P254,61,2,GHA,2024-12-07,1,Medical,Ashanti Region,GH-AH
-P255,47,2,GHA,2024-01-17,1,Medical,Greater Accra Region,GH-AA
-P256,63,2,GHA,2024-03-15,1,Medical,Western Region,GH-WP
-P257,23,2,GHA,2024-08-26,1,Medical,Ahafo Region,GH-AF
-P258,54,2,GHA,2023-01-21,1,Surgical,Volta Region,GH-TV
-P259,41,2,GHA,2023-10-30,1,Medical,Western Region,GH-WP
-P260,63,1,GHA,2023-03-25,1,Pediatric,Greater Accra Region,GH-AA
-P261,70,2,GHA,2024-10-20,2,Medical,Northern Region,GH-NP
-P262,77,2,GHA,2024-03-28,1,Pediatric,Savannah Region,GH-SV
-P263,80,1,GHA,2024-01-22,2,Pediatric,Greater Accra Region,GH-AA
-P264,49,2,GHA,2024-05-21,1,ICU,Western Region,GH-WP
-P265,50,2,GHA,2023-09-14,1,Pediatric,Western North Region,GH-WN
-P266,84,2,GHA,2024-07-23,1,ICU,Bono Region,GH-BO
-P267,35,1,GHA,2024-06-10,1,Surgical,Volta Region,GH-TV
-P268,42,1,GHA,2023-06-11,1,Medical,Volta Region,GH-TV
-P269,71,2,GHA,2023-06-12,1,Pediatric,Eastern Region,GH-EP
-P270,75,2,GHA,2024-06-07,1,Pediatric,Ashanti Region,GH-AH
-P271,84,1,GHA,2023-09-28,2,Surgical,Upper East Region,GH-UE
-P272,63,2,GHA,2024-05-06,1,Surgical,Upper East Region,GH-UE
-P273,41,2,GHA,2023-07-27,2,Medical,Upper West Region,GH-UW
-P274,49,1,GHA,2024-06-22,1,ICU,Bono East Region,GH-BE
-P275,64,2,GHA,2024-08-06,1,Medical,Western Region,GH-WP
-P276,40,1,GHA,2023-03-01,1,ICU,Central Region,GH-CP
-P277,83,1,GHA,2024-03-05,1,Surgical,Upper East Region,GH-UE
-P278,44,1,GHA,2024-10-18,1,Medical,Northern Region,GH-NP
-P279,19,2,GHA,2024-08-27,1,Pediatric,Volta Region,GH-TV
-P280,34,1,GHA,2023-11-05,1,Surgical,Upper East Region,GH-UE
-P281,50,1,GHA,2024-06-03,1,Surgical,Western North Region,GH-WN
-P282,26,1,GHA,2024-08-13,1,ICU,Ashanti Region,GH-AH
-P283,60,2,GHA,2023-01-27,2,Pediatric,Eastern Region,GH-EP
-P284,65,2,GHA,2024-11-16,2,Pediatric,Greater Accra Region,GH-AA
-P285,56,1,GHA,2024-07-15,1,Medical,Western Region,GH-WP
-P286,59,1,GHA,2023-07-18,1,Surgical,Greater Accra Region,GH-AA
-P287,43,2,GHA,2024-01-22,1,Surgical,Central Region,GH-CP
-P288,67,1,GHA,2023-12-15,1,ICU,Western Region,GH-WP
-P289,42,1,GHA,2024-11-23,2,Medical,Ashanti Region,GH-AH
-P290,41,1,GHA,2024-06-19,1,Medical,Northern Region,GH-NP
-P291,30,1,GHA,2024-01-13,1,ICU,Greater Accra Region,GH-AA
-P292,77,1,GHA,2024-07-11,1,Medical,Greater Accra Region,GH-AA
-P293,24,1,GHA,2024-06-10,1,ICU,Upper East Region,GH-UE
-P294,74,1,GHA,2023-06-02,1,ICU,Eastern Region,GH-EP
-P295,53,2,GHA,2023-07-25,2,ICU,Greater Accra Region,GH-AA
-P296,62,1,GHA,2024-03-30,1,Pediatric,Western Region,GH-WP
-P297,37,2,GHA,2023-09-30,1,Medical,Bono Region,GH-BO
-P298,82,2,GHA,2023-08-24,2,Pediatric,Ashanti Region,GH-AH
-P299,25,1,GHA,2024-06-04,1,Medical,Northern Region,GH-NP
-P300,33,2,GHA,2024-11-08,1,Medical,Greater Accra Region,GH-AA
-P301,31,1,GHA,2024-12-26,1,Medical,Greater Accra Region,GH-AA
-P302,32,2,GHA,2024-05-15,1,Medical,Western Region,GH-WP
-P303,83,1,GHA,2023-04-27,2,ICU,Western Region,GH-WP
-P304,49,1,GHA,2024-01-21,1,Surgical,Northern Region,GH-NP
-P305,80,1,GHA,2023-12-10,2,ICU,Volta Region,GH-TV
-P306,68,2,GHA,2024-08-06,1,Surgical,North East Region,GH-NE
-P307,42,1,GHA,2024-01-30,2,Surgical,Western Region,GH-WP
-P308,75,2,GHA,2023-03-05,1,ICU,Ashanti Region,GH-AH
-P309,80,1,GHA,2024-12-17,1,ICU,Upper East Region,GH-UE
-P310,79,2,GHA,2024-12-21,1,Surgical,Ashanti Region,GH-AH
-P311,39,1,GHA,2023-03-13,2,Medical,Central Region,GH-CP
-P312,75,2,GHA,2023-10-01,1,ICU,Greater Accra Region,GH-AA
-P313,75,1,GHA,2023-11-16,1,Pediatric,Greater Accra Region,GH-AA
-P314,66,1,GHA,2023-12-04,2,ICU,Oti Region,GH-OT
-P315,69,1,GHA,2024-01-01,1,Surgical,Upper West Region,GH-UW
-P316,59,1,GHA,2024-05-09,2,Pediatric,Volta Region,GH-TV
-P317,32,2,GHA,2024-08-29,1,ICU,Eastern Region,GH-EP
-P318,71,1,GHA,2023-06-15,1,ICU,Greater Accra Region,GH-AA
-P319,77,2,GHA,2024-06-27,1,ICU,Greater Accra Region,GH-AA
-P320,25,1,GHA,2023-01-11,1,Medical,Ashanti Region,GH-AH
-P321,70,2,GHA,2023-10-28,1,ICU,Western Region,GH-WP
-P322,77,1,GHA,2024-12-29,1,Surgical,Volta Region,GH-TV
-P323,22,1,GHA,2023-04-12,1,ICU,Volta Region,GH-TV
-P324,85,2,GHA,2024-02-29,1,Medical,Ashanti Region,GH-AH
-P325,23,1,GHA,2024-01-27,1,Pediatric,Ahafo Region,GH-AF
-P326,64,1,GHA,2023-08-02,1,Surgical,Bono Region,GH-BO
-P327,72,2,GHA,2024-11-21,1,Surgical,Western Region,GH-WP
-P328,57,2,GHA,2023-03-29,1,Medical,Northern Region,GH-NP
-P329,69,1,GHA,2024-07-06,1,Surgical,Eastern Region,GH-EP
-P330,33,1,GHA,2024-02-05,2,Medical,Ashanti Region,GH-AH
-P331,30,2,GHA,2024-08-10,2,Medical,Eastern Region,GH-EP
-P332,47,1,GHA,2023-02-15,1,ICU,Bono Region,GH-BO
-P333,36,1,GHA,2024-11-02,1,Pediatric,Greater Accra Region,GH-AA
-P334,34,1,GHA,2024-04-07,2,Medical,Greater Accra Region,GH-AA
-P335,80,2,GHA,2024-08-14,1,ICU,Greater Accra Region,GH-AA
-P336,36,2,GHA,2023-11-06,1,Medical,Greater Accra Region,GH-AA
-P337,75,1,GHA,2023-03-27,1,Medical,Upper West Region,GH-UW
-P338,72,1,GHA,2023-04-02,1,Surgical,Volta Region,GH-TV
-P339,79,1,GHA,2024-10-21,1,Surgical,Central Region,GH-CP
-P340,40,2,GHA,2024-11-03,1,Surgical,Greater Accra Region,GH-AA
-P341,26,1,GHA,2024-12-14,2,ICU,Central Region,GH-CP
-P342,29,1,GHA,2023-08-30,2,Medical,Central Region,GH-CP
-P343,18,2,GHA,2023-01-02,1,Medical,Greater Accra Region,GH-AA
-P344,75,1,GHA,2023-08-13,1,ICU,Central Region,GH-CP
-P345,18,2,GHA,2024-08-11,2,Medical,Eastern Region,GH-EP
-P346,51,1,GHA,2023-04-26,1,Surgical,Northern Region,GH-NP
-P347,65,1,GHA,2024-10-27,1,ICU,Northern Region,GH-NP
-P348,18,1,GHA,2023-04-13,1,Medical,Greater Accra Region,GH-AA
-P349,33,2,GHA,2023-07-13,2,ICU,Eastern Region,GH-EP
-P350,78,2,GHA,2023-06-15,1,ICU,Northern Region,GH-NP
-P351,81,2,GHA,2023-03-31,2,ICU,Central Region,GH-CP
-P352,80,1,GHA,2024-11-16,2,Pediatric,Upper West Region,GH-UW
-P353,39,2,GHA,2023-05-02,1,Surgical,Northern Region,GH-NP
-P354,84,1,GHA,2023-05-23,1,Pediatric,Greater Accra Region,GH-AA
-P355,43,1,GHA,2023-04-16,1,Medical,Greater Accra Region,GH-AA
-P356,33,2,GHA,2024-03-03,1,ICU,Northern Region,GH-NP
-P357,68,1,GHA,2023-11-01,1,Medical,Greater Accra Region,GH-AA
-P358,74,1,GHA,2023-11-13,1,Medical,Western Region,GH-WP
-P359,46,1,GHA,2024-09-26,1,Surgical,Ahafo Region,GH-AF
-P360,64,1,GHA,2023-01-09,2,ICU,Western Region,GH-WP
-P361,79,1,GHA,2023-03-14,1,Medical,Eastern Region,GH-EP
-P362,33,2,GHA,2023-12-25,1,ICU,Northern Region,GH-NP
-P363,65,1,GHA,2023-08-11,1,Medical,Central Region,GH-CP
-P364,56,2,GHA,2024-02-20,1,Surgical,Western Region,GH-WP
-P365,50,2,GHA,2024-07-06,1,Medical,Ahafo Region,GH-AF
-P366,40,1,GHA,2024-01-05,1,Medical,Eastern Region,GH-EP
-P367,27,1,GHA,2024-12-16,1,Medical,Oti Region,GH-OT
-P368,51,1,GHA,2023-09-21,1,Medical,Western North Region,GH-WN
-P369,69,2,GHA,2024-11-20,1,Surgical,Ashanti Region,GH-AH
-P370,27,1,GHA,2023-11-14,1,Pediatric,Greater Accra Region,GH-AA
-P371,36,2,GHA,2023-03-25,1,Pediatric,Greater Accra Region,GH-AA
-P372,75,1,GHA,2023-11-14,2,Surgical,Greater Accra Region,GH-AA
-P373,18,2,GHA,2023-04-21,1,Medical,Greater Accra Region,GH-AA
-P374,21,1,GHA,2023-09-08,1,Surgical,Volta Region,GH-TV
-P375,33,1,GHA,2024-01-18,1,Medical,Greater Accra Region,GH-AA
-P376,41,2,GHA,2023-01-07,1,Medical,Ashanti Region,GH-AH
-P377,19,2,GHA,2024-04-03,1,Surgical,Upper West Region,GH-UW
-P378,49,1,GHA,2023-03-25,1,ICU,Greater Accra Region,GH-AA
-P379,41,2,GHA,2023-07-27,1,Pediatric,Upper East Region,GH-UE
-P380,29,1,GHA,2024-01-25,1,Medical,Ashanti Region,GH-AH
-P381,67,2,GHA,2023-11-10,1,Surgical,Greater Accra Region,GH-AA
-P382,52,2,GHA,2023-01-22,1,Surgical,Volta Region,GH-TV
-P383,50,1,GHA,2024-02-14,1,Pediatric,Northern Region,GH-NP
-P384,50,1,GHA,2024-05-29,2,Surgical,Western North Region,GH-WN
-P385,78,1,GHA,2023-05-07,1,Surgical,Bono Region,GH-BO
-P386,68,2,GHA,2024-11-30,1,ICU,Upper East Region,GH-UE
-P387,60,2,GHA,2023-01-14,1,Medical,Ashanti Region,GH-AH
-P388,29,1,GHA,2023-01-12,1,ICU,Greater Accra Region,GH-AA
-P389,84,1,GHA,2023-03-28,1,Surgical,Bono Region,GH-BO
-P390,82,2,GHA,2024-06-07,1,Medical,Upper East Region,GH-UE
-P391,50,2,GHA,2024-06-20,1,Surgical,Savannah Region,GH-SV
-P392,57,2,GHA,2023-10-28,1,ICU,Eastern Region,GH-EP
-P393,60,1,GHA,2023-08-31,1,ICU,Eastern Region,GH-EP
-P394,61,1,GHA,2023-05-02,1,Surgical,Bono Region,GH-BO
-P395,46,1,GHA,2023-05-27,1,ICU,Eastern Region,GH-EP
-P396,30,2,GHA,2024-07-20,1,ICU,Bono East Region,GH-BE
-P397,29,1,GHA,2023-12-22,1,ICU,Upper West Region,GH-UW
-P398,63,2,GHA,2024-11-15,1,Pediatric,Eastern Region,GH-EP
-P399,19,1,GHA,2024-09-22,1,Surgical,Bono Region,GH-BO
-P400,52,2,GHA,2023-11-05,1,Medical,Bono Region,GH-BO
-P401,25,2,GHA,2024-11-25,1,Medical,Greater Accra Region,GH-AA
-P402,43,2,GHA,2023-10-15,2,Medical,Western North Region,GH-WN
-P403,51,1,GHA,2023-11-03,1,Surgical,Central Region,GH-CP
-P404,24,1,GHA,2024-08-16,1,Surgical,Upper East Region,GH-UE
-P405,85,1,GHA,2024-12-23,1,ICU,Ashanti Region,GH-AH
-P406,75,2,GHA,2024-10-23,1,ICU,Western North Region,GH-WN
-P407,46,2,GHA,2024-07-02,1,ICU,Eastern Region,GH-EP
-P408,53,2,GHA,2023-12-18,1,Surgical,Greater Accra Region,GH-AA
-P409,38,2,GHA,2023-11-08,2,Surgical,Western North Region,GH-WN
-P410,53,2,GHA,2023-02-28,1,Medical,Greater Accra Region,GH-AA
-P411,27,1,GHA,2024-10-04,1,ICU,Ashanti Region,GH-AH
-P412,41,2,GHA,2024-12-14,2,ICU,Ahafo Region,GH-AF
-P413,81,1,GHA,2023-02-04,1,Pediatric,Ahafo Region,GH-AF
-P414,66,1,GHA,2024-03-20,1,Medical,Western Region,GH-WP
-P415,53,1,GHA,2023-04-03,1,Surgical,Northern Region,GH-NP
-P416,41,1,GHA,2023-07-26,1,Surgical,Central Region,GH-CP
-P417,40,1,GHA,2023-12-19,1,Medical,Ashanti Region,GH-AH
-P418,79,2,GHA,2023-11-28,2,ICU,Ashanti Region,GH-AH
-P419,54,1,GHA,2024-12-25,1,ICU,Volta Region,GH-TV
-P420,29,2,GHA,2023-06-08,1,Surgical,Bono Region,GH-BO
-P421,72,1,GHA,2023-01-24,1,Surgical,Upper East Region,GH-UE
-P422,30,1,GHA,2024-02-08,2,Surgical,Upper East Region,GH-UE
-P423,40,1,GHA,2024-05-30,2,Medical,Greater Accra Region,GH-AA
-P424,47,1,GHA,2023-12-30,2,ICU,Central Region,GH-CP
-P425,34,2,GHA,2024-01-17,1,Pediatric,Greater Accra Region,GH-AA
-P426,79,1,GHA,2024-06-15,1,Surgical,Western Region,GH-WP
-P427,30,2,GHA,2023-06-01,1,Medical,Central Region,GH-CP
-P428,76,1,GHA,2024-07-15,1,Pediatric,Western North Region,GH-WN
-P429,36,2,GHA,2024-11-19,1,Surgical,Eastern Region,GH-EP
-P430,66,2,GHA,2024-08-30,1,Medical,Greater Accra Region,GH-AA
-P431,29,2,GHA,2024-09-08,1,Surgical,Greater Accra Region,GH-AA
-P432,78,1,GHA,2024-02-24,1,Surgical,Bono Region,GH-BO
-P433,36,1,GHA,2023-09-07,1,Surgical,Northern Region,GH-NP
-P434,26,1,GHA,2023-04-27,1,ICU,Greater Accra Region,GH-AA
-P435,45,2,GHA,2024-05-26,1,Medical,Greater Accra Region,GH-AA
-P436,69,1,GHA,2024-07-31,1,Pediatric,Volta Region,GH-TV
-P437,33,1,GHA,2023-12-01,1,ICU,Greater Accra Region,GH-AA
-P438,29,2,GHA,2024-02-22,1,Medical,Upper East Region,GH-UE
-P439,42,1,GHA,2023-10-22,1,Medical,Volta Region,GH-TV
-P440,69,2,GHA,2024-01-06,1,Medical,Greater Accra Region,GH-AA
-P441,70,1,GHA,2023-07-05,1,Surgical,Greater Accra Region,GH-AA
-P442,40,1,GHA,2023-09-03,2,Pediatric,Savannah Region,GH-SV
-P443,33,2,GHA,2024-09-28,1,ICU,Eastern Region,GH-EP
-P444,74,1,GHA,2023-09-25,1,ICU,Eastern Region,GH-EP
-P445,56,2,GHA,2024-10-04,1,ICU,Upper East Region,GH-UE
-P446,70,1,GHA,2023-08-25,1,Pediatric,Ahafo Region,GH-AF
-P447,59,1,GHA,2024-06-13,1,Surgical,Savannah Region,GH-SV
-P448,75,2,GHA,2024-07-05,1,Medical,Bono Region,GH-BO
-P449,56,2,GHA,2023-01-21,2,Surgical,Eastern Region,GH-EP
-P450,31,2,GHA,2024-06-03,1,Pediatric,Greater Accra Region,GH-AA
-P451,22,1,GHA,2023-04-10,2,Surgical,Bono Region,GH-BO
-P452,52,2,GHA,2024-04-22,1,Pediatric,Western Region,GH-WP
-P453,35,1,GHA,2024-08-21,1,Medical,Eastern Region,GH-EP
-P454,26,1,GHA,2023-10-25,2,Surgical,Western North Region,GH-WN
-P455,75,2,GHA,2024-06-09,1,Medical,Greater Accra Region,GH-AA
-P456,34,1,GHA,2023-11-30,1,Surgical,Central Region,GH-CP
-P457,24,2,GHA,2023-01-02,1,Surgical,Greater Accra Region,GH-AA
-P458,63,1,GHA,2024-01-10,1,Surgical,Central Region,GH-CP
-P459,30,1,GHA,2023-10-20,1,Surgical,Greater Accra Region,GH-AA
-P460,57,2,GHA,2024-07-06,1,ICU,Greater Accra Region,GH-AA
-P461,59,2,GHA,2023-11-14,1,Medical,Greater Accra Region,GH-AA
-P462,26,2,GHA,2024-05-16,1,Pediatric,Northern Region,GH-NP
-P463,67,2,GHA,2024-01-16,1,Pediatric,Bono Region,GH-BO
-P464,44,2,GHA,2024-09-14,1,ICU,Western Region,GH-WP
-P465,83,2,GHA,2023-01-14,1,ICU,Oti Region,GH-OT
-P466,22,2,GHA,2024-05-18,1,ICU,Eastern Region,GH-EP
-P467,46,1,GHA,2023-08-19,1,Surgical,Ashanti Region,GH-AH
-P468,54,1,GHA,2023-03-25,1,Surgical,Upper West Region,GH-UW
-P469,55,1,GHA,2023-05-10,2,ICU,Ashanti Region,GH-AH
-P470,25,2,GHA,2023-05-25,1,Medical,Oti Region,GH-OT
-P471,82,2,GHA,2023-01-28,1,Surgical,Greater Accra Region,GH-AA
-P472,34,1,GHA,2023-03-07,1,Surgical,Oti Region,GH-OT
-P473,62,2,GHA,2023-06-12,1,Medical,Greater Accra Region,GH-AA
-P474,21,2,GHA,2023-08-17,1,Medical,Western North Region,GH-WN
-P475,53,1,GHA,2023-09-18,1,Medical,Western Region,GH-WP
-P476,48,2,GHA,2024-03-24,1,Medical,Savannah Region,GH-SV
-P477,36,2,GHA,2024-02-28,1,Medical,Greater Accra Region,GH-AA
-P478,78,1,GHA,2024-04-04,2,Surgical,Western Region,GH-WP
-P479,71,2,GHA,2024-11-06,2,Pediatric,Oti Region,GH-OT
-P480,56,1,GHA,2023-10-28,2,Surgical,Western Region,GH-WP
-P481,36,2,GHA,2023-10-30,1,Surgical,Northern Region,GH-NP
-P482,56,2,GHA,2023-10-14,1,ICU,Volta Region,GH-TV
-P483,84,2,GHA,2024-01-30,1,Medical,Central Region,GH-CP
-P484,62,1,GHA,2023-01-10,1,ICU,Northern Region,GH-NP
-P485,30,2,GHA,2024-12-07,1,ICU,Western Region,GH-WP
-P486,75,2,GHA,2024-09-21,1,Surgical,Western North Region,GH-WN
-P487,37,1,GHA,2023-09-27,1,Pediatric,Greater Accra Region,GH-AA
-P488,78,2,GHA,2024-08-14,1,ICU,Ashanti Region,GH-AH
-P489,56,1,GHA,2024-08-27,1,Medical,Ahafo Region,GH-AF
-P490,18,2,GHA,2023-12-27,1,Surgical,Western North Region,GH-WN
-P491,20,1,GHA,2023-09-14,1,ICU,Central Region,GH-CP
-P492,79,1,GHA,2023-05-13,2,Medical,Northern Region,GH-NP
-P493,80,1,GHA,2023-10-03,1,Surgical,Ashanti Region,GH-AH
-P494,42,2,GHA,2024-11-13,1,Surgical,Ashanti Region,GH-AH
-P495,73,1,GHA,2024-05-27,1,ICU,Central Region,GH-CP
-P496,50,2,GHA,2023-11-09,1,Medical,Eastern Region,GH-EP
-P497,55,1,GHA,2024-07-29,1,Surgical,Western Region,GH-WP
-P498,23,1,GHA,2023-10-11,1,Medical,Greater Accra Region,GH-AA
-P499,75,2,GHA,2023-05-01,1,ICU,North East Region,GH-NE
-P500,61,2,GHA,2023-04-17,1,Surgical,Savannah Region,GH-SV
+subjid,demog_age,demog_sex,country_iso,pres_date,outco_binary_outcome,amr_ward,ghana_region,ghana_region_iso,facility_id,facility_type,facility_lat,facility_lon
+P0001,6.0,Male,GHA,2023-10-09,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0002,0.22,Male,GHA,2023-04-15,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0003,37.0,Male,GHA,2024-03-08,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0004,41.0,Male,GHA,2023-04-06,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0005,2.0,Male,GHA,2024-06-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0006,36.0,Male,GHA,2023-07-23,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0007,9.0,Female,GHA,2024-04-04,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0008,19.0,Female,GHA,2023-06-13,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0009,0.34,Female,GHA,2023-06-09,Unknown,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0010,3.0,Male,GHA,2023-04-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0011,0.38,Male,GHA,2024-01-03,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0012,5.0,Female,GHA,2023-09-28,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0013,33.0,Male,GHA,2024-07-03,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0014,90.0,Male,GHA,2023-03-22,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0015,0.82,Female,GHA,2024-09-25,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0016,15.0,Female,GHA,2023-07-16,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0017,1.0,Male,GHA,2024-11-08,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0018,0.77,Male,GHA,2023-03-23,Died,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0019,0.86,Male,GHA,2024-01-25,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0020,55.0,Female,GHA,2024-10-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0021,46.0,Female,GHA,2024-01-15,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0022,2.0,Female,GHA,2024-11-17,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0023,63.0,Female,GHA,2024-11-30,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0024,60.0,Male,GHA,2024-10-12,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0025,14.0,Male,GHA,2023-09-08,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0026,0.46,Male,GHA,2023-10-04,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0027,86.0,Male,GHA,2023-02-27,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0028,1.0,Male,GHA,2023-11-20,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0029,83.0,Female,GHA,2023-03-09,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0030,59.0,Male,GHA,2023-11-19,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0031,61.0,Male,GHA,2024-05-26,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0032,4.0,Female,GHA,2023-05-27,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0033,0.14,Female,GHA,2024-07-28,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0034,0.74,Female,GHA,2024-03-14,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0035,11.0,Female,GHA,2023-08-13,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0036,98.0,Male,GHA,2024-05-20,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0037,1.0,Male,GHA,2023-04-23,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0038,0.62,Male,GHA,2024-11-27,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0039,0.59,Female,GHA,2024-01-30,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0040,38.0,Female,GHA,2024-04-24,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0041,5.0,Female,GHA,2023-01-12,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0042,0.67,Male,GHA,2024-07-03,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0043,0.76,Female,GHA,2023-12-15,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0044,10.0,Male,GHA,2024-03-21,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0045,33.0,Male,GHA,2023-01-04,Unknown,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0046,5.0,Female,GHA,2023-07-02,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0047,3.0,Male,GHA,2024-10-16,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0048,8.0,Male,GHA,2024-01-18,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0049,58.0,Male,GHA,2024-06-27,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0050,60.0,Male,GHA,2023-11-28,Died,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0051,19.0,Female,GHA,2023-04-25,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0052,28.0,Female,GHA,2023-09-03,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0053,0.24,Male,GHA,2024-08-03,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0054,21.0,Male,GHA,2024-05-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0055,5.0,Male,GHA,2023-05-09,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0056,40.0,Male,GHA,2024-05-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0057,3.0,Male,GHA,2024-06-24,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0058,47.0,Female,GHA,2024-07-06,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0059,28.0,Male,GHA,2024-02-13,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0060,4.0,Female,GHA,2024-06-13,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0061,73.0,Female,GHA,2023-09-11,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0062,0.06,Male,GHA,2023-01-22,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0063,103.0,Male,GHA,2023-08-14,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0064,43.0,Male,GHA,2024-12-25,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0065,80.0,Male,GHA,2023-03-11,Survived,In-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0066,29.0,Male,GHA,2023-03-14,Survived,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0067,49.0,Male,GHA,2024-11-16,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0068,2.0,Female,GHA,2024-07-06,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0069,64.0,Male,GHA,2024-08-07,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0070,48.0,Female,GHA,2024-04-29,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0071,47.0,Female,GHA,2023-04-07,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0072,40.0,Male,GHA,2024-03-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0073,4.0,Female,GHA,2024-02-25,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0074,64.0,Female,GHA,2023-02-25,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0075,42.0,Male,GHA,2024-02-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0076,0.79,Female,GHA,2023-04-22,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0077,47.0,Male,GHA,2023-07-14,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0078,45.0,Female,GHA,2024-03-08,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0079,0.28,Male,GHA,2023-09-13,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0080,13.0,Male,GHA,2024-07-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0081,20.0,Male,GHA,2024-10-29,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0082,71.0,Male,GHA,2023-08-31,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0083,12.0,Male,GHA,2024-05-12,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0084,0.21,Female,GHA,2024-02-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0085,46.0,Male,GHA,2024-01-24,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0086,12.0,Male,GHA,2023-09-29,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0087,10.0,Female,GHA,2024-03-09,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0088,8.0,Female,GHA,2023-07-14,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0089,25.0,Female,GHA,2023-03-01,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0090,0.74,Male,GHA,2023-02-28,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0091,15.0,Male,GHA,2024-05-03,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0092,69.0,Male,GHA,2024-06-04,Unknown,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0093,0.84,Male,GHA,2023-03-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0094,0.67,Male,GHA,2023-08-29,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0095,44.0,Female,GHA,2024-08-06,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0096,0.57,Male,GHA,2023-02-10,Survived,Out-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0097,54.0,Male,GHA,2024-11-04,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0098,49.0,Female,GHA,2023-07-29,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0099,9.0,Female,GHA,2023-09-29,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0100,45.0,Female,GHA,2024-11-18,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0101,0.45,Female,GHA,2023-03-16,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0102,4.0,Male,GHA,2024-09-28,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0103,70.0,Male,GHA,2024-07-04,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0104,98.0,Male,GHA,2023-09-29,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0105,3.0,Male,GHA,2023-03-12,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0106,52.0,Male,GHA,2023-10-19,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0107,0.43,Male,GHA,2024-07-10,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0108,5.0,Female,GHA,2024-10-31,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0109,40.0,Male,GHA,2024-07-21,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0110,0.92,Female,GHA,2023-04-17,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0111,0.26,Male,GHA,2023-04-20,Survived,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0112,49.0,Male,GHA,2023-10-16,Unknown,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0113,17.0,Male,GHA,2023-12-18,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0114,16.0,Male,GHA,2024-10-11,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0115,0.5,Female,GHA,2023-09-15,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0116,0.09,Male,GHA,2024-03-09,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0117,68.0,Female,GHA,2023-01-04,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0118,2.0,Female,GHA,2024-10-14,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0119,0.16,Female,GHA,2024-03-28,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0120,0.56,Female,GHA,2023-04-25,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0121,23.0,Male,GHA,2024-07-12,Survived,Out-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0122,30.0,Male,GHA,2024-08-19,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0123,93.0,Male,GHA,2023-05-11,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0124,3.0,Male,GHA,2024-01-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0125,30.0,Male,GHA,2023-08-04,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0126,40.0,Male,GHA,2023-04-16,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0127,36.0,Female,GHA,2024-02-21,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0128,81.0,Male,GHA,2023-06-16,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0129,92.0,Male,GHA,2023-01-26,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0130,17.0,Male,GHA,2023-12-07,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0131,40.0,Female,GHA,2023-09-12,Unknown,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0132,46.0,Female,GHA,2024-12-19,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0133,0.38,Male,GHA,2023-02-09,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0134,80.0,Female,GHA,2023-07-24,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0135,52.0,Female,GHA,2023-11-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0136,80.0,Male,GHA,2023-01-25,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0137,31.0,Male,GHA,2023-12-03,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0138,7.0,Female,GHA,2023-10-13,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0139,39.0,Female,GHA,2024-06-05,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0140,0.67,Female,GHA,2024-07-03,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0141,19.0,Female,GHA,2023-04-29,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0142,2.0,Female,GHA,2024-08-17,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0143,42.0,Female,GHA,2023-04-22,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0144,11.0,Female,GHA,2023-11-18,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0145,0.6,Female,GHA,2024-06-07,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0146,12.0,Male,GHA,2024-08-13,Survived,In-patient,Western,GH-WP,Saint Martin de Porres Hospital,Mission Hospital,4.9,-1.75
+P0147,27.0,Male,GHA,2023-02-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0148,0.0,Female,GHA,2024-07-05,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0149,0.36,Male,GHA,2023-03-13,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0150,38.0,Female,GHA,2023-11-18,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0151,0.71,Male,GHA,2023-11-04,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0152,0.66,Female,GHA,2023-12-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0153,17.0,Female,GHA,2023-10-30,Survived,Out-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0154,25.0,Male,GHA,2024-03-06,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0155,0.67,Female,GHA,2023-06-28,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0156,0.4,Female,GHA,2023-01-01,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0157,28.0,Female,GHA,2023-08-04,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0158,0.78,Female,GHA,2024-09-13,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0159,13.0,Female,GHA,2024-03-28,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0160,16.0,Female,GHA,2023-08-07,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0161,0.79,Female,GHA,2023-06-23,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0162,0.28,Male,GHA,2024-11-10,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0163,43.0,Female,GHA,2023-08-29,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0164,26.0,Female,GHA,2023-07-23,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0165,1.0,Male,GHA,2023-02-17,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0166,4.0,Male,GHA,2024-09-17,Survived,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0167,0.45,Male,GHA,2024-10-06,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0168,0.71,Male,GHA,2024-01-29,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0169,0.4,Female,GHA,2023-06-01,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0170,0.88,Male,GHA,2023-04-20,Unknown,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0171,48.0,Female,GHA,2023-06-30,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0172,69.0,Female,GHA,2024-07-24,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0173,44.0,Male,GHA,2024-04-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0174,18.0,Male,GHA,2024-04-20,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0175,4.0,Female,GHA,2024-09-19,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0176,14.0,Female,GHA,2024-04-01,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0177,0.74,Male,GHA,2024-05-01,Survived,Out-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0178,3.0,Female,GHA,2023-09-11,Died,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0179,18.0,Female,GHA,2024-06-17,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0180,61.0,Female,GHA,2023-09-02,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0181,94.0,Female,GHA,2023-03-21,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0182,26.0,Female,GHA,2023-10-06,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0183,3.0,Female,GHA,2024-07-07,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0184,23.0,Male,GHA,2023-06-04,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0185,12.0,Male,GHA,2024-12-11,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0186,17.0,Male,GHA,2023-08-08,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0187,4.0,Male,GHA,2024-02-22,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0188,100.0,Female,GHA,2024-04-22,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0189,20.0,Female,GHA,2023-07-31,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0190,31.0,Female,GHA,2024-08-21,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0191,0.85,Male,GHA,2024-08-12,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0192,0.47,Female,GHA,2023-12-27,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0193,4.0,Female,GHA,2024-03-05,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0194,0.48,Male,GHA,2023-10-07,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0195,4.0,Female,GHA,2023-01-30,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0196,29.0,Female,GHA,2024-11-15,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0197,0.72,Female,GHA,2024-04-23,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0198,15.0,Male,GHA,2024-06-30,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0199,12.0,Male,GHA,2024-08-29,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0200,71.0,Male,GHA,2024-10-20,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0201,23.0,Female,GHA,2024-04-17,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0202,6.0,Male,GHA,2023-09-24,Unknown,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0203,11.0,Female,GHA,2023-08-05,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0204,0.32,Female,GHA,2024-01-24,Died,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0205,32.0,Female,GHA,2023-09-16,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0206,56.0,Male,GHA,2023-01-20,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0207,11.0,Male,GHA,2023-08-18,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0208,65.0,Male,GHA,2024-10-29,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0209,0.75,Male,GHA,2023-09-11,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0210,67.0,Male,GHA,2024-09-28,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0211,0.24,Male,GHA,2024-04-29,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0212,0.56,Male,GHA,2023-08-12,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0213,17.0,Female,GHA,2023-09-20,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0214,2.0,Female,GHA,2024-09-12,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0215,0.77,Male,GHA,2023-06-17,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0216,44.0,Female,GHA,2024-08-15,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0217,10.0,Male,GHA,2024-08-12,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0218,53.0,Female,GHA,2023-07-23,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0219,37.0,Male,GHA,2024-12-08,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0220,22.0,Male,GHA,2024-12-14,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0221,5.0,Female,GHA,2023-05-04,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0222,52.0,Male,GHA,2024-06-29,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0223,0.65,Female,GHA,2023-03-12,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0224,41.0,Female,GHA,2024-03-06,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0225,1.0,Female,GHA,2024-03-19,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0226,4.0,Female,GHA,2024-12-25,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0227,12.0,Male,GHA,2023-06-30,Died,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0228,5.0,Female,GHA,2024-07-05,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0229,33.0,Female,GHA,2024-03-22,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0230,3.0,Female,GHA,2023-09-09,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0231,49.0,Male,GHA,2024-04-06,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0232,18.0,Male,GHA,2024-04-20,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0233,29.0,Female,GHA,2023-01-30,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0234,86.0,Female,GHA,2023-07-06,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0235,0.21,Female,GHA,2023-09-22,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0236,3.0,Female,GHA,2024-09-02,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0237,5.0,Female,GHA,2023-01-11,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0238,43.0,Male,GHA,2023-09-05,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0239,0.48,Female,GHA,2023-09-04,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0240,16.0,Female,GHA,2024-12-29,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0241,0.44,Female,GHA,2023-01-18,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0242,3.0,Male,GHA,2023-08-15,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0243,26.0,Female,GHA,2023-11-10,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0244,56.0,Female,GHA,2024-07-20,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0245,32.0,Female,GHA,2024-07-17,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0246,3.0,Female,GHA,2024-12-20,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0247,49.0,Female,GHA,2023-11-10,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0248,2.0,Female,GHA,2023-05-04,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0249,3.0,Male,GHA,2023-05-03,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0250,78.0,Male,GHA,2023-08-10,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0251,0.27,Female,GHA,2024-08-26,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0252,44.0,Female,GHA,2023-07-18,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0253,2.0,Female,GHA,2024-01-05,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0254,85.0,Male,GHA,2023-01-15,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0255,0.27,Male,GHA,2023-02-25,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0256,23.0,Female,GHA,2024-10-15,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0257,72.0,Female,GHA,2023-01-13,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0258,4.0,Female,GHA,2024-05-05,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0259,3.0,Female,GHA,2023-07-08,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0260,3.0,Male,GHA,2024-05-04,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0261,7.0,Male,GHA,2024-02-15,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0262,43.0,Female,GHA,2024-08-13,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0263,45.0,Male,GHA,2023-06-02,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0264,71.0,Female,GHA,2023-09-12,Unknown,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0265,58.0,Male,GHA,2024-03-02,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0266,65.0,Male,GHA,2024-06-19,Died,In-patient,Western,GH-WP,Saint Martin de Porres Hospital,Mission Hospital,4.9,-1.75
+P0267,13.0,Female,GHA,2024-03-29,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0268,5.0,Female,GHA,2024-03-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0269,0.56,Female,GHA,2023-03-03,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0270,18.0,Male,GHA,2023-08-01,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0271,49.0,Male,GHA,2024-11-07,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0272,76.0,Male,GHA,2023-09-03,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0273,101.0,Male,GHA,2023-03-18,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0274,19.0,Male,GHA,2024-02-23,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0275,5.0,Female,GHA,2024-04-26,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0276,0.03,Female,GHA,2023-10-23,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0277,95.0,Female,GHA,2023-03-14,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0278,27.0,Male,GHA,2024-10-02,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0279,4.0,Male,GHA,2023-04-28,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0280,0.64,Male,GHA,2023-09-30,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0281,43.0,Male,GHA,2023-03-03,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0282,28.0,Male,GHA,2024-09-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0283,13.0,Female,GHA,2023-05-08,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0284,0.68,Female,GHA,2024-12-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0285,49.0,Female,GHA,2024-05-27,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0286,55.0,Female,GHA,2023-03-24,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0287,4.0,Male,GHA,2023-11-27,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0288,41.0,Female,GHA,2023-04-04,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0289,40.0,Male,GHA,2024-08-12,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0290,0.99,Male,GHA,2024-11-19,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0291,59.0,Female,GHA,2023-02-11,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0292,0.47,Male,GHA,2024-10-29,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0293,0.91,Female,GHA,2023-07-05,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0294,39.0,Female,GHA,2024-05-18,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0295,56.0,Male,GHA,2023-12-23,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0296,87.0,Female,GHA,2023-11-25,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0297,0.85,Male,GHA,2023-12-04,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0298,4.0,Female,GHA,2023-10-23,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0299,5.0,Female,GHA,2023-02-07,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0300,71.0,Female,GHA,2023-11-19,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0301,51.0,Female,GHA,2023-04-29,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0302,14.0,Female,GHA,2023-01-02,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0303,4.0,Female,GHA,2023-02-25,Survived,In-patient,Northern,GH-NP,Tamale Teaching Hospital,Teaching Hospital,9.4007,-0.8393
+P0304,0.51,Male,GHA,2024-09-29,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0305,0.62,Female,GHA,2023-02-22,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0306,83.0,Male,GHA,2024-07-16,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0307,10.0,Male,GHA,2024-03-24,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0308,73.0,Female,GHA,2023-01-30,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0309,2.0,Male,GHA,2023-11-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0310,58.0,Male,GHA,2024-02-22,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0311,48.0,Male,GHA,2023-04-27,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0312,44.0,Female,GHA,2024-10-25,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0313,97.0,Male,GHA,2023-10-26,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0314,0.41,Female,GHA,2024-05-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0315,2.0,Female,GHA,2024-04-12,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0316,4.0,Male,GHA,2023-07-15,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0317,0.86,Male,GHA,2023-10-10,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0318,29.0,Female,GHA,2024-06-03,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0319,41.0,Female,GHA,2023-10-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0320,5.0,Female,GHA,2024-08-16,Survived,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0321,23.0,Female,GHA,2024-04-02,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0322,3.0,Female,GHA,2023-12-07,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0323,0.45,Female,GHA,2023-11-26,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0324,26.0,Male,GHA,2024-08-08,Died,In-patient,Greater Accra,GH-AA,37 Military Hospital,Military Hospital,5.57,-0.19
+P0325,0.23,Female,GHA,2024-02-25,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0326,0.31,Male,GHA,2024-04-29,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0327,31.0,Female,GHA,2024-11-10,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0328,4.0,Male,GHA,2023-02-07,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0329,35.0,Male,GHA,2024-08-27,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0330,7.0,Female,GHA,2024-03-26,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0331,5.0,Male,GHA,2024-04-12,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0332,75.0,Male,GHA,2024-02-24,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0333,21.0,Male,GHA,2024-04-25,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0334,3.0,Female,GHA,2024-09-30,Unknown,Out-patient,Northern,GH-NP,Tamale Teaching Hospital,Teaching Hospital,9.4007,-0.8393
+P0335,1.0,Female,GHA,2023-12-03,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0336,3.0,Female,GHA,2024-10-03,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0337,58.0,Female,GHA,2023-02-06,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0338,81.0,Male,GHA,2024-10-08,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0339,9.0,Female,GHA,2023-04-03,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0340,44.0,Female,GHA,2024-10-10,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0341,94.0,Male,GHA,2023-06-20,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0342,41.0,Female,GHA,2023-02-17,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0343,0.79,Female,GHA,2023-10-28,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0344,52.0,Female,GHA,2024-03-17,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0345,9.0,Male,GHA,2024-06-27,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0346,0.56,Female,GHA,2023-07-04,Unknown,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0347,24.0,Male,GHA,2023-03-22,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0348,105.0,Female,GHA,2024-11-30,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0349,0.49,Male,GHA,2024-08-20,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0350,9.0,Male,GHA,2024-04-17,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0351,0.45,Female,GHA,2024-11-13,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0352,33.0,Male,GHA,2023-10-22,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0353,21.0,Male,GHA,2024-03-28,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0354,5.0,Female,GHA,2023-11-03,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0355,0.68,Female,GHA,2024-04-12,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0356,2.0,Female,GHA,2024-01-29,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0357,72.0,Female,GHA,2023-08-31,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0358,37.0,Female,GHA,2024-01-03,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0359,17.0,Female,GHA,2023-10-30,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0360,4.0,Male,GHA,2023-10-09,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0361,102.0,Male,GHA,2024-12-03,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0362,60.0,Male,GHA,2024-05-23,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0363,80.0,Female,GHA,2024-09-13,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0364,48.0,Female,GHA,2024-10-13,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0365,38.0,Male,GHA,2023-09-14,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0366,16.0,Male,GHA,2023-04-10,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0367,85.0,Male,GHA,2024-03-27,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0368,59.0,Male,GHA,2024-01-09,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0369,43.0,Male,GHA,2023-10-30,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0370,64.0,Female,GHA,2024-03-01,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0371,47.0,Male,GHA,2023-05-16,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0372,5.0,Female,GHA,2024-05-28,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0373,8.0,Female,GHA,2023-09-21,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0374,3.0,Female,GHA,2023-12-13,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0375,33.0,Male,GHA,2023-03-19,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0376,18.0,Male,GHA,2023-08-20,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0377,18.0,Female,GHA,2024-07-24,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0378,21.0,Female,GHA,2024-02-09,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0379,82.0,Male,GHA,2024-07-03,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0380,33.0,Male,GHA,2024-01-13,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0381,0.58,Female,GHA,2024-10-15,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0382,7.0,Female,GHA,2024-11-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0383,56.0,Male,GHA,2023-01-26,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0384,38.0,Female,GHA,2023-08-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0385,0.63,Male,GHA,2024-04-20,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0386,39.0,Female,GHA,2024-02-23,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0387,74.0,Male,GHA,2023-02-16,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0388,0.3,Male,GHA,2024-05-19,Unknown,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0389,44.0,Male,GHA,2023-08-29,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0390,31.0,Male,GHA,2024-04-09,Died,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0391,5.0,Female,GHA,2024-03-05,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0392,54.0,Male,GHA,2024-11-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0393,34.0,Male,GHA,2024-09-22,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0394,49.0,Female,GHA,2023-02-03,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0395,0.22,Female,GHA,2024-03-31,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0396,3.0,Male,GHA,2023-04-12,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0397,100.0,Female,GHA,2024-10-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0398,6.0,Female,GHA,2024-02-12,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0399,0.19,Female,GHA,2023-05-06,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0400,1.0,Female,GHA,2024-11-09,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0401,0.64,Male,GHA,2024-09-03,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0402,0.05,Male,GHA,2023-12-08,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0403,2.0,Male,GHA,2024-08-01,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0404,7.0,Male,GHA,2024-07-21,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0405,103.0,Male,GHA,2023-08-10,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0406,11.0,Male,GHA,2023-06-01,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0407,0.27,Male,GHA,2023-05-29,Survived,In-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0408,0.53,Male,GHA,2023-06-28,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0409,40.0,Male,GHA,2023-01-27,Unknown,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0410,6.0,Male,GHA,2024-01-02,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0411,15.0,Male,GHA,2023-11-28,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0412,0.17,Male,GHA,2023-02-23,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0413,64.0,Male,GHA,2024-03-07,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0414,1.0,Male,GHA,2024-05-02,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0415,30.0,Female,GHA,2024-06-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0416,33.0,Male,GHA,2024-05-30,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0417,105.0,Male,GHA,2023-02-14,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0418,0.45,Female,GHA,2023-02-01,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0419,56.0,Male,GHA,2024-02-16,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0420,0.68,Female,GHA,2024-05-17,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0421,1.0,Female,GHA,2023-03-24,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0422,0.6,Female,GHA,2023-03-09,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0423,27.0,Male,GHA,2024-10-01,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0424,12.0,Female,GHA,2024-09-03,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0425,0.45,Female,GHA,2024-09-11,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0426,72.0,Female,GHA,2024-12-19,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0427,16.0,Male,GHA,2024-10-28,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0428,32.0,Male,GHA,2024-04-07,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0429,54.0,Male,GHA,2023-12-14,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0430,0.39,Female,GHA,2023-04-08,Unknown,In-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0431,0.42,Female,GHA,2024-11-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0432,30.0,Female,GHA,2023-06-06,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0433,43.0,Female,GHA,2023-04-04,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0434,7.0,Male,GHA,2024-03-18,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0435,17.0,Male,GHA,2024-01-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0436,58.0,Male,GHA,2023-03-03,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0437,16.0,Female,GHA,2023-05-06,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0438,52.0,Female,GHA,2024-11-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0439,0.86,Female,GHA,2023-02-22,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0440,104.0,Female,GHA,2023-11-16,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0441,7.0,Female,GHA,2024-08-14,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0442,0.15,Male,GHA,2024-05-08,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0443,7.0,Male,GHA,2023-12-25,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0444,44.0,Female,GHA,2023-10-13,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0445,32.0,Male,GHA,2024-07-28,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0446,0.6,Male,GHA,2024-11-04,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0447,19.0,Female,GHA,2023-07-04,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0448,0.7,Female,GHA,2023-11-13,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0449,11.0,Female,GHA,2023-01-07,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0450,23.0,Male,GHA,2024-08-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0451,70.0,Female,GHA,2023-05-26,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0452,1.0,Male,GHA,2024-06-27,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0453,0.37,Male,GHA,2024-04-09,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0454,2.0,Female,GHA,2024-01-14,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0455,3.0,Female,GHA,2024-08-04,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0456,1.0,Male,GHA,2023-06-09,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0457,38.0,Male,GHA,2023-02-20,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0458,49.0,Male,GHA,2024-03-29,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0459,34.0,Female,GHA,2024-09-13,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0460,0.41,Female,GHA,2023-08-09,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0461,11.0,Male,GHA,2024-03-16,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0462,84.0,Male,GHA,2024-11-25,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0463,57.0,Female,GHA,2024-11-14,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0464,42.0,Female,GHA,2023-08-14,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0465,60.0,Female,GHA,2023-02-26,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0466,47.0,Male,GHA,2023-11-05,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0467,74.0,Male,GHA,2023-09-19,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0468,0.32,Female,GHA,2023-01-08,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0469,17.0,Female,GHA,2024-03-16,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0470,23.0,Male,GHA,2024-01-25,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0471,35.0,Male,GHA,2024-07-26,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0472,0.07,Female,GHA,2023-02-13,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0473,41.0,Female,GHA,2024-04-15,Survived,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0474,51.0,Male,GHA,2024-08-12,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0475,37.0,Female,GHA,2024-02-19,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0476,28.0,Female,GHA,2023-04-28,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0477,41.0,Female,GHA,2023-11-29,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0478,5.0,Male,GHA,2024-04-16,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0479,71.0,Female,GHA,2024-03-23,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0480,48.0,Male,GHA,2024-03-22,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0481,35.0,Female,GHA,2023-03-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0482,50.0,Female,GHA,2023-12-14,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0483,29.0,Male,GHA,2023-06-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0484,35.0,Male,GHA,2024-10-10,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0485,5.0,Male,GHA,2024-06-06,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0486,0.9,Male,GHA,2023-12-24,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0487,64.0,Female,GHA,2024-10-22,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0488,2.0,Male,GHA,2023-04-16,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0489,27.0,Male,GHA,2023-07-22,Unknown,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0490,38.0,Male,GHA,2023-06-06,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0491,0.18,Male,GHA,2024-10-05,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0492,33.0,Female,GHA,2024-07-31,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0493,5.0,Female,GHA,2024-10-20,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0494,3.0,Female,GHA,2023-06-04,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0495,1.0,Female,GHA,2024-04-25,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0496,0.63,Female,GHA,2023-10-09,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0497,0.35,Male,GHA,2023-03-17,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0498,13.0,Female,GHA,2024-04-07,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0499,20.0,Male,GHA,2024-01-13,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0500,70.0,Female,GHA,2024-10-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0501,5.0,Male,GHA,2024-08-31,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0502,4.0,Female,GHA,2024-08-17,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0503,0.45,Male,GHA,2024-08-08,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0504,86.0,Male,GHA,2024-09-11,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0505,5.0,Female,GHA,2023-06-04,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0506,94.0,Male,GHA,2023-04-16,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0507,17.0,Female,GHA,2023-03-28,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0508,1.0,Male,GHA,2023-09-11,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0509,13.0,Female,GHA,2024-06-20,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0510,0.36,Male,GHA,2023-10-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0511,54.0,Female,GHA,2023-12-13,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0512,61.0,Male,GHA,2024-10-24,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0513,7.0,Female,GHA,2023-12-04,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0514,0.55,Male,GHA,2024-01-31,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0515,10.0,Female,GHA,2024-11-03,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0516,0.33,Male,GHA,2024-08-19,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0517,0.91,Male,GHA,2023-11-14,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0518,0.13,Female,GHA,2024-12-26,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0519,3.0,Male,GHA,2024-07-26,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0520,3.0,Female,GHA,2023-05-11,Unknown,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0521,0.64,Male,GHA,2024-03-09,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0522,6.0,Female,GHA,2024-01-07,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0523,46.0,Female,GHA,2023-08-08,Died,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0524,4.0,Female,GHA,2023-07-16,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0525,23.0,Male,GHA,2023-06-08,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0526,84.0,Male,GHA,2023-04-14,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0527,62.0,Male,GHA,2023-12-11,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0528,5.0,Male,GHA,2024-01-21,Survived,In-patient,Western,GH-WP,Saint Martin de Porres Hospital,Mission Hospital,4.9,-1.75
+P0529,0.16,Male,GHA,2024-12-10,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0530,17.0,Male,GHA,2024-03-24,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0531,54.0,Male,GHA,2024-01-09,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0532,94.0,Male,GHA,2024-09-17,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0533,65.0,Female,GHA,2024-04-04,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0534,36.0,Male,GHA,2023-09-02,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0535,0.96,Female,GHA,2024-04-25,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0536,52.0,Male,GHA,2024-11-25,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0537,13.0,Female,GHA,2023-10-16,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0538,14.0,Female,GHA,2024-06-24,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0539,24.0,Female,GHA,2023-07-24,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0540,0.86,Male,GHA,2023-02-23,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0541,30.0,Female,GHA,2024-07-21,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0542,17.0,Male,GHA,2024-06-12,Survived,In-patient,Western,GH-WP,Effia Nkwanta Regional Hospital,Regional Hospital,4.9333,-1.7667
+P0543,28.0,Male,GHA,2023-03-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0544,0.27,Male,GHA,2024-06-09,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0545,4.0,Male,GHA,2023-04-04,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0546,4.0,Male,GHA,2023-12-24,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0547,32.0,Male,GHA,2023-02-24,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0548,57.0,Female,GHA,2024-01-18,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0549,31.0,Male,GHA,2023-03-25,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0550,9.0,Female,GHA,2023-01-29,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0551,72.0,Female,GHA,2024-10-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0552,45.0,Female,GHA,2023-05-21,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0553,3.0,Male,GHA,2024-04-28,Died,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0554,0.75,Male,GHA,2024-04-25,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0555,60.0,Female,GHA,2023-01-06,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0556,19.0,Male,GHA,2023-09-20,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0557,0.83,Male,GHA,2024-07-15,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0558,1.0,Female,GHA,2023-10-23,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0559,50.0,Male,GHA,2023-05-05,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0560,48.0,Male,GHA,2024-03-05,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0561,43.0,Female,GHA,2023-04-24,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0562,60.0,Female,GHA,2024-07-02,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0563,39.0,Male,GHA,2024-06-11,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0564,23.0,Male,GHA,2023-10-26,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0565,6.0,Female,GHA,2024-09-21,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0566,48.0,Female,GHA,2024-08-07,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0567,24.0,Female,GHA,2024-11-11,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0568,5.0,Male,GHA,2024-01-05,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0569,14.0,Male,GHA,2024-07-11,Unknown,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0570,53.0,Male,GHA,2024-04-26,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0571,4.0,Male,GHA,2024-01-18,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0572,0.74,Female,GHA,2024-01-01,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0573,11.0,Male,GHA,2023-09-04,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0574,5.0,Male,GHA,2023-12-07,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0575,1.0,Male,GHA,2023-12-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0576,61.0,Female,GHA,2023-06-29,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0577,96.0,Female,GHA,2024-10-08,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0578,0.8,Male,GHA,2023-03-06,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0579,6.0,Female,GHA,2023-10-28,Unknown,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0580,1.0,Male,GHA,2023-07-24,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0581,86.0,Male,GHA,2023-11-14,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0582,58.0,Female,GHA,2024-04-29,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0583,20.0,Female,GHA,2024-10-24,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0584,28.0,Male,GHA,2024-01-01,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0585,16.0,Male,GHA,2023-12-06,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0586,44.0,Female,GHA,2024-01-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0587,91.0,Female,GHA,2024-03-26,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0588,29.0,Female,GHA,2023-07-11,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0589,34.0,Female,GHA,2024-01-12,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0590,43.0,Female,GHA,2024-03-10,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0591,0.43,Male,GHA,2023-07-04,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0592,29.0,Female,GHA,2023-04-16,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0593,3.0,Male,GHA,2024-11-07,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0594,28.0,Female,GHA,2024-04-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0595,2.0,Female,GHA,2024-12-07,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0596,52.0,Female,GHA,2024-04-02,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0597,3.0,Male,GHA,2024-09-21,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0598,27.0,Female,GHA,2024-10-16,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0599,7.0,Male,GHA,2024-11-18,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0600,0.36,Female,GHA,2024-11-26,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0601,1.0,Male,GHA,2023-05-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0602,20.0,Female,GHA,2023-05-10,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0603,81.0,Male,GHA,2024-10-22,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0604,11.0,Female,GHA,2024-01-28,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0605,15.0,Male,GHA,2023-06-07,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0606,0.94,Female,GHA,2024-01-16,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0607,1.0,Female,GHA,2024-08-10,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0608,5.0,Male,GHA,2024-01-11,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0609,86.0,Female,GHA,2024-10-27,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0610,9.0,Female,GHA,2023-04-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0611,24.0,Male,GHA,2024-05-26,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0612,14.0,Female,GHA,2023-05-01,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0613,0.77,Female,GHA,2024-12-21,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0614,25.0,Female,GHA,2024-09-18,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0615,17.0,Female,GHA,2024-05-17,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0616,73.0,Male,GHA,2023-05-19,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0617,33.0,Male,GHA,2023-06-26,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0618,7.0,Female,GHA,2024-11-29,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0619,88.0,Female,GHA,2024-12-27,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0620,0.54,Male,GHA,2023-10-25,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0621,2.0,Female,GHA,2024-12-29,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0622,18.0,Male,GHA,2024-01-06,Survived,Out-patient,Western,GH-WP,Saint Martin de Porres Hospital,Mission Hospital,4.9,-1.75
+P0623,22.0,Male,GHA,2023-07-25,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0624,48.0,Male,GHA,2024-05-20,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0625,30.0,Male,GHA,2024-07-21,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0626,55.0,Female,GHA,2024-07-18,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0627,5.0,Male,GHA,2023-03-30,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0628,50.0,Male,GHA,2024-02-12,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0629,14.0,Female,GHA,2024-02-25,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0630,0.82,Female,GHA,2023-03-17,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0631,29.0,Male,GHA,2024-10-19,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0632,55.0,Male,GHA,2024-04-22,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0633,0.13,Female,GHA,2024-07-18,Survived,Out-patient,Northern,GH-NP,Tamale Teaching Hospital,Teaching Hospital,9.4007,-0.8393
+P0634,2.0,Male,GHA,2024-03-19,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0635,44.0,Male,GHA,2024-06-14,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0636,28.0,Male,GHA,2023-06-18,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0637,0.32,Male,GHA,2024-12-27,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0638,11.0,Male,GHA,2024-06-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0639,43.0,Female,GHA,2023-09-14,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0640,16.0,Male,GHA,2024-07-18,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0641,45.0,Female,GHA,2024-10-02,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0642,15.0,Female,GHA,2024-06-30,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0643,57.0,Male,GHA,2024-10-18,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0644,5.0,Male,GHA,2024-08-17,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0645,76.0,Male,GHA,2024-11-05,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0646,0.83,Female,GHA,2024-07-31,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0647,19.0,Male,GHA,2023-03-25,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0648,5.0,Male,GHA,2023-09-29,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0649,37.0,Male,GHA,2024-03-02,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0650,4.0,Male,GHA,2024-10-04,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0651,39.0,Female,GHA,2023-11-06,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0652,0.24,Female,GHA,2024-12-02,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0653,28.0,Female,GHA,2024-04-09,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0654,1.0,Male,GHA,2023-06-11,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0655,4.0,Female,GHA,2024-05-10,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0656,47.0,Female,GHA,2023-12-15,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0657,11.0,Male,GHA,2023-11-23,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0658,12.0,Female,GHA,2023-05-14,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0659,0.51,Female,GHA,2023-04-19,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0660,81.0,Female,GHA,2024-04-22,Unknown,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0661,3.0,Male,GHA,2024-04-05,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0662,0.14,Male,GHA,2023-02-21,Unknown,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0663,12.0,Female,GHA,2024-09-22,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0664,9.0,Female,GHA,2023-06-13,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0665,59.0,Female,GHA,2023-11-17,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0666,18.0,Male,GHA,2023-06-13,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0667,35.0,Female,GHA,2024-04-23,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0668,50.0,Female,GHA,2024-05-24,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0669,21.0,Male,GHA,2024-02-07,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0670,2.0,Female,GHA,2023-08-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0671,1.0,Female,GHA,2023-02-21,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0672,4.0,Female,GHA,2024-09-03,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0673,10.0,Female,GHA,2024-07-03,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0674,0.84,Male,GHA,2024-03-17,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0675,27.0,Male,GHA,2024-01-10,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0676,11.0,Female,GHA,2023-02-16,Survived,In-patient,Western,GH-WP,Effia Nkwanta Regional Hospital,Regional Hospital,4.9333,-1.7667
+P0677,42.0,Female,GHA,2024-08-06,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0678,0.36,Male,GHA,2023-10-23,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0679,4.0,Male,GHA,2024-05-31,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0680,36.0,Female,GHA,2023-10-14,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0681,45.0,Male,GHA,2023-04-10,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0682,11.0,Female,GHA,2023-12-14,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0683,2.0,Female,GHA,2023-07-23,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0684,0.5,Female,GHA,2023-02-16,Unknown,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0685,74.0,Male,GHA,2024-12-31,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0686,4.0,Female,GHA,2024-06-15,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0687,23.0,Female,GHA,2024-09-12,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0688,51.0,Male,GHA,2024-09-19,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0689,2.0,Female,GHA,2024-02-07,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0690,15.0,Female,GHA,2023-12-11,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0691,0.7,Female,GHA,2023-11-03,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0692,0.81,Female,GHA,2024-01-13,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0693,16.0,Female,GHA,2023-04-23,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0694,59.0,Female,GHA,2023-11-12,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0695,0.59,Male,GHA,2023-09-29,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0696,0.71,Male,GHA,2024-08-20,Unknown,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0697,46.0,Female,GHA,2024-06-20,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0698,75.0,Female,GHA,2024-11-28,Survived,Out-patient,Northern,GH-NP,Tamale Teaching Hospital,Teaching Hospital,9.4007,-0.8393
+P0699,20.0,Male,GHA,2024-08-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0700,0.19,Male,GHA,2024-03-27,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0701,54.0,Female,GHA,2023-06-05,Unknown,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0702,17.0,Female,GHA,2023-07-28,Died,In-patient,Western,GH-WP,Effia Nkwanta Regional Hospital,Regional Hospital,4.9333,-1.7667
+P0703,14.0,Female,GHA,2024-09-18,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0704,20.0,Female,GHA,2024-12-23,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0705,14.0,Male,GHA,2023-08-01,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0706,96.0,Female,GHA,2024-06-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0707,3.0,Female,GHA,2023-06-27,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0708,14.0,Female,GHA,2023-12-17,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0709,0.67,Female,GHA,2024-11-28,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0710,105.0,Female,GHA,2024-05-10,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0711,9.0,Male,GHA,2023-10-13,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0712,26.0,Female,GHA,2023-11-01,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0713,25.0,Female,GHA,2024-12-07,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0714,0.31,Female,GHA,2023-12-24,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0715,3.0,Female,GHA,2023-05-05,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0716,53.0,Female,GHA,2023-12-20,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0717,10.0,Male,GHA,2023-02-13,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0718,1.0,Female,GHA,2023-12-21,Died,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0719,61.0,Female,GHA,2023-09-20,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0720,9.0,Female,GHA,2023-07-26,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0721,5.0,Female,GHA,2024-12-13,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0722,0.14,Female,GHA,2024-09-22,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0723,48.0,Male,GHA,2023-02-21,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0724,61.0,Male,GHA,2023-08-27,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0725,7.0,Male,GHA,2024-02-28,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0726,0.71,Female,GHA,2023-04-13,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0727,6.0,Male,GHA,2024-07-17,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0728,4.0,Male,GHA,2024-10-30,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0729,56.0,Female,GHA,2024-10-28,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0730,65.0,Male,GHA,2023-10-22,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0731,3.0,Female,GHA,2024-10-23,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0732,18.0,Male,GHA,2023-04-02,Died,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0733,58.0,Male,GHA,2023-02-08,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0734,0.41,Male,GHA,2023-06-30,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0735,53.0,Male,GHA,2024-05-22,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0736,3.0,Male,GHA,2023-02-08,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0737,50.0,Male,GHA,2024-08-04,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0738,11.0,Male,GHA,2023-10-19,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0739,39.0,Female,GHA,2024-07-10,Unknown,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0740,45.0,Female,GHA,2024-05-31,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0741,0.27,Female,GHA,2023-04-26,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0742,46.0,Female,GHA,2024-04-14,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0743,77.0,Female,GHA,2023-01-15,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0744,50.0,Female,GHA,2024-08-04,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0745,46.0,Male,GHA,2024-09-17,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0746,12.0,Female,GHA,2024-06-11,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0747,21.0,Female,GHA,2024-02-15,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0748,24.0,Male,GHA,2023-05-24,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0749,29.0,Female,GHA,2023-09-12,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0750,0.26,Male,GHA,2023-08-30,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0751,27.0,Female,GHA,2023-12-04,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0752,37.0,Female,GHA,2024-08-09,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0753,27.0,Male,GHA,2024-10-31,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0754,2.0,Female,GHA,2023-03-05,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0755,55.0,Male,GHA,2023-11-11,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0756,4.0,Male,GHA,2024-12-03,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0757,0.68,Female,GHA,2024-10-16,Unknown,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0758,30.0,Female,GHA,2024-09-21,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0759,48.0,Male,GHA,2023-05-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0760,8.0,Female,GHA,2024-04-10,Survived,In-patient,Western,GH-WP,Saint Martin de Porres Hospital,Mission Hospital,4.9,-1.75
+P0761,0.41,Female,GHA,2024-07-16,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0762,65.0,Female,GHA,2024-07-04,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0763,18.0,Male,GHA,2023-09-11,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0764,5.0,Male,GHA,2024-04-02,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0765,21.0,Female,GHA,2024-07-31,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0766,1.0,Male,GHA,2024-07-14,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0767,37.0,Male,GHA,2024-07-03,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0768,2.0,Male,GHA,2023-12-02,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0769,1.0,Female,GHA,2024-11-27,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0770,103.0,Male,GHA,2024-05-15,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0771,57.0,Male,GHA,2024-04-01,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0772,33.0,Male,GHA,2023-05-16,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0773,33.0,Female,GHA,2024-07-31,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0774,14.0,Male,GHA,2024-04-18,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0775,67.0,Female,GHA,2024-02-10,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0776,0.81,Female,GHA,2023-08-12,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0777,1.0,Male,GHA,2024-03-09,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0778,21.0,Female,GHA,2024-07-08,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0779,21.0,Male,GHA,2024-04-28,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0780,50.0,Male,GHA,2024-02-23,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0781,2.0,Male,GHA,2024-10-18,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0782,52.0,Female,GHA,2024-01-27,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0783,90.0,Female,GHA,2024-01-20,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0784,100.0,Male,GHA,2023-05-17,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0785,44.0,Female,GHA,2023-07-02,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0786,14.0,Female,GHA,2023-05-11,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0787,1.0,Male,GHA,2023-01-24,Died,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0788,55.0,Female,GHA,2024-11-20,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0789,36.0,Female,GHA,2024-01-24,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0790,81.0,Male,GHA,2024-04-16,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0791,8.0,Female,GHA,2023-10-10,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0792,0.93,Male,GHA,2023-04-26,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0793,62.0,Male,GHA,2024-03-05,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0794,0.24,Male,GHA,2023-03-10,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0795,38.0,Male,GHA,2023-02-04,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0796,0.59,Female,GHA,2024-12-21,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0797,9.0,Male,GHA,2023-02-15,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0798,55.0,Female,GHA,2023-08-28,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0799,69.0,Male,GHA,2023-05-24,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0800,80.0,Female,GHA,2024-08-12,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0801,37.0,Female,GHA,2024-09-04,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0802,26.0,Female,GHA,2023-11-06,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0803,16.0,Male,GHA,2024-06-17,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0804,0.41,Male,GHA,2023-10-09,Survived,In-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0805,0.55,Male,GHA,2024-08-28,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0806,16.0,Male,GHA,2024-11-26,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0807,0.55,Female,GHA,2023-02-18,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0808,0.93,Female,GHA,2024-11-18,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0809,5.0,Female,GHA,2023-11-23,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0810,4.0,Female,GHA,2023-06-02,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0811,12.0,Female,GHA,2023-07-08,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0812,26.0,Female,GHA,2023-08-19,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0813,63.0,Female,GHA,2023-05-28,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0814,20.0,Female,GHA,2024-07-29,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0815,32.0,Female,GHA,2024-07-24,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0816,4.0,Male,GHA,2023-09-06,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0817,47.0,Female,GHA,2023-12-05,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0818,33.0,Male,GHA,2024-01-15,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0819,58.0,Male,GHA,2023-07-15,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0820,49.0,Male,GHA,2024-01-22,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0821,7.0,Male,GHA,2023-07-12,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0822,13.0,Male,GHA,2023-08-02,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0823,50.0,Female,GHA,2023-01-16,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0824,9.0,Male,GHA,2023-05-01,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0825,26.0,Female,GHA,2024-12-13,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0826,12.0,Male,GHA,2023-09-03,Survived,In-patient,Northern,GH-NP,Tamale Teaching Hospital,Teaching Hospital,9.4007,-0.8393
+P0827,3.0,Female,GHA,2024-01-25,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0828,14.0,Female,GHA,2024-10-26,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0829,28.0,Female,GHA,2023-09-25,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0830,14.0,Female,GHA,2024-05-24,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0831,22.0,Female,GHA,2024-04-25,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0832,47.0,Female,GHA,2024-01-15,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0833,0.41,Female,GHA,2024-07-30,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0834,0.73,Male,GHA,2023-01-17,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0835,101.0,Female,GHA,2024-08-21,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0836,50.0,Female,GHA,2023-06-06,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0837,11.0,Male,GHA,2023-08-24,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0838,5.0,Female,GHA,2023-09-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0839,101.0,Female,GHA,2024-11-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0840,27.0,Female,GHA,2024-05-15,Died,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0841,55.0,Female,GHA,2023-06-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0842,76.0,Female,GHA,2023-05-24,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0843,0.18,Female,GHA,2024-07-09,Survived,Out-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0844,5.0,Male,GHA,2023-02-04,Died,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0845,62.0,Male,GHA,2023-02-19,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0846,12.0,Male,GHA,2023-05-21,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0847,0.07,Male,GHA,2023-06-04,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0848,0.22,Male,GHA,2024-04-11,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0849,42.0,Female,GHA,2024-09-24,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0850,62.0,Female,GHA,2024-05-14,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0851,0.01,Male,GHA,2024-07-18,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0852,41.0,Female,GHA,2023-01-18,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0853,5.0,Female,GHA,2023-10-21,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0854,0.5,Male,GHA,2024-12-15,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0855,2.0,Female,GHA,2023-04-20,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0856,57.0,Male,GHA,2023-06-02,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0857,47.0,Male,GHA,2024-09-26,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0858,52.0,Female,GHA,2023-10-01,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0859,43.0,Female,GHA,2024-01-18,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0860,4.0,Female,GHA,2024-08-01,Unknown,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0861,2.0,Male,GHA,2023-11-04,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0862,68.0,Male,GHA,2023-04-06,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0863,31.0,Female,GHA,2024-01-22,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0864,20.0,Female,GHA,2024-10-14,Unknown,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0865,17.0,Male,GHA,2023-06-25,Survived,Out-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0866,4.0,Male,GHA,2024-03-20,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0867,0.56,Female,GHA,2023-04-08,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0868,48.0,Male,GHA,2023-08-05,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0869,27.0,Female,GHA,2023-02-17,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0870,83.0,Male,GHA,2024-07-10,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0871,0.18,Male,GHA,2023-11-19,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0872,25.0,Male,GHA,2024-08-24,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0873,0.74,Male,GHA,2024-12-30,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0874,43.0,Female,GHA,2023-11-03,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0875,59.0,Male,GHA,2023-09-04,Survived,Out-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0876,5.0,Female,GHA,2023-12-06,Unknown,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0877,65.0,Female,GHA,2023-05-24,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0878,57.0,Male,GHA,2023-12-21,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0879,72.0,Male,GHA,2024-03-23,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0880,0.83,Male,GHA,2023-12-15,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0881,3.0,Female,GHA,2023-01-31,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0882,0.78,Female,GHA,2024-04-06,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0883,80.0,Female,GHA,2023-12-31,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0884,4.0,Female,GHA,2023-07-10,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0885,1.0,Female,GHA,2024-09-25,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0886,2.0,Female,GHA,2024-12-31,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0887,43.0,Male,GHA,2023-10-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0888,4.0,Male,GHA,2024-12-29,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0889,31.0,Male,GHA,2023-11-21,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0890,1.0,Female,GHA,2023-04-04,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0891,3.0,Male,GHA,2024-03-31,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0892,18.0,Female,GHA,2023-10-04,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0893,45.0,Male,GHA,2023-03-31,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0894,54.0,Male,GHA,2024-04-04,Died,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P0895,0.1,Female,GHA,2023-04-02,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0896,14.0,Female,GHA,2023-04-06,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0897,12.0,Female,GHA,2023-01-13,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0898,0.41,Female,GHA,2023-03-28,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0899,37.0,Male,GHA,2024-06-17,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0900,4.0,Male,GHA,2023-06-23,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0901,0.27,Male,GHA,2023-10-02,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0902,2.0,Female,GHA,2023-03-06,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0903,93.0,Male,GHA,2023-10-10,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0904,10.0,Female,GHA,2024-05-10,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0905,30.0,Male,GHA,2023-09-15,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0906,39.0,Male,GHA,2024-05-22,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0907,4.0,Male,GHA,2023-04-20,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0908,50.0,Male,GHA,2023-01-07,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0909,11.0,Female,GHA,2024-09-27,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0910,87.0,Female,GHA,2024-03-26,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0911,4.0,Female,GHA,2024-10-28,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0912,50.0,Male,GHA,2023-11-25,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0913,34.0,Male,GHA,2023-11-18,Died,In-patient,Northern,GH-NP,Tamale Teaching Hospital,Teaching Hospital,9.4007,-0.8393
+P0914,53.0,Male,GHA,2023-11-23,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0915,4.0,Female,GHA,2024-08-12,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0916,11.0,Male,GHA,2024-01-21,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0917,31.0,Female,GHA,2024-01-09,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0918,0.92,Male,GHA,2023-07-24,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0919,62.0,Male,GHA,2024-07-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0920,0.94,Male,GHA,2024-04-17,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0921,55.0,Male,GHA,2023-10-26,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0922,32.0,Male,GHA,2024-11-20,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0923,0.14,Female,GHA,2023-11-07,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0924,49.0,Male,GHA,2024-11-05,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0925,93.0,Male,GHA,2024-01-22,Unknown,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0926,33.0,Male,GHA,2024-09-04,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P0927,103.0,Female,GHA,2024-02-15,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0928,5.0,Female,GHA,2023-02-07,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0929,36.0,Female,GHA,2024-08-31,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0930,1.0,Male,GHA,2023-09-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0931,2.0,Female,GHA,2024-10-24,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0932,15.0,Male,GHA,2024-10-22,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0933,0.96,Female,GHA,2023-12-06,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0934,7.0,Female,GHA,2023-01-11,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0935,27.0,Male,GHA,2023-08-16,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0936,55.0,Male,GHA,2024-01-19,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0937,0.46,Female,GHA,2024-11-26,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0938,11.0,Male,GHA,2023-01-26,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0939,1.0,Female,GHA,2023-10-30,Survived,In-patient,Greater Accra,GH-AA,Princess Marie Louise Children's Hospital,Specialist Hospital,5.56,-0.21
+P0940,0.91,Female,GHA,2023-03-29,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0941,0.82,Male,GHA,2023-05-26,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0942,10.0,Female,GHA,2023-12-18,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0943,0.78,Female,GHA,2024-06-17,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0944,3.0,Female,GHA,2024-05-02,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0945,55.0,Male,GHA,2024-12-14,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0946,11.0,Female,GHA,2023-03-10,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0947,42.0,Female,GHA,2024-12-28,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0948,0.02,Male,GHA,2023-12-18,Survived,In-patient,Western,GH-WP,Saint Martin de Porres Hospital,Mission Hospital,4.9,-1.75
+P0949,40.0,Male,GHA,2023-06-18,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0950,14.0,Male,GHA,2023-06-28,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0951,3.0,Male,GHA,2024-07-27,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0952,4.0,Female,GHA,2023-08-26,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0953,0.62,Female,GHA,2023-07-10,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0954,4.0,Female,GHA,2023-01-30,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0955,4.0,Male,GHA,2024-08-29,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0956,4.0,Female,GHA,2023-01-05,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0957,2.0,Male,GHA,2023-10-13,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0958,59.0,Male,GHA,2023-04-15,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0959,52.0,Male,GHA,2023-11-30,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0960,95.0,Male,GHA,2023-04-27,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0961,16.0,Female,GHA,2024-05-16,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0962,0.59,Female,GHA,2024-09-17,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0963,37.0,Female,GHA,2023-04-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0964,30.0,Female,GHA,2024-04-13,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0965,3.0,Male,GHA,2024-09-21,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0966,62.0,Male,GHA,2023-05-18,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0967,0.12,Female,GHA,2023-11-09,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0968,24.0,Male,GHA,2024-01-18,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0969,0.51,Male,GHA,2024-03-04,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0970,0.57,Male,GHA,2024-03-09,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0971,13.0,Male,GHA,2024-10-12,Unknown,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0972,58.0,Male,GHA,2023-06-20,Died,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P0973,28.0,Female,GHA,2023-05-24,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0974,29.0,Male,GHA,2024-04-06,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0975,0.86,Male,GHA,2023-01-10,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0976,8.0,Female,GHA,2023-07-19,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0977,58.0,Female,GHA,2024-06-01,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0978,32.0,Female,GHA,2024-12-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0979,0.41,Female,GHA,2024-03-30,Unknown,In-patient,Western,GH-WP,Effia Nkwanta Regional Hospital,Regional Hospital,4.9333,-1.7667
+P0980,46.0,Female,GHA,2023-03-26,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0981,80.0,Male,GHA,2023-10-27,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0982,83.0,Male,GHA,2023-08-19,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0983,24.0,Female,GHA,2024-04-13,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0984,36.0,Female,GHA,2024-06-07,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0985,15.0,Male,GHA,2023-04-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0986,65.0,Female,GHA,2024-07-10,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0987,0.54,Female,GHA,2023-02-12,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0988,0.54,Female,GHA,2024-03-11,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0989,81.0,Male,GHA,2023-11-01,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P0990,94.0,Male,GHA,2023-09-27,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0991,21.0,Female,GHA,2024-03-25,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0992,0.77,Male,GHA,2023-08-31,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0993,37.0,Male,GHA,2024-12-06,Unknown,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P0994,5.0,Female,GHA,2024-10-09,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P0995,8.0,Female,GHA,2024-09-22,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P0996,47.0,Male,GHA,2023-07-31,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0997,59.0,Male,GHA,2023-12-26,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P0998,5.0,Female,GHA,2024-07-05,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P0999,51.0,Male,GHA,2024-12-21,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1000,3.0,Female,GHA,2024-08-09,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1001,35.0,Female,GHA,2024-11-26,Died,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1002,0.13,Male,GHA,2024-02-26,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1003,27.0,Male,GHA,2024-11-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1004,23.0,Male,GHA,2023-09-13,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1005,63.0,Male,GHA,2023-11-26,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1006,18.0,Male,GHA,2024-11-23,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1007,34.0,Female,GHA,2023-05-26,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1008,61.0,Female,GHA,2024-02-29,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1009,0.45,Female,GHA,2024-10-10,Survived,Out-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P1010,91.0,Male,GHA,2024-06-11,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1011,63.0,Female,GHA,2024-01-13,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1012,13.0,Female,GHA,2023-12-02,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1013,65.0,Male,GHA,2023-04-06,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1014,61.0,Female,GHA,2024-11-11,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1015,43.0,Female,GHA,2024-07-01,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1016,2.0,Female,GHA,2024-03-15,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1017,56.0,Male,GHA,2023-10-02,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1018,28.0,Female,GHA,2023-12-12,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1019,37.0,Male,GHA,2024-05-11,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1020,16.0,Female,GHA,2023-02-19,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1021,22.0,Male,GHA,2024-10-03,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1022,1.0,Female,GHA,2023-05-08,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1023,55.0,Male,GHA,2024-04-12,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1024,12.0,Male,GHA,2023-07-27,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1025,0.87,Male,GHA,2023-11-06,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1026,27.0,Male,GHA,2023-04-06,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1027,3.0,Female,GHA,2023-03-26,Unknown,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1028,62.0,Female,GHA,2024-10-26,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1029,0.05,Male,GHA,2024-10-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1030,80.0,Female,GHA,2024-03-15,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1031,1.0,Male,GHA,2023-01-02,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1032,56.0,Male,GHA,2023-03-21,Survived,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1033,5.0,Male,GHA,2023-08-20,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1034,19.0,Female,GHA,2023-01-09,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1035,44.0,Female,GHA,2024-03-08,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1036,4.0,Male,GHA,2023-03-14,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1037,90.0,Male,GHA,2023-04-02,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1038,44.0,Male,GHA,2023-11-17,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1039,28.0,Female,GHA,2023-05-21,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1040,18.0,Female,GHA,2023-05-17,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1041,7.0,Male,GHA,2024-06-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1042,38.0,Male,GHA,2024-10-27,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1043,4.0,Male,GHA,2023-12-26,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1044,16.0,Male,GHA,2023-06-05,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1045,38.0,Female,GHA,2024-12-04,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1046,9.0,Female,GHA,2023-03-30,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1047,0.14,Male,GHA,2023-05-07,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1048,30.0,Female,GHA,2024-03-15,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1049,18.0,Female,GHA,2023-05-24,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1050,0.27,Male,GHA,2023-03-28,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1051,58.0,Male,GHA,2024-09-07,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1052,0.77,Female,GHA,2024-12-08,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1053,0.84,Male,GHA,2024-11-05,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1054,9.0,Female,GHA,2024-06-14,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1055,0.74,Male,GHA,2023-10-30,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1056,2.0,Male,GHA,2024-05-21,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1057,22.0,Female,GHA,2023-09-04,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1058,16.0,Female,GHA,2024-08-31,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1059,5.0,Male,GHA,2023-01-13,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1060,0.92,Female,GHA,2023-05-16,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1061,37.0,Female,GHA,2024-03-06,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1062,14.0,Female,GHA,2024-11-30,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1063,34.0,Male,GHA,2023-03-16,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1064,5.0,Male,GHA,2023-03-11,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1065,82.0,Male,GHA,2023-08-09,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1066,0.91,Male,GHA,2024-02-12,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1067,39.0,Female,GHA,2024-12-30,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1068,54.0,Female,GHA,2024-12-19,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1069,0.08,Female,GHA,2024-07-03,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1070,10.0,Male,GHA,2023-03-27,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1071,0.08,Female,GHA,2023-07-28,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1072,36.0,Male,GHA,2023-12-01,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1073,5.0,Female,GHA,2024-10-11,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1074,28.0,Male,GHA,2024-12-16,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1075,0.72,Female,GHA,2023-09-02,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1076,0.24,Male,GHA,2024-03-20,Died,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1077,55.0,Male,GHA,2024-09-18,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1078,50.0,Male,GHA,2024-11-13,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1079,0.12,Male,GHA,2024-12-25,Unknown,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1080,19.0,Male,GHA,2023-06-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1081,30.0,Female,GHA,2024-06-19,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1082,46.0,Female,GHA,2024-01-16,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1083,0.74,Male,GHA,2023-10-03,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1084,18.0,Male,GHA,2023-01-31,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1085,32.0,Female,GHA,2023-10-06,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1086,10.0,Male,GHA,2024-12-30,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1087,34.0,Male,GHA,2024-04-11,Died,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1088,42.0,Female,GHA,2024-05-26,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1089,11.0,Male,GHA,2023-06-11,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1090,1.0,Female,GHA,2024-08-10,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1091,0.23,Male,GHA,2024-06-05,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1092,1.0,Male,GHA,2023-01-13,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1093,0.05,Male,GHA,2024-01-08,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1094,0.91,Female,GHA,2023-07-03,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1095,14.0,Male,GHA,2024-11-02,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1096,0.22,Female,GHA,2023-09-12,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1097,64.0,Female,GHA,2023-11-24,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1098,0.82,Female,GHA,2024-08-08,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1099,22.0,Female,GHA,2024-05-29,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1100,2.0,Male,GHA,2023-08-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1101,0.94,Male,GHA,2023-03-12,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1102,84.0,Female,GHA,2023-11-15,Unknown,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1103,7.0,Female,GHA,2024-07-20,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1104,19.0,Female,GHA,2024-01-13,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1105,10.0,Male,GHA,2024-07-31,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1106,0.73,Female,GHA,2023-09-06,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1107,3.0,Female,GHA,2024-08-28,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1108,0.99,Female,GHA,2023-07-20,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1109,8.0,Male,GHA,2023-01-07,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1110,1.0,Female,GHA,2023-08-27,Unknown,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1111,61.0,Female,GHA,2024-12-11,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1112,11.0,Male,GHA,2023-01-02,Survived,Out-patient,Western,GH-WP,Effia Nkwanta Regional Hospital,Regional Hospital,4.9333,-1.7667
+P1113,3.0,Female,GHA,2023-04-17,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1114,57.0,Male,GHA,2023-09-01,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1115,34.0,Female,GHA,2023-03-03,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1116,17.0,Male,GHA,2023-10-14,Unknown,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1117,20.0,Male,GHA,2023-08-26,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1118,89.0,Female,GHA,2024-04-14,Died,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1119,5.0,Male,GHA,2023-04-08,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1120,16.0,Male,GHA,2024-02-08,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1121,0.59,Male,GHA,2023-03-05,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1122,2.0,Female,GHA,2023-08-31,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1123,49.0,Female,GHA,2023-11-19,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1124,29.0,Female,GHA,2023-11-22,Died,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1125,10.0,Female,GHA,2023-08-28,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1126,25.0,Male,GHA,2023-05-20,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1127,8.0,Male,GHA,2023-04-19,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1128,33.0,Male,GHA,2024-04-22,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1129,0.4,Female,GHA,2024-07-02,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1130,18.0,Female,GHA,2023-08-01,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1131,50.0,Female,GHA,2024-04-19,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1132,44.0,Female,GHA,2023-04-03,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1133,40.0,Male,GHA,2023-11-08,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1134,2.0,Male,GHA,2023-12-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1135,7.0,Male,GHA,2024-12-29,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1136,0.96,Male,GHA,2024-02-10,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1137,16.0,Male,GHA,2023-11-03,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1138,24.0,Female,GHA,2023-02-01,Unknown,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1139,0.85,Female,GHA,2024-07-23,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1140,22.0,Male,GHA,2024-04-18,Unknown,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1141,23.0,Male,GHA,2023-05-05,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1142,1.0,Male,GHA,2023-08-16,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1143,0.2,Male,GHA,2024-02-15,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1144,1.0,Female,GHA,2024-08-19,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1145,7.0,Female,GHA,2023-01-23,Unknown,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1146,78.0,Male,GHA,2024-10-23,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1147,23.0,Female,GHA,2023-04-05,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1148,22.0,Female,GHA,2023-02-13,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1149,6.0,Female,GHA,2023-06-22,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1150,64.0,Female,GHA,2024-02-09,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1151,1.0,Female,GHA,2024-01-27,Died,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1152,46.0,Female,GHA,2023-12-29,Died,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1153,77.0,Male,GHA,2023-10-09,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1154,13.0,Female,GHA,2023-06-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1155,60.0,Male,GHA,2024-09-26,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1156,61.0,Male,GHA,2023-10-30,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1157,92.0,Female,GHA,2024-07-17,Survived,In-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1158,20.0,Female,GHA,2023-03-31,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1159,53.0,Female,GHA,2023-05-21,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1160,2.0,Female,GHA,2024-10-20,Died,Out-patient,Greater Accra,GH-AA,LEKMA Hospital,Regional Hospital,5.65,-0.11
+P1161,100.0,Male,GHA,2023-01-20,Died,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1162,30.0,Female,GHA,2024-05-06,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1163,52.0,Female,GHA,2024-08-02,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1164,12.0,Female,GHA,2023-10-04,Survived,In-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1165,41.0,Male,GHA,2023-11-23,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1166,6.0,Male,GHA,2023-10-15,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1167,56.0,Male,GHA,2024-06-26,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1168,37.0,Female,GHA,2023-08-27,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1169,44.0,Male,GHA,2023-09-11,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1170,0.26,Male,GHA,2023-02-27,Survived,Out-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1171,5.0,Male,GHA,2024-02-02,Unknown,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1172,46.0,Female,GHA,2023-06-30,Survived,In-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1173,15.0,Male,GHA,2023-11-22,Survived,In-patient,Volta,GH-TV,Ho Teaching Hospital,Teaching Hospital,6.6126,0.4705
+P1174,5.0,Female,GHA,2023-01-29,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1175,15.0,Female,GHA,2024-07-31,Survived,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1176,5.0,Male,GHA,2023-07-12,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1177,14.0,Female,GHA,2023-11-13,Died,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1178,56.0,Male,GHA,2023-02-08,Survived,In-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1179,1.0,Male,GHA,2023-08-27,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1180,19.0,Male,GHA,2024-06-23,Survived,Out-patient,Northern,GH-NP,Tamale Teaching Hospital,Teaching Hospital,9.4007,-0.8393
+P1181,1.0,Female,GHA,2023-12-06,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1182,2.0,Male,GHA,2023-12-15,Died,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1183,51.0,Male,GHA,2023-03-02,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1184,45.0,Male,GHA,2024-08-23,Survived,In-patient,Central,GH-CP,Cape Coast Teaching Hospital,Teaching Hospital,5.1053,-1.2466
+P1185,18.0,Male,GHA,2023-04-24,Survived,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1186,21.0,Female,GHA,2024-01-18,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1187,5.0,Female,GHA,2023-04-14,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1188,10.0,Female,GHA,2023-11-27,Survived,In-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1189,24.0,Male,GHA,2024-03-23,Died,Out-patient,Greater Accra,GH-AA,Korlebu Teaching Hospital,Teaching Hospital,5.5333,-0.2333
+P1190,0.64,Female,GHA,2023-06-28,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25
+P1191,9.0,Female,GHA,2024-11-12,Died,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P1192,12.0,Male,GHA,2023-11-11,Died,In-patient,Western,GH-WP,Sekondi Public Health Laboratory,Public Health Lab,4.9422,-1.7117
+P1193,23.0,Female,GHA,2023-07-01,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1194,5.0,Male,GHA,2024-02-05,Survived,Out-patient,Bono,GH-BO,Sunyani Teaching Hospital,Teaching Hospital,7.3351,-2.3237
+P1195,0.18,Male,GHA,2023-11-22,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1196,0.63,Male,GHA,2023-04-17,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1197,8.0,Female,GHA,2023-12-06,Died,Out-patient,Ashanti,GH-AH,Kumasi Centre for Collaborative Research in Trop. Med.,Research Centre,6.68,-1.62
+P1198,9.0,Male,GHA,2023-12-22,Survived,Out-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1199,0.17,Female,GHA,2023-04-01,Survived,In-patient,Ashanti,GH-AH,Komfo Anokye Teaching Hospital,Teaching Hospital,6.6866,-1.6238
+P1200,0.44,Female,GHA,2023-09-29,Survived,Out-patient,Eastern,GH-EP,Eastern Regional Hospital,Regional Hospital,6.1,-0.25

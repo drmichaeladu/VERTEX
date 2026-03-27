@@ -31,18 +31,33 @@ GHANA_REGIONS = {
 
 # AMR antibiotic metadata – WHONET codes used as column names
 AMR_ANTIBIOTICS = {
-    "AMX": {"name": "Amoxicillin",        "class": "Penicillins"},
-    "AMC": {"name": "Amox-Clavulanate",   "class": "Penicillins"},
-    "CIP": {"name": "Ciprofloxacin",      "class": "Fluoroquinolones"},
-    "CTX": {"name": "Cefotaxime",         "class": "Cephalosporins"},
-    "CAZ": {"name": "Ceftazidime",        "class": "Cephalosporins"},
-    "MEM": {"name": "Meropenem",          "class": "Carbapenems"},
-    "GEN": {"name": "Gentamicin",         "class": "Aminoglycosides"},
-    "SXT": {"name": "Trimethoprim-Sulfa", "class": "Sulfonamides"},
-    "OXA": {"name": "Oxacillin",          "class": "Penicillins"},
-    "VAN": {"name": "Vancomycin",         "class": "Glycopeptides"},
-    "LZD": {"name": "Linezolid",          "class": "Oxazolidinones"},
-    "COL": {"name": "Colistin",           "class": "Polymyxins"},
+    # Penicillins / BL-BLI
+    "AMC": {"name": "Amox-Clavulanate",         "class": "Penicillins/BLI",     "aware": "Watch"},
+    "AMP": {"name": "Ampicillin",               "class": "Penicillins",         "aware": "Access"},
+    "OXA": {"name": "Oxacillin",                "class": "Penicillins",         "aware": "Watch"},
+    "TZP": {"name": "Piperacillin-Tazobactam",  "class": "Penicillins/BLI",    "aware": "Watch"},
+    # Cephalosporins
+    "CRO": {"name": "Ceftriaxone",              "class": "Cephalosporins",      "aware": "Watch"},
+    "CTX": {"name": "Cefotaxime",               "class": "Cephalosporins",      "aware": "Watch"},
+    "CAZ": {"name": "Ceftazidime",              "class": "Cephalosporins",      "aware": "Watch"},
+    # Carbapenems
+    "MEM": {"name": "Meropenem",                "class": "Carbapenems",         "aware": "Watch"},
+    # Aminoglycosides
+    "GEN": {"name": "Gentamicin",               "class": "Aminoglycosides",     "aware": "Access"},
+    "AMK": {"name": "Amikacin",                 "class": "Aminoglycosides",     "aware": "Access"},
+    # Fluoroquinolones
+    "CIP": {"name": "Ciprofloxacin",            "class": "Fluoroquinolones",    "aware": "Watch"},
+    # Sulfonamides
+    "SXT": {"name": "Trimethoprim-Sulfa",       "class": "Sulfonamides",        "aware": "Access"},
+    # Glycopeptides
+    "VAN": {"name": "Vancomycin",               "class": "Glycopeptides",       "aware": "Watch"},
+    # Oxazolidinones (Reserve)
+    "LNZ": {"name": "Linezolid",               "class": "Oxazolidinones",      "aware": "Reserve"},
+    # Macrolides / Lincosamides
+    "ERY": {"name": "Erythromycin",             "class": "Macrolides",          "aware": "Watch"},
+    "CLI": {"name": "Clindamycin",              "class": "Lincosamides",        "aware": "Watch"},
+    # Tetracyclines
+    "TET": {"name": "Tetracycline",             "class": "Tetracyclines",       "aware": "Access"},
 }
 
 

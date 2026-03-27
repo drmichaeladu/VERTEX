@@ -1,0 +1,201 @@
+subjid,collection_date,sample_source,organism,ghana_region,ghana_region_iso,AMP,CIP,CRO,CTX,GEN,MEM,SXT,TET
+E001,2024-10-26,Hospital effluent,Enterococcus sp.,Eastern,GH-EP,R,R,S,R,R,S,R,R
+E002,2023-12-13,Hospital effluent,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,S,S,S,S,R
+E003,2024-03-01,River water,Escherichia coli,Ashanti,GH-AH,R,S,R,S,R,S,R,R
+E004,2023-01-08,Soil,Escherichia coli,Bono,GH-BO,R,R,S,R,S,S,R,R
+E005,2023-11-19,Soil,Escherichia coli,Western,GH-WP,R,R,I,R,S,S,S,S
+E006,2024-04-19,Hospital effluent,Escherichia coli,Ashanti,GH-AH,R,S,R,S,R,R,R,R
+E007,2023-03-29,Drinking water,Escherichia coli,Greater Accra,GH-AA,I,R,R,S,S,R,S,R
+E008,2023-05-18,Soil,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,S,R,S,R,R
+E009,2023-04-09,Drinking water,Escherichia coli,Ashanti,GH-AH,S,R,R,S,S,S,R,S
+E010,2024-08-31,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,R,S,R,R,R
+E011,2024-06-17,Soil,Klebsiella pneumoniae,Eastern,GH-EP,R,R,R,R,S,R,R,S
+E012,2024-07-28,Soil,Klebsiella pneumoniae,Bono,GH-BO,R,S,R,R,R,R,R,R
+E013,2023-04-30,Drinking water,Enterococcus sp.,Northern,GH-NP,R,I,R,R,R,S,S,R
+E014,2024-08-30,Hospital effluent,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,S,R,I,I,R
+E015,2023-05-20,Drinking water,Escherichia coli,Central,GH-CP,R,S,R,S,R,S,S,R
+E016,2024-04-29,Drinking water,Klebsiella pneumoniae,Central,GH-CP,R,R,S,R,S,S,R,R
+E017,2024-05-21,Drinking water,Klebsiella pneumoniae,Eastern,GH-EP,R,R,R,R,R,S,R,S
+E018,2024-07-20,River water,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,R,R,R,R
+E019,2024-07-18,River water,Escherichia coli,Greater Accra,GH-AA,I,R,R,R,S,R,R,S
+E020,2023-12-15,River water,Enterococcus sp.,Ashanti,GH-AH,R,I,R,S,S,S,R,R
+E021,2023-05-03,Soil,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,S,R,R,S
+E022,2024-10-01,Hospital effluent,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,I,S,R,R,R
+E023,2023-02-03,River water,Klebsiella pneumoniae,Ashanti,GH-AH,R,I,R,R,R,S,S,R
+E024,2024-10-15,Drinking water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,S,S,R,R,S,R,R
+E025,2023-11-21,River water,Escherichia coli,Northern,GH-NP,R,R,S,R,R,R,R,S
+E026,2023-09-09,River water,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+E027,2023-11-16,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,S,R,R,R
+E028,2024-07-03,Soil,Klebsiella pneumoniae,Central,GH-CP,R,R,R,R,S,I,R,S
+E029,2024-03-11,River water,Escherichia coli,Greater Accra,GH-AA,R,S,S,R,S,S,R,R
+E030,2023-10-28,Drinking water,Enterococcus sp.,Central,GH-CP,R,R,S,R,S,R,R,R
+E031,2023-02-09,Drinking water,Escherichia coli,Greater Accra,GH-AA,R,R,I,R,R,S,R,R
+E032,2023-04-20,Soil,Klebsiella pneumoniae,Northern,GH-NP,R,I,R,R,S,S,R,R
+E033,2023-02-26,Drinking water,Escherichia coli,Ashanti,GH-AH,R,R,R,I,S,S,R,S
+E034,2023-11-04,Soil,Escherichia coli,Eastern,GH-EP,R,S,R,I,S,S,S,R
+E035,2024-11-11,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,R,R,S,S,S
+E036,2023-05-21,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,R,S,S,R,R
+E037,2024-12-13,River water,Escherichia coli,Bono,GH-BO,R,R,R,S,R,S,R,R
+E038,2023-09-22,Hospital effluent,Klebsiella pneumoniae,Central,GH-CP,R,R,S,S,S,S,R,R
+E039,2024-01-24,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,R,R,S,R,R
+E040,2023-06-06,River water,Escherichia coli,Greater Accra,GH-AA,R,S,R,R,R,S,R,R
+E041,2023-10-15,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,S,R,R,R,S,S,R
+E042,2023-12-15,River water,Enterococcus sp.,Eastern,GH-EP,R,I,R,R,S,S,S,R
+E043,2024-02-26,River water,Klebsiella pneumoniae,Central,GH-CP,R,R,R,S,S,S,S,S
+E044,2023-03-18,Hospital effluent,Enterococcus sp.,Bono,GH-BO,R,S,R,S,R,S,R,R
+E045,2024-06-27,Soil,Klebsiella pneumoniae,Greater Accra,GH-AA,R,S,R,R,S,S,R,R
+E046,2024-01-08,Soil,Enterococcus sp.,Greater Accra,GH-AA,R,R,R,R,R,S,I,S
+E047,2023-03-18,Hospital effluent,Klebsiella pneumoniae,Volta,GH-TV,R,R,S,S,R,S,R,R
+E048,2024-05-25,River water,Enterococcus sp.,Ashanti,GH-AH,I,R,R,R,S,S,S,R
+E049,2023-11-12,River water,Escherichia coli,Volta,GH-TV,R,R,R,R,S,S,R,I
+E050,2023-11-04,River water,Enterococcus sp.,Northern,GH-NP,R,R,R,R,S,S,R,R
+E051,2024-02-21,River water,Escherichia coli,Eastern,GH-EP,R,R,S,R,S,S,R,R
+E052,2023-01-24,River water,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,S,S,R,S
+E053,2023-01-27,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,I,S,R,S
+E054,2023-10-19,Drinking water,Escherichia coli,Ashanti,GH-AH,R,R,S,S,R,S,R,R
+E055,2023-12-02,Soil,Escherichia coli,Eastern,GH-EP,R,R,R,R,R,S,R,R
+E056,2023-07-09,Drinking water,Klebsiella pneumoniae,Eastern,GH-EP,R,R,R,S,R,S,R,R
+E057,2024-12-29,Hospital effluent,Enterococcus sp.,Ashanti,GH-AH,R,R,S,R,I,R,R,R
+E058,2023-04-06,Soil,Escherichia coli,Eastern,GH-EP,R,R,R,R,S,R,S,S
+E059,2023-05-21,Hospital effluent,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,S,R,R,R,R
+E060,2024-06-21,Hospital effluent,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,S,S,S,S
+E061,2024-09-09,Soil,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,R,S,S,S
+E062,2024-09-05,Soil,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,R,R,S,R
+E063,2023-04-13,Hospital effluent,Enterococcus sp.,Greater Accra,GH-AA,R,R,R,R,S,S,R,I
+E064,2024-01-07,Drinking water,Klebsiella pneumoniae,Volta,GH-TV,I,R,R,S,S,R,S,R
+E065,2023-04-27,River water,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,S,R,S,R
+E066,2023-04-08,Drinking water,Escherichia coli,Bono,GH-BO,R,R,S,S,R,S,R,R
+E067,2023-09-28,Drinking water,Enterococcus sp.,Greater Accra,GH-AA,I,R,R,R,S,S,R,R
+E068,2023-12-08,Soil,Escherichia coli,Western,GH-WP,R,R,R,R,R,R,S,R
+E069,2023-11-22,River water,Enterococcus sp.,Central,GH-CP,R,R,R,R,S,S,R,R
+E070,2023-05-07,Hospital effluent,Escherichia coli,Central,GH-CP,R,S,S,R,S,S,R,R
+E071,2023-07-07,Drinking water,Escherichia coli,Greater Accra,GH-AA,S,R,I,R,R,I,R,S
+E072,2024-08-13,Soil,Enterococcus sp.,Ashanti,GH-AH,R,S,I,R,R,S,R,I
+E073,2023-08-06,Soil,Escherichia coli,Ashanti,GH-AH,R,R,R,S,R,S,R,R
+E074,2024-08-19,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,R,S,R,R
+E075,2023-03-22,River water,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,S
+E076,2023-08-26,River water,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+E077,2023-02-20,Hospital effluent,Klebsiella pneumoniae,Greater Accra,GH-AA,R,I,R,R,S,R,R,R
+E078,2023-10-11,Soil,Enterococcus sp.,Ashanti,GH-AH,R,S,S,R,R,S,R,R
+E079,2023-11-15,Soil,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+E080,2024-07-17,Hospital effluent,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,I,R,R,R,R,S
+E081,2024-07-08,River water,Klebsiella pneumoniae,Ashanti,GH-AH,R,S,I,R,S,R,R,R
+E082,2023-03-23,Drinking water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,R,R,S,R,S
+E083,2024-12-30,Soil,Enterococcus sp.,Ashanti,GH-AH,R,R,R,R,R,S,R,S
+E084,2024-07-16,Hospital effluent,Escherichia coli,Volta,GH-TV,R,R,S,R,S,S,R,R
+E085,2024-08-14,Drinking water,Escherichia coli,Eastern,GH-EP,S,R,R,R,S,S,R,S
+E086,2024-12-08,River water,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+E087,2024-07-13,River water,Escherichia coli,Ashanti,GH-AH,R,S,R,R,S,S,R,S
+E088,2023-11-01,Soil,Escherichia coli,Greater Accra,GH-AA,R,S,R,R,S,S,R,R
+E089,2024-07-19,Drinking water,Escherichia coli,Ashanti,GH-AH,S,S,R,R,R,S,R,S
+E090,2024-11-04,Drinking water,Klebsiella pneumoniae,Eastern,GH-EP,S,S,R,I,R,S,S,R
+E091,2023-11-01,River water,Escherichia coli,Eastern,GH-EP,I,S,R,R,I,S,R,R
+E092,2023-04-13,River water,Escherichia coli,Ashanti,GH-AH,R,R,S,S,S,S,R,R
+E093,2024-02-18,Hospital effluent,Escherichia coli,Bono,GH-BO,R,R,R,R,R,S,S,R
+E094,2023-02-11,River water,Enterococcus sp.,Ashanti,GH-AH,R,R,R,R,S,S,R,R
+E095,2023-11-16,River water,Enterococcus sp.,Ashanti,GH-AH,R,R,R,I,R,S,S,R
+E096,2024-03-06,River water,Klebsiella pneumoniae,Central,GH-CP,S,S,R,R,R,S,R,R
+E097,2023-04-06,Drinking water,Klebsiella pneumoniae,Central,GH-CP,R,R,R,R,I,S,R,S
+E098,2024-11-04,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,R,S,R,R
+E099,2023-12-08,Soil,Escherichia coli,Northern,GH-NP,S,R,S,S,R,S,S,S
+E100,2023-10-03,Hospital effluent,Escherichia coli,Bono,GH-BO,R,R,I,R,R,R,R,R
+E101,2023-02-23,Drinking water,Escherichia coli,Greater Accra,GH-AA,R,S,R,R,R,I,S,R
+E102,2023-05-21,Soil,Escherichia coli,Eastern,GH-EP,I,R,R,R,S,R,R,R
+E103,2023-03-12,Hospital effluent,Klebsiella pneumoniae,Ashanti,GH-AH,R,S,R,R,I,S,R,R
+E104,2023-04-07,Soil,Escherichia coli,Northern,GH-NP,R,R,S,R,R,S,R,R
+E105,2024-08-25,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,I,R,R,R,R,R,R
+E106,2023-01-05,Drinking water,Klebsiella pneumoniae,Ashanti,GH-AH,R,S,R,R,R,S,R,R
+E107,2023-04-20,Soil,Escherichia coli,Ashanti,GH-AH,R,R,R,R,S,S,S,R
+E108,2024-05-03,River water,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,S,S,R,S
+E109,2023-02-13,Hospital effluent,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+E110,2024-04-25,River water,Klebsiella pneumoniae,Eastern,GH-EP,R,R,R,R,R,S,I,R
+E111,2024-01-05,River water,Escherichia coli,Ashanti,GH-AH,R,R,S,R,S,S,R,R
+E112,2024-02-20,Drinking water,Enterococcus sp.,Bono,GH-BO,R,R,I,R,R,S,R,R
+E113,2024-07-08,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,R,S,S,S,S,R,R
+E114,2023-04-20,Hospital effluent,Klebsiella pneumoniae,Eastern,GH-EP,R,R,R,S,R,S,R,R
+E115,2023-09-28,River water,Escherichia coli,Western,GH-WP,R,R,R,R,S,S,R,S
+E116,2023-06-12,Hospital effluent,Klebsiella pneumoniae,Ashanti,GH-AH,S,S,R,R,S,S,R,S
+E117,2024-08-28,Hospital effluent,Enterococcus sp.,Greater Accra,GH-AA,S,R,R,S,S,S,S,R
+E118,2024-07-28,Hospital effluent,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,S,R,S,I,R
+E119,2023-09-11,River water,Escherichia coli,Ashanti,GH-AH,R,R,S,R,I,S,R,R
+E120,2023-03-25,Hospital effluent,Escherichia coli,Western,GH-WP,R,R,S,R,S,S,R,R
+E121,2023-12-09,River water,Enterococcus sp.,Greater Accra,GH-AA,R,R,S,R,R,S,R,R
+E122,2023-06-22,River water,Enterococcus sp.,Greater Accra,GH-AA,R,I,R,S,R,R,S,S
+E123,2023-07-09,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,I,S,R,S,S,R,R,R
+E124,2024-10-26,Drinking water,Escherichia coli,Volta,GH-TV,S,R,S,R,I,S,R,S
+E125,2024-08-05,Soil,Escherichia coli,Ashanti,GH-AH,R,I,S,R,R,R,R,R
+E126,2024-12-18,River water,Klebsiella pneumoniae,Central,GH-CP,R,R,I,R,R,S,R,R
+E127,2023-04-17,Hospital effluent,Klebsiella pneumoniae,Northern,GH-NP,S,R,R,S,I,S,R,R
+E128,2024-10-07,River water,Klebsiella pneumoniae,Western,GH-WP,R,R,S,R,R,S,R,R
+E129,2023-01-18,Soil,Escherichia coli,Ashanti,GH-AH,R,I,S,R,R,S,R,S
+E130,2024-04-26,Hospital effluent,Escherichia coli,Ashanti,GH-AH,R,S,R,R,R,S,R,R
+E131,2023-08-12,Soil,Escherichia coli,Greater Accra,GH-AA,R,R,R,S,R,I,S,R
+E132,2024-12-26,Hospital effluent,Enterococcus sp.,Western,GH-WP,I,R,R,I,R,S,I,R
+E133,2023-05-10,Soil,Klebsiella pneumoniae,Ashanti,GH-AH,R,S,R,R,S,S,R,R
+E134,2023-06-23,Drinking water,Enterococcus sp.,Greater Accra,GH-AA,R,R,R,I,I,S,R,R
+E135,2024-11-29,Hospital effluent,Enterococcus sp.,Greater Accra,GH-AA,R,R,R,S,S,S,S,R
+E136,2024-06-05,Hospital effluent,Enterococcus sp.,Greater Accra,GH-AA,R,S,S,S,R,S,S,R
+E137,2023-09-02,Soil,Escherichia coli,Ashanti,GH-AH,R,R,R,S,S,S,R,R
+E138,2024-02-22,River water,Escherichia coli,Ashanti,GH-AH,R,S,S,S,S,R,R,R
+E139,2023-01-06,Hospital effluent,Klebsiella pneumoniae,Central,GH-CP,R,S,S,R,I,S,R,R
+E140,2024-11-28,Hospital effluent,Enterococcus sp.,Greater Accra,GH-AA,R,R,I,S,R,S,S,R
+E141,2024-06-19,Soil,Enterococcus sp.,Volta,GH-TV,R,R,R,R,R,S,R,I
+E142,2023-10-07,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,I,I,R,S,S,R,R
+E143,2024-08-13,Soil,Enterococcus sp.,Eastern,GH-EP,R,S,S,S,R,R,R,S
+E144,2023-07-12,River water,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+E145,2024-05-19,Soil,Escherichia coli,Ashanti,GH-AH,R,S,R,I,R,R,R,R
+E146,2024-07-14,River water,Escherichia coli,Greater Accra,GH-AA,S,R,R,R,S,R,R,R
+E147,2023-09-01,Hospital effluent,Klebsiella pneumoniae,Northern,GH-NP,R,S,R,R,R,S,R,R
+E148,2023-03-02,River water,Escherichia coli,Eastern,GH-EP,R,R,S,S,S,S,R,R
+E149,2024-03-16,Soil,Escherichia coli,Eastern,GH-EP,R,R,R,S,S,R,R,S
+E150,2023-08-05,Hospital effluent,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,R,R,R,R,S
+E151,2024-09-19,River water,Escherichia coli,Ashanti,GH-AH,R,I,R,S,R,R,R,S
+E152,2024-11-13,Drinking water,Escherichia coli,Central,GH-CP,R,R,S,I,R,S,S,R
+E153,2024-02-02,Soil,Escherichia coli,Ashanti,GH-AH,R,R,R,R,S,S,R,R
+E154,2023-07-17,Soil,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,S,S,S,R,R
+E155,2024-06-24,Hospital effluent,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,R,I,S,R,I
+E156,2023-10-27,Soil,Klebsiella pneumoniae,Ashanti,GH-AH,R,S,S,R,R,S,R,R
+E157,2023-12-19,River water,Enterococcus sp.,Ashanti,GH-AH,R,I,S,R,S,S,R,R
+E158,2023-05-20,Hospital effluent,Escherichia coli,Ashanti,GH-AH,R,R,R,S,S,S,I,S
+E159,2024-02-19,Soil,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,I,S,R,S
+E160,2024-08-27,River water,Escherichia coli,Ashanti,GH-AH,R,R,S,R,S,R,R,S
+E161,2024-02-26,River water,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,R,S,S,R
+E162,2024-08-15,Hospital effluent,Enterococcus sp.,Bono,GH-BO,R,R,S,R,R,S,S,R
+E163,2023-10-22,Drinking water,Enterococcus sp.,Eastern,GH-EP,R,I,S,S,S,S,R,R
+E164,2023-10-03,Soil,Escherichia coli,Ashanti,GH-AH,R,S,I,R,R,S,R,R
+E165,2023-09-13,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,R,R,S,S,I
+E166,2024-09-23,Hospital effluent,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,R,S,R,S,R
+E167,2023-05-08,Drinking water,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,R,S,R,R
+E168,2024-12-24,Soil,Enterococcus sp.,Bono,GH-BO,R,R,S,I,R,S,R,R
+E169,2024-03-06,River water,Escherichia coli,Western,GH-WP,R,S,R,I,R,S,R,R
+E170,2023-09-19,River water,Escherichia coli,Greater Accra,GH-AA,I,I,R,S,S,S,R,R
+E171,2024-10-25,River water,Escherichia coli,Bono,GH-BO,R,S,S,R,S,S,R,R
+E172,2024-09-11,River water,Enterococcus sp.,Greater Accra,GH-AA,R,R,I,R,S,S,R,S
+E173,2024-05-24,Hospital effluent,Escherichia coli,Western,GH-WP,S,R,S,R,R,S,R,R
+E174,2023-01-02,Soil,Klebsiella pneumoniae,Bono,GH-BO,S,S,R,R,R,S,R,R
+E175,2023-04-28,River water,Escherichia coli,Northern,GH-NP,R,R,R,R,I,I,R,R
+E176,2024-02-20,River water,Escherichia coli,Ashanti,GH-AH,R,R,R,S,R,S,R,I
+E177,2024-08-27,Soil,Klebsiella pneumoniae,Bono,GH-BO,I,S,R,R,S,S,R,R
+E178,2023-07-15,River water,Escherichia coli,Eastern,GH-EP,S,R,R,S,S,S,R,R
+E179,2023-09-17,River water,Enterococcus sp.,Northern,GH-NP,R,R,S,R,S,S,R,R
+E180,2024-12-08,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,R,S,R,R,R
+E181,2023-05-12,Hospital effluent,Klebsiella pneumoniae,Bono,GH-BO,I,R,R,R,I,S,R,R
+E182,2024-08-13,River water,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,R,S,S,R,R
+E183,2023-07-08,Soil,Klebsiella pneumoniae,Greater Accra,GH-AA,S,R,I,R,S,S,R,R
+E184,2024-10-18,River water,Escherichia coli,Ashanti,GH-AH,R,R,R,R,I,S,R,R
+E185,2024-08-17,River water,Escherichia coli,Central,GH-CP,R,R,R,R,R,R,R,S
+E186,2023-05-03,River water,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,S,S,R,R
+E187,2024-11-18,Hospital effluent,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,S,S,S,R
+E188,2023-09-12,Drinking water,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+E189,2023-05-16,Soil,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,R,S,I,R
+E190,2024-12-29,River water,Klebsiella pneumoniae,Volta,GH-TV,S,S,R,R,S,S,R,I
+E191,2023-02-11,River water,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,S,S,S,R
+E192,2023-08-25,Hospital effluent,Enterococcus sp.,Ashanti,GH-AH,R,S,R,R,S,S,R,S
+E193,2023-09-13,Hospital effluent,Escherichia coli,Northern,GH-NP,R,R,R,R,S,S,S,R
+E194,2023-02-17,River water,Escherichia coli,Greater Accra,GH-AA,R,R,I,S,R,S,R,S
+E195,2023-03-15,Hospital effluent,Escherichia coli,Volta,GH-TV,R,R,R,R,R,S,S,R
+E196,2024-12-01,River water,Escherichia coli,Greater Accra,GH-AA,R,I,R,R,R,S,R,S
+E197,2024-02-09,Hospital effluent,Enterococcus sp.,Eastern,GH-EP,R,S,R,S,S,S,S,S
+E198,2023-05-17,River water,Escherichia coli,Ashanti,GH-AH,R,R,R,I,R,S,R,R
+E199,2023-08-12,Drinking water,Escherichia coli,Greater Accra,GH-AA,I,R,R,R,R,R,R,R
+E200,2023-10-11,Hospital effluent,Enterococcus sp.,Greater Accra,GH-AA,R,S,R,R,R,I,R,R

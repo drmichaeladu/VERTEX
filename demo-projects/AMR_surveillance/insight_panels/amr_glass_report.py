@@ -22,28 +22,30 @@ def create_visuals(
             df_micro = pd.read_csv(csv_path)
 
     antibiotic_cols = [
-        "AMX", "AMC", "CIP", "CTX", "CAZ", "MEM",
-        "GEN", "SXT", "OXA", "VAN", "LZD", "COL",
+        "AMC", "AMP", "CAZ", "CIP", "CRO", "CTX",
+        "GEN", "AMK", "LNZ", "MEM", "OXA", "SXT", "TZP", "VAN", "CLI", "ERY", "TET",
     ]
     available_abx = [c for c in antibiotic_cols if c in df_micro.columns]
 
     # GLASS priority pathogens for blood cultures
     glass_pathogens = [
-        "E. coli",
-        "K. pneumoniae",
-        "S. aureus",
-        "A. baumannii",
-        "S. pneumoniae",
-        "P. aeruginosa",
+        "Escherichia coli",
+        "Klebsiella pneumoniae",
+        "Staphylococcus aureus",
+        "Acinetobacter baumannii",
+        "Pseudomonas aeruginosa",
+        "Enterobacter sp.",
+        "Staphylococcus, coagulase negative",
     ]
     # Key GLASS antibiotics per organism
     glass_key_abx = {
-        "E. coli": ["CTX", "MEM", "CIP"],
-        "K. pneumoniae": ["CTX", "MEM", "CIP"],
-        "S. aureus": ["OXA", "VAN"],
-        "A. baumannii": ["MEM", "CIP"],
-        "S. pneumoniae": ["AMX", "SXT"],
-        "P. aeruginosa": ["MEM", "CAZ"],
+        "Escherichia coli": ["CRO", "CTX", "CIP", "MEM"],
+        "Klebsiella pneumoniae": ["CRO", "CTX", "CIP", "MEM"],
+        "Staphylococcus aureus": ["OXA", "VAN", "CLI"],
+        "Acinetobacter baumannii": ["MEM", "CIP", "AMK"],
+        "Pseudomonas aeruginosa": ["MEM", "CAZ", "CIP"],
+        "Enterobacter sp.": ["CTX", "MEM", "CIP"],
+        "Staphylococcus, coagulase negative": ["VAN", "LNZ", "SXT"],
     }
 
     # --- Figure 1: Descriptive table of GLASS indicators by origin ---
@@ -229,10 +231,20 @@ def create_visuals(
                 graph_about="No bloodstream infection data available.",
             )
         else:
-            sex_map = {1: "Male", "1": "Male", 2: "Female", "2": "Female"}
-            df_bsi["sex_label"] = df_bsi["micro_sex"].map(sex_map)
-            df_bsi = df_bsi.dropna(subset=["sex_label"])
+            sex_map = {1: "Male", "1": "Male", 2: "Female", "2": "Female",
+                       "Male": "Male", "Female": "Female"}
+            df_bsi["sex_label"] = df_bsi["micro_sex"].map(sex_map).fillna(df_bsi["micro_sex"].astype(str))
+            df_bsi = df_bsi[df_bsi["sex_label"].isin(["Male", "Female"])]
 
+            # Normalise age groups to expected categories
+            def _norm_age(g):
+                g = str(g)
+                if g in ["0-17", "<18"]:   return "0-17"
+                if g in ["18-40", "18-49"]: return "18-49"
+                if g in ["40-65", "50-64"]: return "50-64"
+                if g in ["65+", ">65"]:     return "65+"
+                return g
+            df_bsi["micro_age_group"] = df_bsi["micro_age_group"].apply(_norm_age)
             age_order = ["0-17", "18-49", "50-64", "65+"]
             # Count by age group, sex, and organism
             pyramid_data = (
@@ -264,12 +276,14 @@ def create_visuals(
 
             # Color map for organisms
             organism_colors = {
-                "E. coli": "#4A90D9",
-                "K. pneumoniae": "#00C26F",
-                "S. aureus": "#FF8C00",
-                "A. baumannii": "#DF0069",
+                "Escherichia coli": "#2563A8",
+                "Klebsiella pneumoniae": "#0EA5A0",
+                "Staphylococcus aureus": "#E8832A",
+                "Acinetobacter baumannii": "#C0392B",
                 "S. pneumoniae": "#9B59B6",
-                "P. aeruginosa": "#1ABC9C",
+                "Pseudomonas aeruginosa": "#1B3A6B",
+                "Enterobacter sp.": "#8E44AD",
+                "Staphylococcus, coagulase negative": "#7F8C8D",
             }
             # Filter to only organisms present
             color_map = {

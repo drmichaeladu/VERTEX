@@ -1,0 +1,401 @@
+subjid,collection_date,animal_species,sample_type,organism,ghana_region,ghana_region_iso,AMC,AMP,CIP,CRO,CTX,GEN,SXT,TET
+A001,2024-08-25,Poultry,Faecal,Klebsiella pneumoniae,Ashanti,GH-AH,I,R,S,R,S,R,R,R
+A002,2023-08-08,Poultry,Faecal,Escherichia coli,Central,GH-CP,I,R,R,S,S,I,R,R
+A003,2024-02-20,Goat,Faecal,Escherichia coli,Western,GH-WP,R,R,S,R,R,S,R,S
+A004,2024-03-16,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,S,R,S,R,R
+A005,2023-08-29,Poultry,Carcass swab,Escherichia coli,Greater Accra,GH-AA,S,R,R,S,S,S,R,R
+A006,2023-10-21,Swine,Carcass swab,Salmonella sp.,Western,GH-WP,R,R,S,S,S,S,R,R
+A007,2023-09-07,Cattle,Faecal,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,S,R,S,R,R
+A008,2024-09-17,Poultry,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,R,S,R,S,R,R,R,R
+A009,2023-06-18,Cattle,Carcass swab,Salmonella sp.,Ashanti,GH-AH,R,I,R,R,R,S,R,R
+A010,2023-12-11,Poultry,Carcass swab,Salmonella sp.,Greater Accra,GH-AA,R,S,S,R,S,S,S,S
+A011,2023-06-13,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+A012,2024-09-04,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,S,R,R,S,R
+A013,2023-12-01,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,R,R,S,R,S,R
+A014,2024-08-30,Poultry,Carcass swab,Escherichia coli,Western,GH-WP,R,R,R,R,S,S,R,R
+A015,2024-01-21,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,S,S,R,R,R
+A016,2023-03-26,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,I,S,R,R,R
+A017,2023-04-14,Goat,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,R,S,S,R,R
+A018,2023-03-26,Poultry,Carcass swab,Escherichia coli,Bono,GH-BO,S,R,R,R,R,S,S,S
+A019,2023-03-26,Cattle,Milk,Escherichia coli,Western,GH-WP,S,R,R,R,R,R,R,R
+A020,2023-01-09,Cattle,Faecal,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+A021,2023-06-03,Cattle,Milk,Salmonella sp.,Western,GH-WP,R,R,R,R,S,S,R,R
+A022,2024-07-07,Swine,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,S,S,R,R,R,R
+A023,2024-03-14,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+A024,2024-05-19,Poultry,Carcass swab,Escherichia coli,Greater Accra,GH-AA,R,R,R,S,R,S,R,S
+A025,2023-04-05,Poultry,Carcass swab,Klebsiella pneumoniae,Northern,GH-NP,R,R,R,I,S,R,R,R
+A026,2024-12-15,Cattle,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,R,S,I,S,R
+A027,2024-10-25,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,S,S,R,R,S,R,S
+A028,2023-06-05,Cattle,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,R,R,R,R,I
+A029,2023-02-22,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,S,S,R,R,R,R
+A030,2023-01-03,Cattle,Faecal,Escherichia coli,Central,GH-CP,S,R,S,R,S,R,R,S
+A031,2024-04-27,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,R,R,R,R,R
+A032,2023-07-01,Poultry,Faecal,Salmonella sp.,Central,GH-CP,R,R,R,R,R,R,R,R
+A033,2023-02-03,Poultry,Carcass swab,Salmonella sp.,Ashanti,GH-AH,R,R,R,S,R,S,R,R
+A034,2023-05-17,Swine,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,S,R,R,R,R
+A035,2023-10-26,Cattle,Faecal,Escherichia coli,Western,GH-WP,R,R,R,R,R,R,S,R
+A036,2024-01-11,Poultry,Faecal,Klebsiella pneumoniae,Eastern,GH-EP,R,R,R,R,R,S,S,R
+A037,2024-11-26,Goat,Carcass swab,Salmonella sp.,Ashanti,GH-AH,R,R,I,R,I,R,I,R
+A038,2024-12-03,Poultry,Carcass swab,Salmonella sp.,Central,GH-CP,R,R,R,R,S,S,R,R
+A039,2024-12-17,Swine,Faecal,Salmonella sp.,Eastern,GH-EP,R,S,S,R,R,S,R,R
+A040,2024-01-01,Cattle,Faecal,Escherichia coli,Eastern,GH-EP,R,R,S,R,R,S,R,R
+A041,2024-11-13,Cattle,Faecal,Escherichia coli,Northern,GH-NP,S,R,R,S,R,I,R,R
+A042,2024-08-08,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,I,R,R,S,R,R
+A043,2023-03-31,Swine,Carcass swab,Klebsiella pneumoniae,Central,GH-CP,R,R,R,R,R,R,R,R
+A044,2023-02-11,Goat,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,S,I,S,R,R,I
+A045,2023-06-19,Cattle,Milk,Escherichia coli,Greater Accra,GH-AA,R,S,R,S,R,R,R,R
+A046,2023-11-14,Cattle,Faecal,Klebsiella pneumoniae,Bono,GH-BO,R,S,S,R,S,R,R,R
+A047,2023-12-05,Poultry,Faecal,Escherichia coli,Volta,GH-TV,R,S,R,R,S,S,R,S
+A048,2023-04-13,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,S,R,S,S,R,S,S,S
+A049,2023-02-09,Cattle,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,R,S,R,S,S,R
+A050,2024-08-19,Swine,Carcass swab,Salmonella sp.,Bono,GH-BO,R,I,R,R,R,S,R,R
+A051,2023-03-26,Cattle,Carcass swab,Salmonella sp.,Volta,GH-TV,R,R,R,R,S,S,R,R
+A052,2023-02-10,Goat,Carcass swab,Salmonella sp.,Central,GH-CP,R,R,S,R,I,R,R,R
+A053,2024-09-21,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,S,R,I,R,R,R,R
+A054,2023-01-01,Poultry,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,R,R,R,S,R
+A055,2023-07-16,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,R,R,S,R,R,S,I,R
+A056,2023-06-24,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,S,R,R,S,R,S,I,R
+A057,2024-02-05,Cattle,Milk,Escherichia coli,Western,GH-WP,R,R,R,R,S,S,S,R
+A058,2024-05-17,Poultry,Faecal,Escherichia coli,Central,GH-CP,R,R,R,S,R,S,R,R
+A059,2023-04-21,Goat,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,S,R,R,S,R
+A060,2023-10-01,Poultry,Faecal,Escherichia coli,Central,GH-CP,R,R,R,R,R,I,S,R
+A061,2024-08-30,Swine,Milk,Escherichia coli,Ashanti,GH-AH,R,R,S,R,R,S,R,R
+A062,2023-10-26,Poultry,Faecal,Klebsiella pneumoniae,Ashanti,GH-AH,R,I,R,R,R,S,R,S
+A063,2024-09-22,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,S,I,R,S,S,R
+A064,2024-06-22,Cattle,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,R,R,S,R,R
+A065,2023-03-15,Cattle,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,I,R,R,R,R
+A066,2024-09-19,Poultry,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,S,R,S,R,R
+A067,2023-10-19,Cattle,Carcass swab,Escherichia coli,Northern,GH-NP,R,R,S,S,R,S,S,R
+A068,2023-05-22,Goat,Faecal,Klebsiella pneumoniae,Bono,GH-BO,R,R,R,S,R,S,R,S
+A069,2023-03-08,Swine,Faecal,Escherichia coli,Ashanti,GH-AH,R,S,S,S,R,S,R,R
+A070,2024-04-18,Goat,Carcass swab,Escherichia coli,Volta,GH-TV,R,R,R,R,R,R,I,R
+A071,2024-09-12,Poultry,Faecal,Salmonella sp.,Central,GH-CP,R,R,S,S,S,S,R,R
+A072,2023-09-24,Cattle,Faecal,Salmonella sp.,Bono,GH-BO,R,R,I,S,R,I,R,R
+A073,2023-06-11,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,S,R,R,S,S,I,R,R
+A074,2024-10-20,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,I,I,S,R,R
+A075,2024-12-17,Cattle,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,S,R,S,I,R
+A076,2024-06-11,Goat,Carcass swab,Escherichia coli,Bono,GH-BO,R,R,R,S,R,S,R,R
+A077,2023-04-09,Poultry,Milk,Salmonella sp.,Western,GH-WP,R,S,S,R,R,S,R,R
+A078,2024-05-23,Cattle,Carcass swab,Escherichia coli,Northern,GH-NP,R,R,S,S,S,S,R,R
+A079,2024-09-13,Swine,Faecal,Escherichia coli,Bono,GH-BO,R,R,R,S,R,R,R,R
+A080,2023-08-18,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,S,S,R,S,R,R,R,R
+A081,2024-12-06,Goat,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+A082,2023-10-18,Poultry,Faecal,Escherichia coli,Northern,GH-NP,R,S,S,R,R,S,R,R
+A083,2023-02-02,Swine,Carcass swab,Salmonella sp.,Western,GH-WP,R,R,I,R,R,R,R,R
+A084,2024-02-07,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+A085,2023-12-13,Poultry,Carcass swab,Escherichia coli,Western,GH-WP,R,R,S,R,S,S,R,R
+A086,2024-11-11,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,S,S,R,R,R,S,R
+A087,2023-06-16,Cattle,Faecal,Salmonella sp.,Ashanti,GH-AH,R,I,R,S,I,R,S,R
+A088,2024-12-12,Goat,Carcass swab,Escherichia coli,Western,GH-WP,R,S,R,R,R,R,R,S
+A089,2024-04-29,Swine,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,S,R,R,R,R
+A090,2024-04-08,Poultry,Faecal,Klebsiella pneumoniae,Bono,GH-BO,R,R,R,R,R,R,R,R
+A091,2024-01-03,Poultry,Carcass swab,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,R,R,R,S
+A092,2024-06-05,Poultry,Carcass swab,Salmonella sp.,Central,GH-CP,R,R,R,R,S,R,R,I
+A093,2023-11-10,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,I,R,R,R,R,R,R,S
+A094,2023-10-28,Goat,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,R,S,R,I,S
+A095,2024-10-31,Cattle,Faecal,Escherichia coli,Western,GH-WP,R,R,S,R,R,S,R,R
+A096,2024-12-23,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,I,S,R,R,R,R,S,I
+A097,2024-02-15,Poultry,Faecal,Klebsiella pneumoniae,Bono,GH-BO,R,R,R,R,R,S,R,R
+A098,2024-03-04,Cattle,Milk,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,R,I,R,S
+A099,2023-08-29,Cattle,Faecal,Escherichia coli,Western,GH-WP,I,S,S,R,S,S,R,R
+A100,2023-11-13,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,I,I,S,S,R
+A101,2024-11-13,Swine,Faecal,Escherichia coli,Western,GH-WP,S,R,R,R,R,R,R,R
+A102,2023-12-01,Cattle,Faecal,Klebsiella pneumoniae,Volta,GH-TV,R,R,S,R,R,R,R,I
+A103,2023-08-04,Cattle,Faecal,Klebsiella pneumoniae,Eastern,GH-EP,S,R,R,R,R,S,S,R
+A104,2023-09-04,Poultry,Faecal,Escherichia coli,Bono,GH-BO,R,R,R,R,R,R,R,R
+A105,2024-04-17,Goat,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,R,S,R
+A106,2023-06-02,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,R,S,I,R
+A107,2024-12-21,Swine,Faecal,Escherichia coli,Western,GH-WP,S,R,S,R,S,I,R,R
+A108,2023-06-08,Goat,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,S,R,R,S,R,R
+A109,2023-02-07,Cattle,Carcass swab,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,S,R,S,S,R,S
+A110,2023-03-23,Cattle,Carcass swab,Escherichia coli,Greater Accra,GH-AA,R,R,S,S,S,R,R,S
+A111,2023-03-02,Cattle,Carcass swab,Salmonella sp.,Ashanti,GH-AH,R,R,S,R,S,R,R,R
+A112,2024-08-24,Goat,Faecal,Escherichia coli,Eastern,GH-EP,R,I,R,R,R,R,R,R
+A113,2023-05-01,Swine,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,R,S,S,I,R
+A114,2023-06-01,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,S,R,R,R,R,S,R,R
+A115,2023-04-21,Swine,Faecal,Salmonella sp.,Bono,GH-BO,R,R,R,R,R,R,R,R
+A116,2024-04-04,Swine,Carcass swab,Escherichia coli,Bono,GH-BO,R,I,R,S,I,S,R,S
+A117,2023-05-10,Poultry,Carcass swab,Escherichia coli,Greater Accra,GH-AA,R,I,R,S,I,R,I,R
+A118,2023-06-02,Cattle,Faecal,Klebsiella pneumoniae,Northern,GH-NP,R,R,R,R,R,S,S,R
+A119,2023-03-17,Poultry,Milk,Escherichia coli,Bono,GH-BO,R,R,S,R,R,R,R,R
+A120,2023-10-17,Cattle,Faecal,Salmonella sp.,Western,GH-WP,R,I,S,R,S,I,R,R
+A121,2023-12-07,Cattle,Faecal,Escherichia coli,Bono,GH-BO,S,S,R,R,R,S,S,R
+A122,2024-12-05,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,R,I,R,S,R
+A123,2023-11-24,Poultry,Milk,Escherichia coli,Eastern,GH-EP,R,R,S,R,I,S,S,R
+A124,2024-08-16,Swine,Faecal,Escherichia coli,Bono,GH-BO,R,R,R,R,S,S,R,S
+A125,2023-09-02,Poultry,Milk,Escherichia coli,Central,GH-CP,R,R,S,R,I,R,R,I
+A126,2024-05-08,Cattle,Milk,Escherichia coli,Central,GH-CP,R,R,R,I,S,S,R,S
+A127,2024-03-21,Swine,Faecal,Salmonella sp.,Northern,GH-NP,R,R,S,S,S,R,R,R
+A128,2024-02-24,Swine,Faecal,Escherichia coli,Volta,GH-TV,R,R,R,S,I,R,R,R
+A129,2023-05-06,Poultry,Carcass swab,Escherichia coli,Volta,GH-TV,R,R,I,S,S,S,S,R
+A130,2024-10-21,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,S,S,R,R,S,R
+A131,2024-11-15,Goat,Carcass swab,Escherichia coli,Volta,GH-TV,R,R,S,R,S,S,R,S
+A132,2024-11-18,Swine,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,R,R,S,S,R,R
+A133,2024-07-19,Cattle,Carcass swab,Escherichia coli,Bono,GH-BO,R,R,R,R,R,R,R,R
+A134,2024-08-24,Swine,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+A135,2023-11-06,Cattle,Carcass swab,Escherichia coli,Volta,GH-TV,R,R,R,R,R,I,S,R
+A136,2024-12-27,Poultry,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,R,S,R,S,R,R
+A137,2023-08-03,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,S,I,S,R,R
+A138,2024-04-29,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,S,R,I,R,R,S,S
+A139,2024-11-02,Swine,Faecal,Salmonella sp.,Central,GH-CP,R,R,R,R,R,S,R,R
+A140,2023-02-04,Goat,Carcass swab,Escherichia coli,Northern,GH-NP,R,R,R,R,S,R,S,R
+A141,2024-01-08,Cattle,Faecal,Salmonella sp.,Greater Accra,GH-AA,R,R,R,S,S,S,R,R
+A142,2023-06-10,Poultry,Carcass swab,Salmonella sp.,Bono,GH-BO,R,R,R,R,S,S,R,R
+A143,2024-02-05,Cattle,Faecal,Escherichia coli,Eastern,GH-EP,R,R,S,R,R,S,S,R
+A144,2023-07-16,Swine,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+A145,2023-12-20,Goat,Carcass swab,Escherichia coli,Central,GH-CP,R,R,R,S,R,R,R,R
+A146,2023-03-09,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,R,R,R,R
+A147,2023-02-20,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,S,R,R,I,R,S,S,S
+A148,2023-02-02,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,S,R,S,R,R
+A149,2023-09-16,Cattle,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,I,R,S,R,S,R,R,R
+A150,2024-02-03,Poultry,Faecal,Klebsiella pneumoniae,Western,GH-WP,R,R,S,S,R,S,R,S
+A151,2023-07-11,Poultry,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,S,S,I,R,R,S
+A152,2024-05-24,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,R,R,S,R,S,R,R,I
+A153,2024-04-19,Swine,Carcass swab,Escherichia coli,Bono,GH-BO,R,S,R,R,S,R,S,R
+A154,2024-11-05,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,R,I,S,R,R,S,S,R
+A155,2024-02-12,Poultry,Faecal,Klebsiella pneumoniae,Volta,GH-TV,R,S,S,S,S,R,R,R
+A156,2024-12-27,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,S,R,S,S,S,S,R,R
+A157,2023-11-28,Poultry,Milk,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,S,R,R,R,S
+A158,2024-04-05,Cattle,Faecal,Escherichia coli,Volta,GH-TV,R,R,I,S,R,R,R,R
+A159,2023-05-17,Poultry,Faecal,Escherichia coli,Volta,GH-TV,R,R,S,S,R,S,R,R
+A160,2023-12-01,Cattle,Faecal,Klebsiella pneumoniae,Central,GH-CP,R,S,R,R,R,S,R,R
+A161,2024-12-25,Cattle,Carcass swab,Escherichia coli,Bono,GH-BO,R,R,S,S,R,S,R,S
+A162,2024-03-08,Poultry,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,S,R,S,R,R
+A163,2024-11-05,Swine,Milk,Salmonella sp.,Western,GH-WP,R,I,R,R,R,S,R,R
+A164,2023-11-19,Cattle,Faecal,Salmonella sp.,Western,GH-WP,R,R,R,R,R,S,I,I
+A165,2024-08-03,Poultry,Carcass swab,Salmonella sp.,Greater Accra,GH-AA,R,S,I,R,S,S,R,R
+A166,2024-12-17,Swine,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,R,S,R,R
+A167,2023-07-08,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+A168,2023-01-08,Poultry,Faecal,Escherichia coli,Volta,GH-TV,R,R,R,R,R,R,R,R
+A169,2023-06-18,Cattle,Milk,Klebsiella pneumoniae,Greater Accra,GH-AA,S,R,S,I,R,R,R,R
+A170,2023-09-14,Poultry,Milk,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,S,R,R,I
+A171,2024-03-01,Poultry,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,S,R,R,S,R,R
+A172,2023-04-06,Swine,Carcass swab,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,S,S,S,R,R
+A173,2024-05-13,Poultry,Faecal,Salmonella sp.,Volta,GH-TV,R,R,S,R,S,S,R,R
+A174,2023-12-09,Poultry,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,I,R,R,R,I,R,R,R
+A175,2023-06-01,Poultry,Milk,Escherichia coli,Ashanti,GH-AH,I,S,R,R,R,S,R,S
+A176,2023-02-13,Swine,Carcass swab,Escherichia coli,Western,GH-WP,R,R,S,R,R,R,S,S
+A177,2023-05-24,Cattle,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,R,S,S,R,R
+A178,2023-09-03,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,I,R,S,R,R
+A179,2024-06-09,Poultry,Faecal,Escherichia coli,Northern,GH-NP,R,S,S,R,R,R,I,R
+A180,2024-09-10,Cattle,Carcass swab,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,R,R,R,R
+A181,2024-05-22,Cattle,Faecal,Escherichia coli,Bono,GH-BO,R,R,R,R,S,R,R,R
+A182,2023-10-12,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,R,R,I,R,S
+A183,2023-07-27,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,S,R,S,R,R,R
+A184,2023-07-04,Swine,Faecal,Escherichia coli,Bono,GH-BO,R,S,R,R,R,I,S,R
+A185,2024-03-03,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,S,R,S,R,R
+A186,2023-02-09,Goat,Faecal,Escherichia coli,Volta,GH-TV,S,R,S,I,R,R,R,S
+A187,2023-01-10,Swine,Carcass swab,Escherichia coli,Eastern,GH-EP,R,S,R,S,R,R,S,R
+A188,2024-10-08,Poultry,Faecal,Salmonella sp.,Greater Accra,GH-AA,R,R,S,S,R,R,R,R
+A189,2024-01-05,Goat,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,R,S,S,S,R
+A190,2024-12-29,Cattle,Faecal,Salmonella sp.,Bono,GH-BO,R,S,R,R,R,R,R,R
+A191,2023-12-18,Poultry,Faecal,Escherichia coli,Northern,GH-NP,R,R,I,S,R,S,R,R
+A192,2024-09-21,Cattle,Faecal,Salmonella sp.,Ashanti,GH-AH,R,S,I,R,R,S,R,S
+A193,2024-01-17,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,S,R,S,S,S,R
+A194,2023-12-12,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,R,R,R,R,R
+A195,2023-01-03,Cattle,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,R,S,I,R,S,R
+A196,2023-04-18,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,R,S,R,R,R
+A197,2024-05-09,Cattle,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,S,S,R,S,R,R
+A198,2024-05-28,Poultry,Carcass swab,Escherichia coli,Greater Accra,GH-AA,S,R,R,I,R,S,S,R
+A199,2023-07-26,Swine,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,S,R,I,S,R
+A200,2023-08-05,Poultry,Milk,Klebsiella pneumoniae,Western,GH-WP,S,R,R,R,R,R,R,I
+A201,2023-06-01,Goat,Faecal,Klebsiella pneumoniae,Central,GH-CP,R,R,S,R,R,R,R,S
+A202,2023-12-07,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,S,R,R,R,R,R,R,S
+A203,2024-11-27,Goat,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,S,S,S,S,R
+A204,2024-11-05,Cattle,Carcass swab,Salmonella sp.,Ashanti,GH-AH,R,R,R,S,S,S,R,R
+A205,2024-06-01,Cattle,Carcass swab,Klebsiella pneumoniae,Western,GH-WP,I,R,S,S,R,R,S,R
+A206,2023-10-08,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,S,I,S,R,S
+A207,2024-06-27,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,S,R,I,R,R
+A208,2024-02-05,Goat,Carcass swab,Salmonella sp.,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+A209,2024-06-25,Goat,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,R,I,S,I
+A210,2024-08-27,Cattle,Carcass swab,Escherichia coli,Central,GH-CP,R,R,I,R,R,S,R,R
+A211,2024-09-19,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,S,R,S,S,S,R,R,R
+A212,2024-09-18,Goat,Faecal,Escherichia coli,Northern,GH-NP,S,R,S,S,S,S,R,R
+A213,2023-07-21,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,S,R,R,R,R
+A214,2024-03-21,Poultry,Faecal,Escherichia coli,Bono,GH-BO,R,R,S,R,R,R,R,R
+A215,2023-02-10,Cattle,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,S,R,S,R,S,S,R,R
+A216,2024-04-10,Cattle,Milk,Klebsiella pneumoniae,Eastern,GH-EP,R,R,S,R,R,R,R,R
+A217,2024-08-28,Poultry,Milk,Salmonella sp.,Eastern,GH-EP,R,R,S,R,R,R,R,R
+A218,2024-07-14,Poultry,Carcass swab,Klebsiella pneumoniae,Bono,GH-BO,I,R,R,I,R,S,S,R
+A219,2023-10-25,Swine,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,S,R,R,R,R
+A220,2024-07-05,Cattle,Faecal,Klebsiella pneumoniae,Northern,GH-NP,R,R,S,R,R,R,R,R
+A221,2024-04-12,Cattle,Carcass swab,Escherichia coli,Central,GH-CP,S,R,R,R,R,S,R,R
+A222,2023-02-15,Poultry,Faecal,Salmonella sp.,Western,GH-WP,R,R,S,R,R,R,R,R
+A223,2023-10-19,Poultry,Faecal,Klebsiella pneumoniae,Western,GH-WP,R,R,R,R,S,S,S,R
+A224,2023-12-07,Poultry,Faecal,Klebsiella pneumoniae,Eastern,GH-EP,R,R,S,R,R,S,R,R
+A225,2023-01-19,Poultry,Faecal,Salmonella sp.,Ashanti,GH-AH,R,I,S,R,S,R,I,I
+A226,2024-02-22,Poultry,Carcass swab,Salmonella sp.,Bono,GH-BO,R,R,R,R,R,R,R,S
+A227,2024-08-26,Cattle,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,R,R,S,R,R,R
+A228,2024-10-04,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,R,R,R,R,R,I
+A229,2023-03-06,Poultry,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,R,S,I,S,S,R,R,S
+A230,2024-04-30,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,I,S,R,R,R,R,S
+A231,2024-03-03,Cattle,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,S,R,R,S,S,S
+A232,2024-04-19,Goat,Faecal,Escherichia coli,Western,GH-WP,R,R,I,R,R,R,R,R
+A233,2024-09-15,Swine,Carcass swab,Salmonella sp.,Ashanti,GH-AH,R,S,R,R,S,S,R,S
+A234,2024-08-08,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,S,R,R,I,R
+A235,2023-08-25,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,S,R,R,R,R
+A236,2023-11-19,Goat,Carcass swab,Klebsiella pneumoniae,Greater Accra,GH-AA,S,R,S,S,R,R,R,S
+A237,2024-08-28,Poultry,Faecal,Salmonella sp.,Western,GH-WP,R,R,S,R,I,S,S,R
+A238,2023-08-17,Poultry,Faecal,Escherichia coli,Western,GH-WP,R,R,R,S,R,S,S,R
+A239,2024-04-05,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,S,I
+A240,2023-09-29,Poultry,Carcass swab,Escherichia coli,Bono,GH-BO,R,R,R,I,R,R,R,R
+A241,2023-11-04,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,S,S,S,R,R
+A242,2024-10-29,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,I,R,S,R,R
+A243,2023-02-09,Poultry,Faecal,Salmonella sp.,Western,GH-WP,R,S,R,R,S,R,R,R
+A244,2023-08-23,Swine,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,I,R,R,I,S
+A245,2024-11-15,Cattle,Faecal,Escherichia coli,Central,GH-CP,R,R,R,R,S,S,R,R
+A246,2024-08-16,Poultry,Milk,Escherichia coli,Western,GH-WP,R,R,S,R,R,I,R,R
+A247,2023-09-18,Poultry,Faecal,Escherichia coli,Central,GH-CP,R,S,S,R,R,R,R,R
+A248,2024-02-09,Cattle,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,S,S,R,R
+A249,2023-09-29,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,S,R,R,R,S,R,R,R
+A250,2023-01-05,Poultry,Faecal,Escherichia coli,Bono,GH-BO,R,R,R,R,R,R,R,R
+A251,2024-06-27,Cattle,Carcass swab,Escherichia coli,Northern,GH-NP,R,R,I,R,R,S,S,R
+A252,2023-08-23,Poultry,Faecal,Klebsiella pneumoniae,Ashanti,GH-AH,S,S,R,R,S,R,R,I
+A253,2023-02-11,Poultry,Carcass swab,Salmonella sp.,Bono,GH-BO,R,S,R,S,S,I,R,S
+A254,2023-08-16,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,I,R,R,S,R,R
+A255,2024-04-05,Goat,Carcass swab,Escherichia coli,Ashanti,GH-AH,S,S,R,S,S,S,R,R
+A256,2023-09-02,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,I,S,R,S
+A257,2024-02-11,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,S,R,I,R,R
+A258,2023-01-03,Cattle,Faecal,Klebsiella pneumoniae,Volta,GH-TV,R,R,R,R,R,R,R,S
+A259,2024-03-16,Poultry,Faecal,Escherichia coli,Volta,GH-TV,R,R,S,R,R,R,R,R
+A260,2023-02-18,Poultry,Carcass swab,Escherichia coli,Northern,GH-NP,R,R,R,S,S,S,R,R
+A261,2023-03-19,Goat,Faecal,Salmonella sp.,Western,GH-WP,R,R,R,R,R,R,R,S
+A262,2023-10-08,Goat,Faecal,Escherichia coli,Greater Accra,GH-AA,R,S,R,S,R,R,S,R
+A263,2024-07-02,Cattle,Faecal,Escherichia coli,Bono,GH-BO,R,R,R,R,R,R,R,R
+A264,2024-07-13,Swine,Carcass swab,Escherichia coli,Eastern,GH-EP,S,R,R,R,S,S,R,R
+A265,2024-03-02,Poultry,Carcass swab,Klebsiella pneumoniae,Greater Accra,GH-AA,S,R,R,S,R,R,S,R
+A266,2023-01-17,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,I,R,R,R,R
+A267,2024-05-28,Cattle,Faecal,Klebsiella pneumoniae,Volta,GH-TV,R,R,S,S,R,R,R,R
+A268,2024-10-17,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,S,S,S,R,R
+A269,2023-11-10,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,S,R,R,S,S,R,I,R
+A270,2024-09-06,Cattle,Faecal,Salmonella sp.,Bono,GH-BO,R,R,R,R,R,R,R,R
+A271,2024-11-10,Swine,Carcass swab,Escherichia coli,Volta,GH-TV,R,R,S,R,S,S,R,S
+A272,2023-02-22,Cattle,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,S,S,R,S,R,R
+A273,2024-05-23,Cattle,Faecal,Escherichia coli,Western,GH-WP,R,R,R,R,R,S,S,R
+A274,2024-08-17,Cattle,Carcass swab,Escherichia coli,Eastern,GH-EP,R,R,R,R,S,S,R,R
+A275,2023-08-07,Poultry,Faecal,Salmonella sp.,Greater Accra,GH-AA,R,R,R,R,S,R,S,R
+A276,2024-06-30,Cattle,Faecal,Salmonella sp.,Greater Accra,GH-AA,R,I,S,R,R,R,R,R
+A277,2024-11-08,Swine,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,R,R,R,S,R,R
+A278,2024-07-19,Cattle,Faecal,Salmonella sp.,Northern,GH-NP,R,S,R,R,R,S,R,R
+A279,2023-10-22,Poultry,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,I,S,R,S,R,R
+A280,2023-04-29,Cattle,Carcass swab,Klebsiella pneumoniae,Central,GH-CP,R,S,S,R,S,S,R,S
+A281,2023-08-29,Cattle,Faecal,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,I,R,R,S
+A282,2024-02-03,Cattle,Carcass swab,Salmonella sp.,Central,GH-CP,R,R,I,S,S,S,R,R
+A283,2024-07-28,Cattle,Faecal,Escherichia coli,Bono,GH-BO,R,R,S,S,R,R,R,R
+A284,2023-12-03,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,I,I,S,R,S,R,R
+A285,2023-07-01,Goat,Carcass swab,Escherichia coli,Bono,GH-BO,R,R,R,S,R,R,R,R
+A286,2024-07-12,Cattle,Faecal,Klebsiella pneumoniae,Western,GH-WP,R,R,R,R,R,R,S,R
+A287,2024-11-02,Swine,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,S,R,S,R,R,R
+A288,2023-07-25,Swine,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,S,S,R,R,I
+A289,2023-01-15,Swine,Carcass swab,Salmonella sp.,Bono,GH-BO,R,R,I,S,S,R,S,R
+A290,2024-12-02,Poultry,Faecal,Escherichia coli,Central,GH-CP,R,R,R,R,R,S,R,R
+A291,2024-03-15,Goat,Faecal,Salmonella sp.,Central,GH-CP,R,R,R,S,S,S,R,I
+A292,2023-03-23,Poultry,Carcass swab,Escherichia coli,Western,GH-WP,R,R,S,S,R,R,R,S
+A293,2023-12-03,Poultry,Carcass swab,Salmonella sp.,Western,GH-WP,R,R,S,R,R,S,S,S
+A294,2024-10-24,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,S,R,S,S,R,S,R,R
+A295,2023-09-09,Swine,Faecal,Escherichia coli,Ashanti,GH-AH,S,R,R,S,R,R,R,R
+A296,2024-05-06,Swine,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,S,S,S,R,R,R
+A297,2023-01-22,Goat,Carcass swab,Salmonella sp.,Central,GH-CP,R,R,S,R,S,R,R,R
+A298,2023-04-12,Cattle,Faecal,Salmonella sp.,Northern,GH-NP,R,R,R,R,S,S,I,R
+A299,2023-05-13,Cattle,Faecal,Escherichia coli,Western,GH-WP,S,I,S,R,S,S,R,R
+A300,2023-09-22,Swine,Faecal,Salmonella sp.,Central,GH-CP,R,R,S,S,R,S,R,R
+A301,2023-06-23,Cattle,Milk,Salmonella sp.,Ashanti,GH-AH,R,R,I,R,S,I,R,R
+A302,2024-11-04,Cattle,Milk,Escherichia coli,Bono,GH-BO,R,R,R,R,R,S,R,R
+A303,2023-10-27,Cattle,Carcass swab,Escherichia coli,Western,GH-WP,R,R,S,I,R,R,R,R
+A304,2024-11-18,Goat,Faecal,Salmonella sp.,Volta,GH-TV,R,S,R,S,R,S,R,R
+A305,2023-09-21,Swine,Faecal,Klebsiella pneumoniae,Central,GH-CP,R,R,S,R,S,S,R,S
+A306,2024-03-01,Cattle,Faecal,Escherichia coli,Bono,GH-BO,R,R,S,R,S,S,S,R
+A307,2023-06-15,Cattle,Milk,Klebsiella pneumoniae,Volta,GH-TV,R,R,R,R,S,R,R,R
+A308,2024-03-12,Poultry,Faecal,Escherichia coli,Volta,GH-TV,R,S,R,R,R,R,R,R
+A309,2023-07-28,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,R,S,R,R,R,S,S,R
+A310,2023-06-17,Poultry,Faecal,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,R,S,S,R
+A311,2024-01-06,Swine,Faecal,Escherichia coli,Ashanti,GH-AH,I,S,S,R,R,R,R,S
+A312,2023-04-10,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,S,S,R,R,R
+A313,2023-10-23,Cattle,Faecal,Escherichia coli,Western,GH-WP,I,S,R,R,R,S,I,S
+A314,2023-11-13,Goat,Carcass swab,Escherichia coli,Volta,GH-TV,R,R,R,S,I,R,S,R
+A315,2024-07-09,Poultry,Faecal,Escherichia coli,Western,GH-WP,R,R,R,I,R,R,R,R
+A316,2024-12-09,Poultry,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,S,R,S,R,R
+A317,2024-07-15,Poultry,Carcass swab,Escherichia coli,Bono,GH-BO,R,R,I,R,R,S,S,R
+A318,2024-10-16,Cattle,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,R,R,R,R,R,R,R,R
+A319,2023-03-12,Swine,Faecal,Klebsiella pneumoniae,Western,GH-WP,R,R,R,S,R,I,S,I
+A320,2023-03-20,Cattle,Carcass swab,Salmonella sp.,Eastern,GH-EP,R,I,R,R,R,I,R,S
+A321,2023-06-09,Poultry,Faecal,Klebsiella pneumoniae,Greater Accra,GH-AA,R,S,R,S,R,I,R,R
+A322,2023-05-05,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,S,S,R,R,R
+A323,2023-01-04,Cattle,Carcass swab,Klebsiella pneumoniae,Volta,GH-TV,R,R,S,R,S,S,S,R
+A324,2023-09-03,Cattle,Carcass swab,Escherichia coli,Eastern,GH-EP,I,R,I,S,S,I,R,R
+A325,2023-03-09,Cattle,Faecal,Klebsiella pneumoniae,Volta,GH-TV,R,R,S,R,S,S,S,R
+A326,2023-10-04,Cattle,Faecal,Klebsiella pneumoniae,Central,GH-CP,I,R,S,I,S,R,R,R
+A327,2023-07-03,Cattle,Milk,Escherichia coli,Greater Accra,GH-AA,R,R,S,S,S,R,S,R
+A328,2023-04-27,Cattle,Milk,Klebsiella pneumoniae,Central,GH-CP,R,R,R,S,R,R,S,S
+A329,2024-04-07,Swine,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,S,R,S,R,S,S
+A330,2023-12-12,Goat,Faecal,Escherichia coli,Eastern,GH-EP,R,R,S,R,R,S,I,R
+A331,2023-05-05,Swine,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,R,S,S,R,R,R
+A332,2024-05-27,Cattle,Faecal,Salmonella sp.,Volta,GH-TV,R,R,R,R,S,S,R,S
+A333,2024-07-01,Poultry,Faecal,Escherichia coli,Western,GH-WP,R,R,R,S,R,R,R,R
+A334,2024-04-21,Poultry,Faecal,Salmonella sp.,Western,GH-WP,R,R,R,R,S,R,R,R
+A335,2024-06-07,Cattle,Milk,Escherichia coli,Northern,GH-NP,R,R,R,S,R,S,R,S
+A336,2023-05-06,Poultry,Milk,Escherichia coli,Eastern,GH-EP,I,R,S,R,S,R,R,R
+A337,2024-05-07,Cattle,Carcass swab,Escherichia coli,Central,GH-CP,R,R,S,S,S,S,R,S
+A338,2024-11-15,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,S,R,S,R,R,R,S
+A339,2024-09-21,Goat,Faecal,Escherichia coli,Eastern,GH-EP,S,R,S,R,R,S,R,R
+A340,2023-10-12,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,I,R,S,S,R,R
+A341,2023-03-27,Cattle,Faecal,Escherichia coli,Volta,GH-TV,R,R,S,S,R,S,R,R
+A342,2023-12-31,Poultry,Faecal,Salmonella sp.,Central,GH-CP,R,S,S,R,I,R,R,S
+A343,2023-04-05,Cattle,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,R,R,S,R,S
+A344,2023-12-28,Poultry,Faecal,Escherichia coli,Eastern,GH-EP,R,R,R,R,R,R,R,I
+A345,2023-06-30,Goat,Carcass swab,Salmonella sp.,Western,GH-WP,R,R,S,R,S,R,S,R
+A346,2024-02-02,Swine,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,R,R,R,R,R,R
+A347,2023-07-13,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,R,R,R,I,S,R,R,R
+A348,2024-07-12,Poultry,Carcass swab,Klebsiella pneumoniae,Bono,GH-BO,R,R,R,R,R,R,R,S
+A349,2023-09-14,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,S,S,R,S,S,R
+A350,2023-01-19,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,S,R,R,S,S,S,S
+A351,2024-09-27,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,S,R,R,S,R
+A352,2023-03-30,Poultry,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,R,S,R,S,R
+A353,2023-03-06,Poultry,Carcass swab,Salmonella sp.,Bono,GH-BO,R,R,S,R,R,S,S,R
+A354,2023-06-16,Goat,Carcass swab,Salmonella sp.,Central,GH-CP,R,R,R,R,R,S,R,R
+A355,2023-05-30,Swine,Faecal,Salmonella sp.,Northern,GH-NP,R,R,R,S,R,R,R,R
+A356,2023-12-17,Poultry,Milk,Salmonella sp.,Bono,GH-BO,R,R,R,R,R,S,S,I
+A357,2023-06-14,Poultry,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,R,R,R,S,S,R
+A358,2024-06-18,Poultry,Faecal,Salmonella sp.,Ashanti,GH-AH,R,R,S,S,R,R,R,S
+A359,2024-12-07,Swine,Faecal,Escherichia coli,Volta,GH-TV,R,S,S,R,R,R,S,S
+A360,2024-07-01,Swine,Faecal,Escherichia coli,Volta,GH-TV,R,R,R,R,R,S,R,R
+A361,2023-07-18,Poultry,Milk,Escherichia coli,Eastern,GH-EP,R,I,R,R,S,S,R,R
+A362,2024-05-05,Goat,Carcass swab,Klebsiella pneumoniae,Volta,GH-TV,R,S,S,I,S,S,R,R
+A363,2024-10-08,Cattle,Faecal,Escherichia coli,Western,GH-WP,S,R,R,R,S,S,R,I
+A364,2023-12-26,Swine,Faecal,Salmonella sp.,Bono,GH-BO,R,R,S,I,R,S,R,S
+A365,2023-01-31,Cattle,Faecal,Escherichia coli,Volta,GH-TV,R,S,R,R,S,S,R,S
+A366,2023-12-15,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,R,I,I,R
+A367,2024-02-03,Cattle,Milk,Klebsiella pneumoniae,Ashanti,GH-AH,R,R,S,R,R,S,I,R
+A368,2024-03-18,Cattle,Faecal,Klebsiella pneumoniae,Volta,GH-TV,R,R,S,R,R,R,R,R
+A369,2023-04-17,Swine,Carcass swab,Klebsiella pneumoniae,Ashanti,GH-AH,I,S,R,S,R,R,R,R
+A370,2024-06-08,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,I,R
+A371,2024-02-17,Cattle,Faecal,Salmonella sp.,Northern,GH-NP,R,S,R,R,R,R,R,R
+A372,2023-08-06,Poultry,Faecal,Salmonella sp.,Central,GH-CP,R,R,S,R,R,R,R,R
+A373,2023-06-21,Poultry,Milk,Salmonella sp.,Volta,GH-TV,R,R,R,R,R,S,S,R
+A374,2023-07-14,Poultry,Faecal,Klebsiella pneumoniae,Bono,GH-BO,R,R,S,R,R,S,R,R
+A375,2024-09-27,Cattle,Milk,Escherichia coli,Ashanti,GH-AH,R,R,R,R,S,R,R,R
+A376,2024-10-14,Goat,Faecal,Salmonella sp.,Eastern,GH-EP,R,S,S,R,S,S,R,S
+A377,2024-05-10,Poultry,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,R,R,R,S,S,R
+A378,2024-08-23,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,R,S,I,R,R,I,R
+A379,2024-12-15,Cattle,Faecal,Salmonella sp.,Central,GH-CP,R,R,S,S,S,R,R,R
+A380,2023-03-10,Cattle,Faecal,Klebsiella pneumoniae,Western,GH-WP,R,R,S,R,R,R,R,R
+A381,2023-08-21,Cattle,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,I,R,R,R,S,R
+A382,2024-11-03,Cattle,Milk,Klebsiella pneumoniae,Greater Accra,GH-AA,I,R,S,R,S,R,R,R
+A383,2024-05-21,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,R,R,R,R,S,S,R,S
+A384,2024-07-24,Poultry,Faecal,Escherichia coli,Greater Accra,GH-AA,S,R,S,R,R,S,S,I
+A385,2024-04-13,Swine,Faecal,Escherichia coli,Eastern,GH-EP,R,R,I,R,S,R,R,S
+A386,2024-02-01,Cattle,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,R,R,R,S,R,R
+A387,2023-11-26,Cattle,Faecal,Escherichia coli,Ashanti,GH-AH,R,S,I,S,R,R,R,S
+A388,2024-10-19,Swine,Milk,Salmonella sp.,Central,GH-CP,R,R,R,I,S,S,R,R
+A389,2024-01-13,Swine,Faecal,Escherichia coli,Greater Accra,GH-AA,S,R,R,R,R,S,R,R
+A390,2023-07-23,Cattle,Faecal,Escherichia coli,Volta,GH-TV,R,S,S,I,R,R,S,S
+A391,2023-02-12,Cattle,Faecal,Escherichia coli,Bono,GH-BO,R,R,S,R,R,I,R,R
+A392,2023-02-07,Cattle,Carcass swab,Salmonella sp.,Central,GH-CP,R,R,S,R,R,S,R,R
+A393,2024-04-08,Poultry,Faecal,Escherichia coli,Western,GH-WP,R,R,R,R,S,R,R,R
+A394,2023-07-12,Poultry,Faecal,Escherichia coli,Ashanti,GH-AH,S,S,R,R,R,R,R,R
+A395,2023-01-04,Poultry,Faecal,Escherichia coli,Central,GH-CP,R,R,S,R,R,R,R,R
+A396,2024-08-07,Cattle,Carcass swab,Escherichia coli,Ashanti,GH-AH,R,S,I,I,R,S,R,R
+A397,2023-12-30,Poultry,Faecal,Escherichia coli,Western,GH-WP,R,S,R,S,I,S,S,R
+A398,2023-01-18,Poultry,Faecal,Salmonella sp.,Eastern,GH-EP,R,R,R,R,R,S,I,R
+A399,2024-11-11,Cattle,Carcass swab,Escherichia coli,Bono,GH-BO,R,R,R,R,S,S,R,R
+A400,2024-01-17,Swine,Faecal,Salmonella sp.,Northern,GH-NP,R,R,R,R,R,R,I,R
