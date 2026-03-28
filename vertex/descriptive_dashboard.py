@@ -47,6 +47,36 @@ from vertex.secrets import get_database_url, get_flask_auth_secrets
 
 logger = setup_logger(__name__)
 
+
+# ---------------------------------------------------------------------------
+# Auto-start mock REDCap server when a project config uses localhost:5001
+# ---------------------------------------------------------------------------
+def _maybe_start_mock_redcap_server():
+    """Auto-start mock REDCap server if any project config uses localhost API."""
+    import glob
+    config_paths = glob.glob("demo-projects/*/config_file.json")
+    for cp in config_paths:
+        try:
+            with open(cp) as f:
+                cfg = json.load(f)
+            api_url = cfg.get("api_url", "")
+            if "localhost:5001" in api_url or "127.0.0.1:5001" in api_url:
+                try:
+                    import sys
+                    sys.path.insert(0, os.path.dirname(cp))
+                    from mock_redcap_server import start_mock_server_thread
+                    start_mock_server_thread()
+                    logger.info("Mock REDCap server started on port 5001")
+                except Exception as e:
+                    logger.warning(f"Could not start mock REDCap server: {e}")
+                break
+        except Exception:
+            pass
+
+
+_maybe_start_mock_redcap_server()
+
+
 # are we running locally, i.e. no db:
 APP_ENV = os.getenv("APP_ENV")
 AUTH_ENABLED = bool(APP_ENV)

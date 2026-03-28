@@ -3,6 +3,8 @@
   "project_id": "amr-surveillance-ghana",
   "project_owner": "mikekay262@gmail.com",
   "is_public": true,
+  "api_url": "http://localhost:5001/api/",
+  "api_key": "AMR_MOCK_TOKEN_2024_GHANA_ABCDEF12",
   "map_layout_center_latitude": 7.9465,
   "map_layout_center_longitude": -1.0232,
   "map_layout_zoom": 5,
